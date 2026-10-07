@@ -1,0 +1,1474 @@
+Recent progress of skin-integrated electronics for intelligent sensing
+
+Li, Dengfeng; Yao, Kuanming; Gao, Zhan; Liu, Yiming; Yu, Xinge
+
+
+
+
+Published: 01/01/2021
+
+
+
+Document Version:
+Final Published version, also known as Publisher’s PDF, Publisher’s Final version or Version of Record
+
+
+License:
+CC BY
+
+
+Publication record in CityUHK Scholars:
+Go to record
+
+
+Published version (DOI):
+10.37188/lam.2021.004
+
+
+Publication details:
+Li, D., Yao, K., Gao, Z., Liu, Y., & Yu, X. (2021). Recent progress of skin-integrated electronics for intelligent
+sensing. Light: Advanced Manufacturing, 2(1), 39-58. Article 4. https://doi.org/10.37188/lam.2021.004
+
+
+
+
+Citing this paper
+Please note that where the full-text provided on CityUHK Scholars is the Post-print version (also known as Accepted Author
+Manuscript, Peer-reviewed or Author Final version), it may differ from the Final Published version. When citing, ensure that
+you check and use the publisher's definitive version for pagination and other details.
+
+General rights
+Copyright for the publications made accessible via the CityUHK Scholars portal is retained by the author(s) and/or other
+copyright owners and it is a condition of accessing these publications that users recognise and abide by the legal
+requirements associated with these rights. Users may not further distribute the material or use it for any profit-making activity
+or commercial gain.
+Publisher permission
+Permission for previously published items are in accordance with publisher's copyright policies sourced from the SHERPA
+RoMEO database. Links to full text versions (either Published or Post-print) are only available if corresponding publishers
+allow open access.
+
+Take down policy
+Contact lbscholars@cityu.edu.hk if you believe that this document breaches copyright and provide us with details. We will
+remove access to the work immediately and investigate your claim.
+
+
+Download date: 29/09/2026
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                     Official journal of the JHL 2689-9620
+https://doi.org/10.37188/lam.2021.004                                                                                                     www.light-am.com
+
+
+
+
+  Review                                                                                                                        Open Access
+
+
+Recent progress of skin-integrated
+electronics for intelligent sensing
+Dengfeng Li, Kuanming Yao, Zhan Gao, Yiming Liu and Xinge Yu
+
+
+ Abstract
+ Skin-integrated electronics are a novel type of wearable devices that are mounted on the skin for physiological
+ signal sensing and healthcare monitoring. Their thin, soft, and excellent mechanical properties (stretching,
+ bending, and twisting) allow non-irritating and conformal lamination on the human skin for multifunctional
+ intelligent sensing in real time. In this review, we summarise the recent progress in the intelligent functions of skin-
+ integrated electronics, including physiological sensing, sensory perception, as well as virtual and augmented reality
+ (VR/AR). The detailed applications of these electronics include monitoring physical- and chemical-related health
+ signals, detecting body motions, and serving as the artificial sensory components for visual-, auditory-, and tactile-
+ based sensations. These skin-integrated systems contribute to the development of next-generation e-eyes, e-ears,
+ and e-skin, with a particular focus on materials and structural designs. Research in multidisciplinary materials
+ science, electrical engineering, mechanics, and biomedical engineering will lay a foundation for future
+ improvement in this field of study.
+
+
+
+Introduction                                                                         materials science, electrical engineering, mechanical
+   The human body is a remarkable biological system that                             engineering, biology, and medicine, have made significant
+operates complex and organised physiological processes.                              efforts in this field3–7. The superior flexibility and
+The detection of biophysical and biochemical signals deep                            stretchability of flexible electronics are advantageous for
+in the body through the body surface is critical for health                          portable and wearable technologies8,9. These advantages
+care. This also includes long-term, real-time monitoring of                          drive emerging applications in wearable and implantable
+physiological signals in clinical applications. However,                             flexible electronics10,11, which involve neural interfaces12–14,
+current clinically available monitoring systems typically                            optogenetics15–18, tumour targeting biopsies19, and
+rely on heavy equipment that are not suitable for long-term                          physiological signal monitoring20, associated with
+and real-time monitoring of patients. Electronic devices                             developing bio-degradable/bio-compatible materials21–23,
+with lightweight, flexible, and portable features are suitable                       deploying wireless communication/power stretagies24 and
+substitutes for multiple biomedical signal detection. In                             exploring structural designs25–34.
+view of this, flexible electronics have attracted                                       Integrating flexible electronics with various sensing
+considerable attention and gradually played an                                       functions on the skin gives rise to the development of skin-
+irreplaceable role in healthcare monitoring1,2. Scientists                           integrated electronics35–39. Physiological signals can be
+from multiple disciplines, including physics, chemistry,                             detected easily in real time for health monitoring, ranging
+                                                                                     from biophysical to biochemical signals using skin-
+Correspondence: Xinge Yu (xingeyu@cityu.edu.hk)
+                                                                                     integrated sensors40. From the standpoint of biophysical
+Department of Biomedical Engineering, City University of Hong Kong,
+Hong Kong, China                                                                     signals, biophysical sensors could be used for monitoring
+
+© The Author(s) 2021
+                Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation,
+                distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a
+link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article′s
+Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article′s Creative Commons license and
+your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                       Page 2 of 20
+
+
+
+
+body temperature41, pulse waves42, electrocardiographs             present the feedback interfaces of skin-integrated
+(ECG)43,44,     electroencephalograms       (EEG)45,     blood     electronics to further demonstrate the potential of
+         46–49             50
+pressure , blood flow and other bio-related mechanical             intelligent sensing functions. Skin-integrated electronics
+signals, based on the sensing technologies of temperature,         can not only passively detect external stimuli, but also
+strain, and biophysical electrical signals51,52. Biochemical       initiatively endow feeling to the human body, which opens
+sensors enable the detection of pH, glucose, and Na+ ions          a new virtual reality (VR) and augmented reality (AR)
+from body fluids such as sweat and blood53–57. Skin-               modes. In recent studies, scientists have added tactile sense
+integrated sensors with stable and robust features can be          to VR. The sole reliance on visual and auditory senses will
+comfortably worn on the body without interfering with              contribute to the advancement of the virtual world,
+daily life; this is closely associated with material,              gradually introducing new communication reforms, social
+mechanical, and electrical designs. The stretchability of          media interactions, gaming, multimedia entertainment, and
+flexible devices can be significantly enhanced depending           clinical medicine. In summary, skin-integrated electronics
+on the advanced mechanical design of the metallic                  present various intelligent sensing functions in the form of
+electrodes58. Wireless power supply and communication are          skin-integrated sensors, artificial senses, and VR/AR
+also realized by relying on thin and soft antennas59–64.           interfaces.
+   Skin-integrated sensors that are sensitive to strain and
+temperature also act as electronic skin (e-skin), mimicking        Skin-Integrated Sensors for Healthcare
+the real human skin65. Furthermore, the concept of “self-          Monitoring
+healing ” that incorporates self-healable materials into              Physiological signals are significant indicators of a
+electronics for self-healing with unchanged performance            person's health status. Thin, soft sensors attached to the
+after damages such as scratching and cutting66–70 has been         skin can monitor the health of patients in real time. In this
+proposed by scientists for application in soft electronic          section, we present materials, devices, and integration
+devices to better mimic real skin. Humans have a myriad of         strategies of skin-integrated electronics that have been
+sensory receptors in different sense organs. With advanced         reported and applied recently in physiological sensing.
+intelligent sensing mechanisms, skin-integrated electronics        Biophysical and biochemical sensors in skin-integrated
+could also perform a variety of sensory functions including        formats are discussed based on the nature of the signals.
+visual, auditory, and tactile senses71, which allow them to        Biophysical sensors detect physical signals, including
+act as artificial eyes, ears, and skin. These could be used to     temperature, pressure, and strain, whereas biochemical
+rebuild corresponding sensations for patients who have lost        sensors detect and analyse body fluids such as sweat and
+their sense organs. Combining advanced micro-nanoscale             blood.
+manufacturing technologies with newly developed
+functional materials for mechanical and optically related          Biophysical sensors
+sensing has proved to be a successful method for realising            With the rapid development of the human society,
+intelligent flexible electronics72,73. Moreover, the               tracking infection and monitoring health conditions have
+development of artificial nerve systems will also                  attracted considerable attention worldwide. Skin-integrated
+significantly expand the sensory functions of flexible             electronics exhibit flexibility and stretchability that
+electronics for practical and systematic application to the        facilitate good contact with the skin and are therefore
+human body.                                                        capable of accurately detecting and analysing various
+   In this review, we summarise and illustrate the powerful        human physiological parameters including ECG, electronic
+capabilities of skin-integrated electronics from the               acoustics, pulse rate, body temperature, and respiration
+perspective of intelligent sensing. Intelligent sensing is first   rate74–76. Owing to their ultra-thin and lightweight features,
+reflected in the multi-functions of skin-integrated sensors        skin-integrated sensors can be applied in diverse settings
+for healthcare monitoring. The sensors are divided into two        including hospitals, public places and homes, thus suitable
+categories, biophysical and biochemical sensors, which             for long-term and real-time health monitoring and disease
+detect all physiological signals from the body. Further,           tracking77.
+skin-integrated      electronics     demonstrate     advanced         The use of portable electronics to track ECG for
+intelligent sensing capabilities in artificial sensory             continuously monitoring cardiovascular diseases is a
+perceptions, including visual, auditory, and tactile senses.       representation of the importance of real-time health
+We summarise the materials, structural designs, and                monitoring because the signals detected in real-time
+operating principles of skin-integrated electronics                directly reflect the activities of the heartbeat44,78. Clinically
+corresponding to human sensory functions. Finally, we              used ECG monitoring platforms adopt bulky boxes with
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                  Page 3 of 20
+
+
+
+
+metal electrode buttons, wires, and rigid interfaces, which       conformable biopotential electrodes that could be directly
+may cause skin irritation and limit daily activities. John A.     mounted on the skin without skin preparation or attachment
+Rogers group developed a number of skin-integrated                pressure83. The polymer electrodes facilitated high-fidelity
+devices with flexible and stretchable thin electrodes,            ECG recording of a professional swimmer during training
+wireless communication modules, and structurally                  in water. For conformal lamination on the complex surface
+designed interconnects for ECG monitoring, which present          topology of a curved body, Rogers’ research group
+alternative strategies for current clinically available           developed the EES for long-term, high-fidelity recording of
+technologies43,44,79–81. In 2011, they first used the epidermal   EEG data43. Based on advanced mechanical designs, thin
+electronic system (EES) to measure ECG in conformal,              and foldable electrodes could mount directly and
+skin-mounted modes without conductive gels or                     chronically on the auricle and mastoid84. They also
+penetrating needles43. Subsequently, they reported an             explored skin-interfaced stretchable and wireless electronic
+ultrathin, skin-integrated patch consisting of an                 measurement systems for continuous EEG monitoring by
+interconnected collection of thin, filamentary serpentine         combining the system with a Bluetooth module85. They
+conductive metal traces, and integrated electronic                recently demonstrated a large-area epidermal electronic
+components for skin-attached ECG monitoring79. Owing to           interface for ECG and EEG recordings that enable
+the extremely low elastic moduli and large deformability of       coverage of the entire scalp and circumference of the
+the materials used, the flexible ECG electronics can be           forearm (Fig. 1b)45. The signal distribution across the scalp
+naturally mounted onto contoured surfaces. Recently, the          is consistent with the expected distribution. High-quality
+group successfully applied skin-interfaced wireless               EEG signals can be successfully acquired across the entire
+electronic systems into neonatal and paediatric intensive         scalp using large-area epidermal sensors. Moreover, radio
+care44,80. In traditional neonatal intensive care units           frequency-induced eddy currents can be minimised by
+(NICUs), ECG monitoring systems rely on hard-wired                designing filamentary conductive architectures in an open-
+sensors adhered to the skin, which increase the risk of           network feature, making the skin-integrated interface
+iatrogenic skin injuries in new born babies. Therefore, the       compatible with magnetic resonance imaging (MRI).
+development of soft and clinically relevant electronic               Ubiquitous mechanical motion, ranging from subtle
+systems is essential. Fig. 1a shows a wireless and battery-       vibration to intense movement, can be used to characterise
+free epidermal electronic system for simultaneously               useful physiological health information. Recently, Lee et
+recording ECG and photoplethysmogram44. Skin-like                 al. reported a soft wireless device for capturing mechano-
+electronic devices can realise wireless, battery-free             acoustic signals by mounting the device onto the
+operation; real-time, in-sensor data analytics; and time-         suprasternal notch (Fig. 1c)86. Unlike conventional
+synchronized, continuous data streaming. Additionally, soft       stethoscopes that require manual manipulation during
+mechanics and gentle adhesive interfaces to the skin              measurements, this small-scale, rechargeable battery-
+significantly increase the safety of neonatal skin. However,      powered, flexible wireless system can obtain high-
+the operation distance of the reported electronics is only 30     precision     and     high-bandwidth       mechano-acoustic
+cm, which may cause communication loss. To improve the            measurements. The optimised mechanical design ensures
+operating distances of this system, they developed a new          stretchability of up to 43% by incorporating considerable
+wireless skin-interfaced biosensor by introducing a coin          electronic components (microcontroller, peripheral passive
+cell and low-modulus silicone80. These skin-integrated            components, etc.). It is worth mentioning that the small
+devices substantially enhance the quality of neonatal and         accelerometer functions as the core component in the entire
+paediatric critical care based on ECG and other                   system. The accelerometer can recognise different
+physiological monitoring with a working distance of 10 m.         activities by measuring distinct features as functions of
+   In addition to ECG, flexible biophysical sensors also          time and frequency during body motion. The maximum
+exhibit a remarkable ability for EEG detection.                   frequency measured by the device was as high as 800 Hz,
+Conventional bulky EEG recording systems are not                  which can fully cover normal daily human motion-related
+portable and often adopt rigid components to form physical        activities. Similarly, Zhao et al. developed a flexible
+interfaces to the head, which limit the widespread use of         electromagnetic vibration sensor based on a neodymium
+continuous real-time EEG measurements for medical                 iron boron (NdFeB) membrane51. The device could offer
+diagnostics and sleep monitoring. Some researchers have           various functions, including voice identification and
+focused their study on skin conformal polymer electrodes          motion detection with a sensitivity of 0.59 mV μm−1 at 1.7
+for clinical EEG recordings82. Flurin Stauffer et al.             kHz, owing to the electromagnetic induction between the
+developed soft, self-adhesive, non-irritating, and skin-          copper coil and magnetic membrane.
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                                                                                                         Page 4 of 20
+
+
+
+
+            a                                                                                                                                                                    b
+                                          System-on-a-chip             ECG electrode
+
+
+
+
+                                                      16% stretching
+                                                                                         5 mm
+                                                                                                                                                          3 cm
+                                   1.0
+                                                                                                                                                                                 Potential (μV)
+            Normalized amplitude
+
+
+
+
+                                                                                                                                                                                   8.1
+                                   0.8
+                                                                                                                                                                                     6.1                                    h
+                                   0.6
+                                                                                                                                                                                                                                i
+                                                                                                                                                                                     4.2
+                                   0.4                                                                                                                                                                                  j
+                                                                                                                                                                                     2.2
+                                   0.2                                                                                                                                                                                          k
+                                                                       ECG EES                                      Gold standard           Peak detection                           0.3
+                                    0                                                                                                                                                          Standard                 Target
+                                         0                   4                           8                                      12             16                20
+                                                                                                Time (s)
+            c
+                                                                                                                    1           x
+                                                                                                Acceleration (g)
+
+
+
+
+                                                                                                                                y                                                                             Walking           Jumping
+                                                                                                                                z           Hold breath
+                                                                                                                    0
+
+                                                                                                                   –1
+                                                                                                                                     Sitting          Talking               Swallowing
+                                                                                                                   –2
+                                                                          1 cm                                          0              10                 20                  30                   40             50                      60
+                                                                                                                                                                            Time (s)
+
+            d
+                                                                                                                                                                                 e
+                                                                            Signal (V)
+
+
+
+
+                                                                                         4
+
+                                                                                         2
+
+                                                                                         0
+                                                                                          0                                 4           8            12                16
+                                                                                                                                     Time (s)                                                           Soft sensors
+                f
+                                                                                                                                                                      Top
+                                                                                                                                                                      PDMS
+                                                                                                                                                                                           g
+                                                                                                                                                                      PI layer
+
+                                                                                                                                                                   NFC coil
+
+                                                                                                                                                                      PI layer
+                                                                                                                                                                   Bridge
+
+                                         Temperature sensor                                                                                                           PI layer
+                                                          PDMS                                                                                                     Bottom
+                                                                                                                                                                   PDMS
+                                                                                                                                                                 Adhesive tape
+
+                                                                                                                                             NFC chip            Pressure
+                         Resistor                                                                                                       (temperature sensor)      sensor
+                                                         Pressure                                                                                                                                                               5 mm
+                                                          sensor                                                                                                            Skin
+
+ Fig. 1 Skin-integrated biophysical sensors. a Image of a wireless epidermal electronic system for neonatal intensive care. An ECG device with good
+ stretchability is attached on the chest of a neonate to detect the ECG signals44. b Large-area epidermal electronic interface with 68 EEG electrodes covering the scalp of
+ the subject is used for EEG detection45. c Soft wireless device is placed at the suprasternal notch for mechano-acoustic sensing of physiological processes and body
+ motions. Results of recorded data during various activities including sitting at rest, talking, drinking water, changing body orientation, walking, and jumping86. d Pulse
+ wave of the radial artery measured using flexible polymer transistors with high pressure sensitivity. Pressure sensor attached to the wrist42. e Photograph of a person
+ wearing multiple skin sensors with different designs93. f Illustration of conformable skin-mounted wireless sensors for full-body pressure and temperature mapping. The
+ sensor is composed of the NFC microchip, temperature sensor, pressure sensor, external resistor, NFC coil, and PDMS (polydimethylsiloxane) encapsulation95. g
+ Optical image of highly stretchable and conformable matrix networks (10 × 10 array) for multifunctional sensing105. Images reprinted with the following permissions:
+ a 44 from AAAS, b 45, c.86, d 42, and e 93 from Nature Publishing Group, f 95 from AAAS, and g 105 from Nature Publishing Group.
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                     Page 5 of 20
+
+
+
+
+   Continuous pulse recording at home or hospital settings         resistance, conductivity, or optical properties of a
+remains an urgent issue in biophysical signal monitoring           functional material. For example, tinny metal traces (gold)
+for its valuable information in preventing cardiovascular          have good temperature sensing performance with good
+disease attacks. The development of wearable electronics           flexibility and stretchability under structural and
+for long-term pulse monitoring has been a hot research             mechanical designs102–104. Fig. 1g shows a multifunctional
+topic for years46,87–92. Pressure or strain sensors are very       matrix network with a Pt thin film sensor array for
+common low-cost devices that do not require complicated            temperature sensing105. The temperature coefficient of
+fabrication processes. Developing new materials or novel           resistance could be up to 2410 ppm °C−1. The mechanical
+device structures for pressure or strain sensors to realise        design of the meandering interconnects causes ultrahigh
+flexible formats facilitates the detection of tiny forces          flexibility and stretchability. The meandering wires do not
+induced by pulses on the skin surface and consequently             show any obvious changes when stretched to 800%.
+facilitates pulse wave or blood pressure monitoring. Fig. 1d          Generally, the skin-integrated biophysical sensors
+presents a flexible pressure-sensitive organic thin film           exhibit good applicability in health monitoring through
+transistor-based sensor developed by Gregor Schwartz et            physical and physiological signal detection.
+al.; the device exhibits a maximum sensitivity of 8.4 kPa−1,
+a fast response time of < 10 ms, and remarkable stability          Biochemical sensors
+verified by over 15000 cycles tests42. By attaching the               Sweat is a fluid excreted by the widely distributed
+device onto an adult wrist, the pressure sensor can                glands under the skin106. Eccrine sweat contains a lot of
+accurately capture human pulses for over 16 periods with           chemical physiological information, including electrolytes,
+three clearly distinguishable peaks. To detect multiple            nitrogenous compounds, metabolites, hormones, and
+signals from different body locations, Niu et al. reported an      xenobiotics. The concentrations of these chemicals in
+over-body area sensor network based on on-body sensors             sweat are closely related to health conditions such as
+and an external circuit for wireless signal readout (Fig. 1e)93.   diseases, metabolic disorders, and mental conditions. For
+The entire system exhibits excellent mechanical                    example, ethanol concentration in sweat is closely related
+characteristics with stretchability of up to 50% owing to its      to blood ethanol levels107,108; glucose in sweat could also be
+intrinsically stretchable materials. Additionally, the device      a qualitative indicator of blood glucose levels109–111; lactate
+can simultaneously monitor human pulse, body movement,             concentration can identify physical stress and the transition
+and respiration in real-time without an external hard wire,        from aerobic to anaerobic states112–114. Abnormally high
+which shows its applicability in clinical systems for next-        chloride concentration in sweat is the gold standard for
+generation personal health monitoring systems.                     diagnosing cystic fibrosis115,116; uric acid (renal disease117,
+   Temperature is a vital signal in the human body that            gout118,119, etc.), urea (kidney failure120), and tyrosine
+provides direct evidence for diagnosing fever in an                (tyrosinemia121, liver diseases, etc.) are also usually used
+individual. Measuring the skin temperature of specific             for disease diagnosis. In addition, the average sweat loss
+areas of the body can provide more comprehensive human             rate122 and pH123 are related to electrolyte balance, hydration
+body information to predict diseases. Either commercially          status, and overall body health. In recent decades, skin-
+available or home developed small-scale temperature                integrated microfluidic/electronic systems have been
+sensors can be directly integrated into flexible circuits for      developed to noninvasively monitor and analyse the
+wearable body temperature monitoring74,94,95. For instance,        chemical concentration of sweat. The universal method
+Han et al. utilised near-field communication (NFC) chips           involves introducing microfluidic channels for on-body
+with a temperature-resistance type embedded measurement            sweat collection and detection with high fidelity by
+system as a temperature sensor to develop epidermal                minimising the evaporation and contamination of sweat
+electronic devices for continuously monitoring the                 samples, which was a tough nut to crack before the
+temperature of the entire body (Fig. 1f)95. To evaluate sleep      emergence of skin-integrated systems124–126.
+quality, the skin-integrated sensors can continuously                 With the development of sweat sensors in recent years,
+monitor the full-body temperature for an entire night based        detection systems have not only focused on electrolytes
+on the wireless power delivery and data communication              with high concentrations, but also realised breakthroughs in
+functions of NFC technology. Advanced mechanical                   monitoring trace chemicals, such as hormones. Cortisol,
+designs of metallic or nanocomposite flexible thin films           which is a glucocorticoid-based hormone that mobilises
+have also been adopted to improve the flexibility and              energy in the body to cope with mental stress, is referred to
+stretchability of the flexible sensors96–101. Temperature          as the “stress hormone ”. The disturbances in circadian
+sensing relies on the measurement of changes in the                patterns of cortisol are highly relevant to post-traumatic
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                                                                                                              Page 6 of 20
+
+
+
+
+           a                                                                                       Physical exercise           b
+
+
+
+
+                                                                                  Cortisol level
+                                                                                                         Baseline                                                                                                  UA
+
+                                                                                                                                                                   Tyr
+                                               Cortisol                                                         Time                                                                                                             Sweat rate
+
+                                                                                                                                       Temperature
+                                                 Microfluidics
+                                                                                                                                                                                                                          Vital signs
+           Graphene electrodes
+                                                                                                                                 Outlet
+
+
+                                                                         M-tape                                                                    0s                         75 s                       110 s             140 s            180 s
+
+
+
+            c                                                                                                                  d
+                                                                                                                                       Battery
+                 Lactate                                                Sweat                      Biofuel cell
+                                     LOx             H2O                                                                                            Smart headband                                                 Smart wristband
+                                                                                                                                                                                                            Mobile phone
+                                                                                Sensor
+               Pyruvate
+                                                           O2
+
+                                                                                                                                                acid
+                                                                                                                                           onic actate
+                                                                                                                                       Gluc     L          vate
+                                                                                                                                             e−       Pyru
+                                                                                                                                 ose                                                   ral)
+                                                                                                                            Gluc                                         l   buty
+                                                                                                                                                    Ox
+                                                                                                                                                   LO      e−       viny
+                                                                                                                                         gCl                  (poly
+                        Sweat-powered                      H+                                                                      Ag/A        +          PVB
+                                              Urea
+                                                                                                                                               K
+                                                                                                                                                                                   e
+                                                                                                                                                                                                                            Flexible sensor
+                                                                                                                                                                                ur
+                                                                                                                                                          +
+                        electronic skin                                                                                                              Na
+                                                                                                                                                                             rat
+                                                                                                                                                                       mpe                            ‘Smart wristband’
+                                                                                                                       Ion-selective electrodes                     Te                        Sweat
+                                               +
+                                        Temp NH4 Glucose
+                                                                                                                                                                                                        Wireless on a flexible printed
+                                                                                                                                                                                                           circuit board (FPCB)
+
+             e                                                                                                                   f
+                 Waterproof sweat patch on skin
+
+
+                                                                                      10 mm
+
+
+
+                                                                                                                                                                                               5 mm                                          2 cm
+
+
+
+
+                                                      10 mm                                                                                                                                      1 cm                                        3 cm
+
+
+            g
+                     Collect sweat          Cover outlet, extract           Uncover, retract                           Loaded menthol                                Indicator                        Partially fill             Fill >25 μl, eject
+                  Pump                                                                                                                                   Initial     dots                                 (~10 μl)
+                   tab
+
+               Pump                                             150%
+               outlet
+
+
+                                     1 cm                                                                                                                1 cm
+                                                                    0                                                                                                   1 indicator dot=1.3 μl                         Menthol
+
+ Fig. 2 Skin-integrated biochemical sensors. a Wireless sweat cortisol sensor for dynamic stress-response monitoring127. b Laser-engraved multimodal sensor
+ for sensitive detection of uric acid and tyrosine in sweat, also capable of sensing temperature, strain and sweat loss/rate128. c Biofuel-powered soft electronic skin with
+ multiplexed and wireless sweat sensing (urea, NH4+, glucose and pH) and strain sensing for human-machine interfaces131. d Fully integrated wearable sensor arrays on a
+ flexible printed circuit board (FPCB) for multiplexed in situ perspiration sensing (glucose, lactate, Na+ and K+) and analysis, in form of smart headband/wristband132. e
+ Waterproof epidermal microfluidic devices for sweat loss measuring, chloride sensing, and wireless thermography in aquatic environments133. f Multimodal
+ microfluidic/electronic systems for simultaneous electrochemical (glucose & lactate), colorimetric (pH & chloride), and volumetric analysis of sweat134. g Skin-
+ interfaced microfluidic sweat collection device, which is resettable by pumping out sweat (left) and giving chemesthetic hydration feedback when dehydration limit is
+ crossed (right)135. Images reprinted with the following permissions: a 127 from Elsevier, b 128 from Nature Publishing Group, c 131 from AAAS, d 132 from Nature
+ Publishing Group, e 133 from AAAS, f 134 from AAAS, and g 135 from Nature Publishing Group.
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                Page 7 of 20
+
+
+
+
+stress disorder (PTSD) and major depressive disorder.          (Fig. 2d)132. The sensor array simultaneously measures
+Therefore, it is important to study the dynamic stress-        sweat metabolites (glucose and lactate) and electrolytes
+response profile of cortisol secretion for quantitatively      (sodium and potassium ions), using a resistance-based
+understanding the neural circuits of some subjective           temperature sensor for precise compensation. It provides an
+emotions and sensations, such as pain and fear. A              on-body real-time perspiration analysis during exercises
+graphene-based wireless mHealth system for dynamic             such as cycling or jogging without any external computing.
+cortisol sensing in human sweat was recently reported             In addition to the above-mentioned sweat sensors with
+(Fig. 2a)127. Cortisol was detected by electrochemical         microcontroller units and related integrated circuits for
+sensing electrodes made of carboxylate-rich pyrrole            signal processing and transmission, sweat sensors can be
+derivative grafted and subsequently, modified graphene.        developed by relying less on complicated electronics and
+Using this skin-integrated electronic/microfluidic device,     focusing more on microfluidic designs. A waterproof
+the authors systematically studied the relationship between    epidermal microfluidic system for sweat collection and
+the concentration of cortisol in sweat and serum and           analysis, even in aquatic environments, is demonstrated in
+continuously monitored the dynamic stress-response             Fig. 2e133. The flexible microfluidic device is based on the
+profile of cortisol levels. The collected signals were         elastomer poly(styrene-isoprene-styrene), which exhibits
+processed on the device and then transmitted wirelessly by     excellent hydrophobicity, resistance to water transport,
+a Bluetooth low energy (BLE) module. Therefore, the            optical transparency, low elastic modulus, and high
+compact device was composed of a rigid but mini printed        elasticity. These properties make the sweat sensor suitable
+circuit board (PCB) and a flexible sensor. Based on the        for the underwater monitoring of key hydration metrics of
+same Sensor-BLE dual module structure, Y. Yang et al.          swimmers. This device utilises colorimetric reagents for
+presented a laser-engraved wearable sensor for the             sweat detection, food dye for sweat loss visualisation in
+sensitive detection of uric acid (UA) and tyrosine (Tyr) in    microchannels (1.5 μL for one turn), and silver chloranilate
+sweat128. Unlike the sweat cortisol sensor, this device is a   suspension for chloride concentration. An NFC module
+multimodal sensing system with two physical sensors for        with a light-emitting diode was used for skin temperature
+temperature and strain sensing, a three-electrode chemical     sensing and reading. Combining integrated electronics with
+sensor for UA & Tyr sensing, and a microfluidic channel        microfluidic colorimetric sensing could also realise both
+for sweat loss visualizing (Fig. 2b). All sensors are          the volumetric and electrochemical analysis of sweat134.
+graphene-based and fabricated by CO2 laser engraving, that     Fig. 2f shows a device designed in a detachable style with a
+is, the laser-induced graphene (LIG) technique129,130. This    disposable soft microfluidic network and a reusable thin
+technology is capable of rapid pattern engraving and           NFC electronic module. Information on the pH, chloride,
+graphene deposition, making the scalable manufacturing of      sweat rate/loss, lactate, and glucose concentration can be
+wearable sensors feasible. Batteries in these two systems      acquired wirelessly. This sweat sensor also inspired an
+make the device thick and bulky. Therefore, a multiplexed      advanced microfluidic design concept. The ratcheted
+and wireless sensing soft, electronic skin that harvests       channel, capillary bursting valves, and isolated chambers
+energy from perspiration through a lactate biofuel cell was    are beneficial for the precise quantification of the sweat
+proposed (Fig. 2c)131. This is not only a sweat sensing        rate, efficient sweat routing, and zero cross-talk between
+system that detects several key metabolic analytes (urea,      sensors. Devices based on digital reading may not be
+NH4+, glucose, and pH), but also a wireless self-powered       effective for warning athletes of dehydration during intense
+electronic skin that monitors muscle contractions and acts     sports. To address this, Reeder et al. proposed a resettable
+as a human–machine interface. Most importantly, the            skin interfaced microfluidic sweat collection device that
+power used for data processing and wireless                    could provide chemesthetic hydration feedback to the skin
+communication is purely harvested from human sweat. The        as a sensory warning of excessive sweat loss135. The
+biofuel cell has a power density of 3.5 mW cm−2 and offers     corresponding device was a microfluidic-only wearable
+a stable 60-hour continuous operation. These types of          patch without any electronic components that could only
+multimodal electrochemical sensing, signal processing, and     measure sweat loss and give feedback when the loss
+transmitting systems integrated on a single wearable device    exceeded a pre-set limit. When the sweat loss approached
+could be traced back to 2016. Gao et al. first presented a     the pre-set limit (25 μL), the athletes could rehydrate their
+fully integrated wearable sensor array that realised in situ   body and then pull the pump tab of the device to extract the
+signal conditioning (amplifying, filtering, analog-digital     sweat from the microchannel and reset the measurement
+converting) and processing (calibration, temperature           (Fig. 2g left). If this “safe sweat loss” limit was crossed, a
+compensation) by utilising a wireless flexible PCB             foaming agent would be activated by the sweat and the
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                Page 8 of 20
+
+
+
+
+chemesthetic agent would be (e.g. menthol or capsaicin)        eyes are an extremely intricate visual system, consisting of
+ejected onto the skin surface (Fig. 2g right), thus giving a   a concavely hemispherical retina and light-management
+sensory warning feedback. Efficient and subjective             photoreceptor. As the incoming light beams are focused on
+interaction between sensing systems and users is a critical    the retina, the visual cell perceives the light and generates
+direction for next-generation smart sweat sensors.             optic nerve signals to the brain. An artificial vision system
+   Other than sweat, tears and saliva are also typical easy-   with a wide field of view and high resolution are required
+collectable body fluids with abundant chemical                 to mimic biological eyes139. However, the configuration of
+physiological information. The health conditions of the        the hemispherical detector geometry poses a great
+eyes and oral cavity can also be monitored by developing       challenge in the design and fabrication of biomimetic
+wearable microfluidic/electronic sensors in the form of        devices. Many novel methods based on flexible materials
+contact lens136 and mouthguards137. Skin-integrated            and systems have been reported in recent years to
+chemical sensors are exhibiting high potential for             overcome this challenge140–144. Song et al. for the first time
+biomedical applications; we believe that a full-featured,      reported novel digital cameras that mimicked the
+universal body fluid sensing system may soon be realised.      compound eyes of insects by combining elastomeric
+   To facilitate the application of skin-integrated            compound optical elements with high-performance silicon
+biophysical and biochemical sensors in on-patient              photo detectors (Fig. 3a)72. Dictated by the parameters of
+healthcare monitoring, specific requirements are still         the lens and viewing angle, every lens creates an image of
+necessary. For instance, novel functional soft materials are   the project. Individual photodiodes could be triggered only
+needed to achieve interfaces that are more comfortable and     if a portion of the image formed by the associated micro-
+conformal with the skin to prevent delamination or             lens overlaps the active area. Thus, the stimulated detectors
+irritation during daily use. Furthermore, skin-integrated      produce a sampled image of the object that can then be
+sensors are still limited by the accuracy and durability of    reconstructed using the optics models. Consequently, these
+traditional rigid biomedical instruments. Therefore, more      digital cameras are in nearly full hemispherical shape and
+effort should be directed towards the development of new       flexible, offer nearly infinite depth of field, and an
+materials and novel device designs and exploring unique        outstanding wide-angle field of view, with zero image
+sensing mechanisms in skin-integrated sensors. The             aberration. Similarly, the entire array of thin-film single-
+application of optics in wearable sensing technologies is      crystalline Si-based photo detectors was transferred onto
+also important. For instance, the use of reflection or         deformable elastomeric material to form a hemispherical
+refraction methods in wearable electronics has been            electronic eye camera that mimics human eyes145. This
+successfully developed for the detection of blood flow,        approach inspired the integration of traditional planar
+blood oxygen levels, body fluids, etc7,12,47,59,138. The       electronic devices onto the curved surfaces of more
+advantages of non-invasive and high sensitivity optical        complex objects. Furthermore, the adjustable zoom
+sensing techniques make them irreplaceable in skin-            capability of the electronic eye was realized using a
+integrated sensors. Therefore, research on optics-based        dynamically tuneable plano-convex lens and substrates146.
+multidiscipline areas in the field of skin-integrated          More recently, the resolution optimisation of such artificial
+electronics requires continuous efforts.                       visual systems has been demonstrated by origami methods.
+                                                               Fig. 3b shows a hemispherical electronic eye system with
+Skin-integrated electronics for sensory                        dense and scalable photodetector arrays with more than
+perception                                                     250 photodetectors147. A soccer-like geometric shape was
+   The remarkable functions of flexible sensors enable         remapped onto a flexible single-crystalline Si-based
+skin-integrated electronics to detect physiological signals    nanomembrane. Some pixels at a specific designed location
+from the body surface. Skin-integrated electronics can also    were then cut by a laser so that the remaining pixels could
+respond to various kinds of external stimuli such as human     form a hemispherical shape with a gapless conjunction.
+eyes, ears, and skin, which correspond to external sight,      This origami approach can be used for both concave and
+sound, and touch. Therefore, skin-integrated electronics       convex curvilinear photodetector arrays. However, low-
+have the corresponding sensory perceptions of visual,          cost and facile methods to demonstrate a hemispherical
+auditory, and tactile senses.                                  artificial visual sense system are still urgently needed,
+                                                               leading to practical application in further camera and
+Visual sense                                                   automatic technologies.
+   As our dominant sense, visual sense plays a prime role         The utilisation of novel materials, such as ultrathin two-
+in acquiring information from the external world. Human        dimensional (2D) nanomaterials and perovskite148,149, can
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                                                                        Page 9 of 20
+
+
+
+
+                                             Stretchable array of
+          a                                  photodiodes and blocking diodes                                               b
+                           b
+
+                                                                                                                                                                            12°
+                                                                                                                                                                        Ref.
+                                                                                                                                                             0°                                24°
+                                                                                                                                                  2 mm
+
+
+                                                    2 mm                                                200 μm                                               60°
+
+                               Image from        ‘+’ image
+              Image from        activated        at each       Central portion of
+               scanning        photodiodes       microlens       a camera
+                                                                                                        Object                                                                                 36°
+                                                                                                                                                                          48°
+
+
+
+
+                                                                                                                           c                                 Light intensity (W m−2)
+                                                                                                                                                                  0.2    0.1        0
+                                                                                                                                           Lens    CurvIS array
+
+                                                                                                                                                                                         Focused light
+           Experimental
+
+
+
+              30º                                        30º                                                                                                       Concave
+              60º                                        60º                                                                                                       hemisphere
+              90º                                        90º
+                                                                                                                                                                   CurvIS array
+
+                                                 y z                                                             y z                                                              5 mm
+                                             x                                                              x
+
+          d
+                                                                   Indium                                         PDMS eye                            Liquid-metal
+                                                   Ionic-liquid    adhesion layer                                 socket                              nerve fibres
+              Aluminium shell sclera
+              and tungsten film contact            humour
+
+                    Aperture
+                                                                                   O         CH
+                                                                         O               3
+                                                                                       -S-
+                                                                                N–
+                    Lens                                             3
+                                                                         CF
+                                                                             -S-
+                                                                                         O
+                                                                                   O
+
+                                                                                             I–
+                                                                                                  CH3
+                                                                          CH3
+                                                                                N+
+
+
+                                                                                              N
+
+
+
+
+                                                                                                                       Nanowire array retina
+
+
+                                                                                                                                                                             1 cm
+
+
+ Fig. 3 Skin-integrated electronics for visual sense. a Artificial eye mimicking insect compound eyes and acquired view of image formation, reconstructed
+ using optic models72. b Origami method for high-density curved photodetector arrays.147 c Human eye-inspired soft electronic visual system based on MoS2-graphene
+ heterostructure150. d Exploded view of spherical biomimetic electrochemical eye (EC-EYE) with a hemispherical retina made of a high-density perovskite nanowire
+ array73. Images reprinted with the following permissions: a 72, b 147, c 150, and d 73 from Nature Publishing Group.
+
+
+
+further improve the performance of artificial visual                                                                       based devices. Gu et al. proposed an electronic eye with a
+systems. Fig. 3c presents a human eye-inspired soft                                                                        hemispherical retina based on a high-density array of
+electronic visual system using a high-density MoS2-                                                                        perovskite nanowires (Fig. 3d)73. The single-crystalline
+graphene-based image sensor array150. Owing to the                                                                         perovskite nanowires have a pitch of 500 nm, reaching a
+inherent softness and ultrathinness of MoS2, the curved                                                                    density of up to 4.6 × 108 cm−2, which is much higher than
+sensor array exhibits much lower induced strain than the                                                                   that of the photoreceptors in the human retina, indicating
+fracture strain of the composing materials. Moreover, the                                                                  the potential to capture high-resolution images. This
+hemispherical image sensor array exhibits infra-red                                                                        biomimetic design lays the foundation for the development
+blindness and thus optimises the device with noise                                                                         of the electronic eye. In addition to the design of the
+elimination and thickness reduction compared to silicon-                                                                   receptors, high sensor design and high-density pixels, the
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                                                                       Page 10 of 20
+
+
+
+
+design of nerve systems present an additional challenge.                                                        important research area because the artificial eyes need to
+Neuromorphic visual systems have considerable potential                                                         enhance their resolutions to mimic the functionality of a
+to emulate the basic functions of the human visual system.                                                      real eye for imaging. The development of nanomaterials in
+In 2019, Yang Chai’s group reported a two-terminal                                                              optical sensing has facilitated new advancements73.
+optoelectronic resistive random access memory synaptic                                                          Independently transmitting the sensed signal by an
+device for an efficient neuromorphic visual system, which                                                       individual nanoscale sensing unit is a step closer to the
+enabled image sensing and memory functions as well as                                                           ultimate goal.
+neuromorphic visual pre-processing151.To classify images
+like the human brain, Lukas Mennel et al. proposed                                                              Auditory sense
+ultrafast machine vision using 2D material neural network                                                          Similar to visual sense, auditory sense is another very
+image sensors152. The image-sensor array could                                                                  important perceptual system through which the human
+simultaneously capture and identify optical images and                                                          body can remotely receive external information. The
+rapidly process the information153.                                                                             vibrations of human vocal cords produce voices. The
+   Although the existing electronic eyes are not fully skin-                                                    vibrations of the sound waves in the air are then
+integrated, their flexibility still allows the integration or                                                   transmitted to our ears so that we can hear them. The skin-
+wearing of the corresponding devices on the human body.                                                         integrated electronics can not only detect the vibrations of
+In the future, these e-eyes may not only act as the visual                                                      human vocal cords, but also those of sound waves in the
+sense for automation systems but may also be implanted                                                          air. Therefore, we can conclude that skin-integrated
+into the human body as artificial eyes. In addition to                                                          electronics can remarkably realise the hearing functions of
+system-level integration, optical sensing is another                                                            human ears. In the future, combining 3D-bioprinting,
+
+
+               a                                                                                                b
+                                                                    Nanoscale crack sensor                                                    Acoustic sound
+
+
+                                       Sensor
+                                                                       1 cm                                                                                    NM microphone
+                                                                                                                    Electric signal
+
+
+
+
+                                     1.0       Go Jump Shoot Stop                       Go Jump Shoot Stop
+                   Frequency (kHz)
+
+
+
+
+                                                                                                                                                    S
+                                                                                                                                                  DM
+                                                                                                                                            rn P
+                                                                                                                                     epatte
+                                     0.5                                                                                         Hol
+
+                                                                                                                                                       S
+                                                                                                                                                   DM      0             1               2              3
+                                       0                                                                                                      idP                             Time (s)
+                                                                                                                                          ram
+                                           0                             55                                55                         Py
+                                                                      Time (s)
+
+               c                                                                                                d
+                                      =80              Vibration music
+                                                                                                                         Flexible speaker                                    Sound wave
+                                                                                                                              & mic                                 ating
+                                                                                                                                                                Vibr                        Ou
+                                                                                                                                                                                         elec tput
+                                      0                      4                                         8                                                                                     trici
+                                                                                                                                                                                                   ty
+                                                          Time (s)
+                                                           0.5 V
+                                                                                                       (mV)
+                                                                              0.9                        120
+                                                            Frequency (kHz)
+
+
+
+
+                                                                                                                     Original sound wave                       Recorded sound wave
+                                                                                                           60
+                                                                                                                             Original spectrogram                      Recorded spectrogram
+
+                                                                              0.1                          0
+                                                                                    0         4        8
+                                                                                            Time (s)
+
+ Fig. 4 Skin-integrated electronics for auditory sense. a Image of ultrasensitive nanoscale crack sensor attached to a violin for sound wave recognition156. b
+ Schematic of skin-attachable microphone based on transparent and conductive nanomembranes with orthogonal silver nanowire arrays157. c Ultrathin vibration-
+ responsive electronic skin used for vocal recognition. The waveform and frequency spectrum are acquired based on the detected vibrational output while a sheet music
+ is played by a vibration speaker158. d. Nanogenerator-based self-powered thin patch loudspeaker or microphone. Mechanism of various applications of FENG-based
+ acoustic device159. Images reprinted with the following permissions: a 156 from Nature Publishing Group, b 157 from AAAS, c 158 from Nature Publishing Group, and d 159
+ from Nature Publishing Group.
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                     Page 11 of 20
+
+
+
+
+biological neuroscience, and flexible electronics sensing       most dumb people cannot speak because they cannot hear
+will create artificial ears154,155.                             their own voice. Integrating these devices on the skin
+   An intuitive way of detecting sound involves directly        surface of their vocal cords can convert the detected
+connecting the flexible devices with the vibration source155.   vibration into words or voices. Thus, the deaf and dumb
+To achieve highly sensitive detection, D. Kang et al.           can lead a normal life relying on the flexible e-ears.
+developed an ultrasensitive mechanical crack-based sensor       Moreover, these flexible devices act as e-ears for voice
+inspired by the spider sensory system156. Fig. 4a shows a       reception and intelligent control.
+nanoscale crack sensor connected to a violin to detect
+sound based on the resistance changes of the sensor.            Tactile sense
+Therefore, the electrical signal of sound is recorded.              The skin is the largest organ of the body for the sensory
+Simultaneously, the researchers also attached sensors on        system. The tactile nerves transmit physical stimuli from
+the skin surface of a person’s vocal cords to acquire sound     the external environment to the brain; thus, we can react
+information by detectable vibrations when the person            accordingly. In recent years, the e-skin has been widely
+speaks. In auditory-related sensors, nanomaterials are          studied owing to its good stretchability and skin
+mostly used as sensing media. For instance, a silver            compatibility160–163. The e-skin with various sensing
+nanowire-based nanomembrane was used for sound                  functions is the most suitable device for mimicking the real
+sensing (Fig. 4b)157. The wearable device functioned as a       skin. Similar to human skin, the ability to experience
+loudspeaker based on the thermoacoustic effect and as a         pressure, strain, and temperature gives the e-skin the sense
+microphone through a triboelectric voltage signal. In           of touch164,138. As an intuitive application, Fig. 5a shows a
+addition, the nanomembranes can react to the sound waves        prosthetic system and tactile process165. When the
+in the air and accurately recognise a user’s voice, creating    prosthesis grasps an object, the tactile information is
+real auditory sensing.                                          transformed into a neuromorphic signal through the
+   Air is the most important non-contact medium for the         prosthesis controller. The prosthesis can perceive touch and
+transmission of sound. An artificial ear must detect sounds     pain through transcutaneous nerve stimulation. Therefore,
+in the air. Specifically, when music or a person’s voice        it is possible to create prosthetic hands with a natural tactile
+reaches the artificial ear through the air, the sound waves     sense, which allows people without limbs to experience the
+should be converted into an electrical signal by the sensor     world through the sensory perceptions of the prosthetic
+in real time. As shown in Fig. 4c, the vibration-responsive     hands. However, the real tactile sense is based on the
+electronic skin can clearly record music emitted from a         system engineering, whose first task is to obtain accurate
+loudspeaker158. Remarkably, voice authentication and            sensing.
+control can be easily realised in a noisy environment when          Skin-integrated electronics that receive tactile signals
+integrating the device on the skin. In addition to acoustic     (e.g., temperature, strain, and pressure) are often based on
+sensing based on resistance changes and vibration               different functional components, such as piezoelectric
+responses, Wei Li et al. reported a nanogenerator-based         films166,      thin-film       transistors167,168,     triboelectric
+                                                                                           169–172
+self-powered thin loudspeaker and microphone (Fig. 4d)159.      nanogenerators (TENG)              , silicon sensors173, and metal
+The mechanical waves of sound facilitate the production of      oxide semiconductor nanomembranes174. J. Park et al.
+electrical outputs by the nanogenerator, which could be         demonstrated a piezoelectric multifunctional e-skin
+used for sound detection, voice recognition as well as          inspired by human fingertips to simultaneously detect static
+identity recognition. The sound sensing of skin-integrated      pressure and temperature and monitor the pulse pressure
+electronics is potentially applicable as flexible speakers,     and temperature of arteries (Fig. 5b)175. This piezoelectric
+self-read e-newspapers, active noise cancellation systems,      e-skin could also detect dynamic touch and acoustic waves.
+and project screens with speakers.                              The introduction of graphene oxide sheets into PVDF made
+   The auditory sense demonstrated by skin-integrated           this piezoresistive e-skin sensitive to both pressure and
+electronics can be widely used in the future. Playing the       temperature. PVDF, a flexible organic piezoelectric film, is
+role of an ear, it can be attached to deaf and dumb people      a very common functional film for the piezoelectric-effect-
+to improve their hearing and speaking skills, respectively.     based e-skin176. Compared to the normal hard PZT material,
+For the deaf, the device can detect other people’s voices,      the organic piezoelectric material significantly enhances
+which can then be translated into words. Consequently, the      the comfort of the e-skin; organic field-effect transistors
+deaf are able to understand what others are saying. Skin-       (OFETs) play the same role. OFETs, serving as sensors,
+integrated electronics can also help the dumb communicate       are flexible, lightweight, biocompatible, and enable
+with others. Although their vocal cords are still working,      multianalyte sensing and subsequent decision-making in
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                                                                                                             Page 12 of 20
+
+
+
+
+            a                                                                                                               b
+                                      Sensory                                                     E-dermis signal
+
+
+
+
+                                                                                 Pressure (kPa)
+                                      perception                                                                                                      Fingertip skin                     Microstructured ferroelectric skin
+
+                                                                                                                                                    Fingerprint pattern (texture)                       Elastomeric pattern (texture)
+
+                                              Neuromorphic model
+                                     Stimulator
+                                                                                                                                                                                                                                   ++
+                                                                                                                                                               FNE
+                                                                                                                              Interlocked                                                          A
+                                                                                                                                                    MD                                                                                        V
+                                                                                                                            microstructure                                      MC
+                                                                                                                                                         RE                                                                           - -
+                                                                                                                            (amplification)                          PC                                            Interlocked
+                                                                                                                                     Static touch                                                                microstructure
+                  Transcutaneous nerve                                                                                                                                    Dynamic touch       Piezoresistive     (amplification)        Ferroelectric
+                                                                                                      Prosthesis                              Temperature                                     (static touch)                          (dynamic touch,
+                  stimulation                                                                         controller                                                                                                                        temperature)
+
+
+
+
+            c                                                                                                               d          Intrinsically stretchable transistor array
+                                                                                                                                                                Stretchable substrate
+                            Tactile pixel
+                Ultrathin foil
+
+
+
+
+                                                                                                                                     Fully patterned intrinsically
+                Bit line                                                                                                             stretchable transistor
+                    Drain voltage                   Word line                                                       1 cm
+
+
+            e                                   f                                                      g                                                                             h
+                                                                        Artificial skin
+                                                                                                                                                                                           Robot hand
+                                                                                                       Pressure
+                                                                                                      sensitive
+
+
+
+
+                                                                                                      Temperature
+                                                                                                      sensitive
+
+                                                    ~ 20% strain
+                                                                                                                    5 mm
+                                                                    Prosthetic hand                                                                                                                            Temp. sensor array
+                                                             1 cm                             1 cm
+
+
+
+
+            i
+                       Pressures                                                                             PSC                                Pressures                 ADC & LED         Light pulses         PSC
+
+                                           Cell body                                                                                E-skin                 MXene                                                             Photon
+                                                                                                                                                                                           Optical ﬁber                        e−       VO+
+
+                Skin               Receptors             Action potentials
+                                                                                                                                                                                                                                        W
+                                                                                                                                                       Voltage                                                             OE-synapse
+                    Receptor potential                              Axon                                              Synapse                    PDMS         MXene        Au        PET                       ITO       ZnO                NSTO
+
+                                                                                                                                                                                     165
+ Fig. 5 Skin-integrated electronics for tactile sense. a Prosthesis with e-skin that perceives touch and pain . b Fingertip skin-inspired e-skin; structure and
+ functions of human fingertips (left); artificial multimodal e-skin (right)175. c Illustration of ultra-lightweight large-area tactile flexible electronics178. d Intrinsically
+ stretchable transistor array for e-skin. The array enables accurate sensing of the position of a synthetic ladybug with six conductive legs179. e Image of a triboelectric
+ nanogenerator-based e-skin attached on a curvy hand180. f Photograph of an artificial skin with stretchable silicon nanoribbon electronics covering the entire surface area
+ of a prosthetic hand173. g Photograph of a prosthetic hand with a multi-modal sensor on the finger grasping a cup of hot coffee181. h Prosthetic hand wearing a
+ temperature sensor array174. i Schematic diagram of the biological and bio-inspired optoelectronic spiking afferent nerve systems191. Images reprinted with the following
+ permissions: a 165, and b175 from AAAS, c 178, and d 179 from Nature Publishing Group, e 180 from AAAS, f.173 from Nature Publishing Group, g 181, h 174 from AAAS, and i
+ 191
+       from Nature Publishing Group.
+
+
+logic circuits177. A very thin and lightweight design is                                                                               the tactile sensor sheet is tightly connected to a model of
+essential for making the e-skin imperceptible after sticking                                                                           the human upper jaw (Fig. 5c right). This type of
+onto the skin. Fig. 5c presents an ultra-lightweight design                                                                            imperceptible e-skin can be integrated on the skin and
+for imperceptible plastic electronics178. It is composed of                                                                            work with tactile sense by temperature or infra-red sensing.
+thin large-area active-matrix sensors with 12 × 12 tactile                                                                             In addition to creating light-weight e-skins, integrating
+pixels. The ultrathin electronic film is extremely                                                                                     more sensors per unit area is also extremely important,
+lightweight (3 gm−2, 60-fold lighter than conventional                                                                                 because tactile nerves in real skin are very rich. Bao et al.
+polyimide substrate). Moreover, it can accommodate                                                                                     advanced the e-skin by fabricating an intrinsically
+stretching of up to 230% and can be operated at high                                                                                   stretchable transistor array with an unprecedented device
+temperatures and in aqueous environments. As an example,                                                                               density of 347 transistors per square cm (Fig. 5d)179.
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                     Page 13 of 20
+
+
+
+
+Specifically, they fabricated a large-scale array with 6,300       the development of an e-skin with an intelligent artificial
+transistors in an area of approximately 4.4 cm × 4.4 cm.           nerve system will be the next breakthrough. However, for
+Such high-density sensor arrays enable the e-skin to               the future e-skin system, readout latency bottlenecks and
+perform high-resolution tactile responses. The photograph          complex wiring still exist as the number of sensors
+on the right in Fig. 5d shows that the e-skin on a human           increases. To solve this problem, W. Lee et al. introduced
+palm enables accurate position sensing of a synthetic              the asynchronous coded electronic skin (ACES) that
+ladybug with six conductive legs. In this e-skin, the              enabled the simultaneous transmission of thermotactile
+transistors serve as sensor elements. To realise skin-like         information, maintaining exceptionally low readout
+stretchability, they incorporated stretchable materials, such      latencies, even with more than 10,000 sensors181. Based on
+as cross-linked polystyrene-block-poly (ethylene-ran-buty-         this ACES platform, it is possible to integrate skin-like
+lene)-block-polystyrene (SEBS) as the stretchable                  sensors for artificial intelligence, including autonomous
+dielectric, conjugated polymers as the stretchable                 prosthesis, dextrous object manipulation, and somatosensory
+semiconductors, and carbon nanotubes as the stretchable            perception. As an application, a prosthetic hand with
+electrodes. Consequently, this transistor array successfully       flexible multimodal sensors grasps a cup of hot coffee, as
+combined advanced electronic functionality with high skin-         shown in Fig. 5g. Fig. 5h shows a similar example in which
+like stretchability. In addition to the functional units,          a prosthetic hand wears a skin-like temperature sensor
+organic stretchable materials are also the most used               array174. Therefore, applying the e-skin to prostheses
+substrate materials. In this case, triboelectricity is generated   enables them to sense external tactile stimuli. This suggests
+by external touch on the e-skin. Some researchers have             that a prosthesis with a tactile system similar to that of a
+designed new e-skins using the principle of triboelectricity.      human body can sense the external world. Enabling
+A soft skin-like device was developed by X. Pu et al based         prostheses to communicate or collaborate with humans is
+on TENGs. The resulting e-skin was characterized by both           another goal. Based on this idea, many researchers have
+biomechanical energy harvesting and touch sensing using            conducted studies on wearable human-machine interfaces
+an elastomer and ionic hydrogel as the electrification layer       (HMIs)182–187. HMIs primarily sense physical signals from
+and electrode, respectively180. Fig. 5e shows the TENG-            humans and then enable the prostheses to perform specific
+based e-skin with 3 pixel × 3 pixel tactile sensors attached       corresponding functions.
+to a curvy hand. The unique energy harvesting and tactile             Integrating tactile sensing and neural network processing
+perception capabilities of the TENG-based e-skin may be            into one system will be a future strategy towards realising
+used for the fabrication of a self-powered electronic skin in      intelligent e-skins188–190. Inspired by biological nerve
+the future.                                                        systems, Hongwei Tan et al. demonstrated an artificial
+   Inorganic materials are also widely used in the field of        afferent nerve with neural coding, perceptual learning, and
+skin electronics. They are easier to fabricate in high             memorising capabilities (Fig. 5i)191. The system could
+resolution and are more stable and durable. Silicon and            recognise, learn, and memorise based on neural coding and
+metal are often used as functional elements and conductive         perceptual learning. In summary, the above series of
+electrodes. Kim et al. developed a smart artificial skin with      research has built the foundation of the e-skin for tactile
+integrated stretchable sensors and actuators covering the          sensing, smart prostheses, and human-machine interactions.
+entire surface area of a prosthetic hand, based on ultrathin,         However, initial attempts of implanting skin-integrated
+stretchable single crystalline silicon nanoribbons, as shown       electronics on artificial sensations are still in their infancy.
+in Fig. 5f173. The e-skin integrated prosthetic hand has           Based on the platforms established by the current
+many sensory functions by detecting strain, pressure,              technologies, future research may consider developing high
+temperature, and humidity. Experiencing various types of           channel counts sensing pixels in soft electronics to
+external stimuli is the ultimate goal for amputees, and            significantly improve the sensory resolution or integrate
+converting external stimuli only to electrical signals is not      various functional sensing systems. Moreover, it is
+enough. The output signals must be processed and                   extremely important and difficult to build neural networks
+transmitted to stimulate the corresponding peripheral              that deliver external stimuli to the brain to obtain
+nervous system. The aforementioned smart artificial skin           corresponding responses from the body.
+took a step forward to demonstrate the interconnections
+between the prosthesis and peripheral nervous fibres. By           Skin-integrated electronics for haptic
+stimulating the sciatic nerve, the corresponding                   interfaces
+electrophysiological signal can be detected from the                  Skin-integrated electronics are worn on the human body
+thalamus in the right hemisphere of the brain. Therefore,          for healthcare and enhancing the human sensory
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                                                            Page 14 of 20
+
+
+
+
+experience. They can achieve various health monitoring                                        television. However, in addition to visual and auditory
+goals, including signal detection, transmission, and storage,                                 senses, our tactile sense provides the most profound,
+as well as perform visual, auditory, and tactile sensory                                      deepest, and emotional connection between people. It is an
+functions. To enhance the human experience, they could                                        undisputed fact that developing tactile senses and haptic
+create a scenario in which humans feel perceptual                                             interfaces would significantly enhance the VR
+information from other dimensions of time and space via                                       experience192. Consequently, we can achieve remote
+skin-integrated electronics, referred to as VR. VR is an                                      contactless “touch”.
+emerging area of technology but is not unknown to us.                                            Based on vibration-like sensations via mechanical
+Usually, we use visual and auditory senses to experience                                      stimulation, we can feel the tactile sense of our
+the virtual world, just like we can see and hear things on a                                  surroundings using spatio-temporal patterns of force on the
+
+
+          a                                                                                                                                          b
+                Disk
+                                                                                                                                                                                     Skin-like
+                                                                                                                                                                                     electrode
+            Magnet
+
+            Ring                                                  VR device                                                                                                          VR device
+                                                              Sense of virtual touch
+                                                                                                                                                         Soft
+                                                                                                                                                         electronics
+                     Coil/base
+                                                                                              Sense of virtual touch
+
+
+
+                                                                        VR devices
+
+
+
+
+                                                                                                                                                     e
+
+          c                                                                                                                                                                         Sensor
+
+                                                        80    N
+                                                                                    N                        3
+                                                                                                                 2
+                                        Voltage (μV)
+
+
+
+
+                                                        40
+                                                                                                                 1
+                                                         0          W           W
+                                                                                                 1       3           2                                                      Magnetic field lines
+                                                                                                                                                          Right
+                                                       −40
+                                                                         S
+                                                       −80                                                                                                                         Sensor on
+                                                                                                                                                                                    a palm
+                                                             0 2 4 6     10 12      14
+                                                                                                                                  SE        S
+                                                                                                                          E
+
+
+
+              On-skin compass                                       Time (s)
+                                                                                                                     NE
+
+                                                                                                                              N        NW
+                                                                                                                                                SW
+                                                                                                                                                W
+
+
+
+
+                                                                                                                                                            Magnet
+
+                                                                                                                                                             Virtual dial
+          d         Cross-sectional view
+
+                                                                                                                 Virtual value                              Min        Max
+                PDMS film                                                                                             menu
+
+
+
+                                                                   Blind hole
+            Magnetic film with                                                                                                                                                Virtual bulb
+            pyramid-shaped surface                                                                   Press
+                  GMR sensor                                                    Move to
+              Polyimide film                                                    touch point                                                                 Min        Max
+
+
+ Fig. 6 Skin-integrated electronics for feedback interfaces in virtual and augmented reality. a Skin-integrated wireless haptic interfaces for virtual
+ and augmented reality. Epidermal VR device with a haptic actuator array that can sense virtual touch. Amputees can distinguish the shape characteristics of objects with
+ the aid of a prosthetic hand and this VR device. Players can experience real tactile senses in the game194. b Wearable electronics for real-time detection of eye vergence
+ in virtual reality195. c E-skin compass and geomagnetic interaction with virtual reality environment196. d Soft e-skin for touchless tactile interaction and 3D touch in
+ augmented reality197. e Magnetosensitive e-skins with directional perception for augmented reality. A sensor is applied to the palm of the hand for light dimming via a
+ virtual bulb198. Images reprinted with the following permissions: a 194 from Nature Publishing Group, b 195 from AAAS, c 196, and d 197 from Nature Publishing Group, and
+ e 198 from AAAS.
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                               Page 15 of 20
+
+
+
+
+skin. Several years ago, Novich et al. designed a wearable      electronics and vision. Similar to light, magnetic fields do
+vibrotactile vest and proposed an effective method of           not need a medium to travel. The geomagnetic field is
+encoding vibrotactile data in both space and time to the        ubiquitous in air. An e-skin compass was developed based
+skin to yield information transfer beyond visualization193.     on this concept, as shown in Fig. 6c 196. The e-skin compass
+However, such wearable vibrotactile vests are bulky with        system facilitates orientation with respect to the Earth’s
+wire connections, motors, and batteries. Recently, our          magnetic field. The compass was fabricated on a 6-μm-
+laboratory demonstrated the skin-integrated wireless haptic     thick polymeric film and easily integrated on the skin.
+interfaces for the first time. A skin-integrated wireless       When a person rotates from the magnetic north (N) to the
+haptic interface was developed for VR/AR, as shown in           magnetic south (S) via the west, the output voltage of the e-
+Fig. 6a194. Using the wirelessly controlled and powered         skin compass changes correspondingly. Therefore, the e-
+skin-integrated VR/AR system, the user can experience           skin compass can be used to fabricate interactive devices
+touch easily by wearing a bandage-like thin, soft, and          for virtual and augmented reality. For example, it is
+adhesive device. The development of a complex system            possible to use the e-skin compass for the touchless control
+involves multiple disciplines of materials science,             of virtual units in a game engine. Denys Makarov’s group
+electrical, mechanical, and biomedical engineering. The         conducted a study on touchless tactile sense and control
+sense of touch, which is felt by the body, is derived from      using this touchless property of magnetic fields. Fig. 6d
+the simulation of millimetre-scale vibrations by haptic         shows a bimodal soft e-skin for tactile and touchless
+actuators. Based on advanced mechanical designs, haptic         interaction in real time197. The combination of a giant
+actuators require less than 2 milliwatts to induce a notable    magneto resistance sensor on a thin film, a round silicon-
+sensory vibration. Chip-scale integrated circuits and           based polymer cavity, and a flexible permanent magnet
+antennae enable wireless powering and control in the            with pyramid-like tips formed a touchless tactile interaction
+actuators. Skin-integrated wireless haptic interfaces with      system, where the sensor was placed on the fingertip. On a
+thicknesses of only 3 mm were acquired by integrating the       glass plate with a permanent magnet, a finger with this e-
+actuators and hundreds of functional components into a          skin device could select the desired virtual buttons by
+thin soft cloth substrate. They are breathable, reusable, and   interacting with the permanent magnet. Subsequently, they
+functional within a full range of bending and twisting          also realised the touchless manipulation of objects based on
+motions. Moreover, the haptic actuators are driven by           interaction with magnetic fields (Fig. 6e)198. Using
+energy wirelessly harvested by radio frequency through a        magnetosensitive e-skins with directional perception on the
+flexible antenna, which allows users to move freely. The        hand, the light intensity of a virtual bulb could be
+explored skin-integrated sensory interface significantly        controlled by turning the hand with respect to the direction
+enhances our life experiences. In the clinical field, the       of the magnetic field lines of a permanent magnet. In VR,
+interface can be used for surgical training, virtual scene      these technologies enable navigation, motion tracking,
+development, prosthetic control, and rehabilitation.            sports, and gaming interaction.
+Amputees could sense touch at the fingertips of their              Compared with visual and auditory senses, tactile sense
+prosthetics through sensory inputs on the upper arm. Their      in VR should be subject to further development in the
+brains can then receive the sensation on the upper arm to       future. In addition to the stimulation from
+sense touch. For our daily lives, the innovation has            electromagnetism-induced mechanical vibration, thermal
+considerable potential in communication, social media           stimulus is a potentially suitable substitute, owing to the
+interaction, gaming, and multimedia entertainment. For          skin’s sensitivity to temperature. The interconversion of
+example, it could be possible to sense a hug from friends       different perceptions is another idea worth considering. For
+and family members through a video call. Virtual touch can      instance, a sound sensor and haptic interface can be
+be achieved using pressures and patterns through a              integrated on the body of a deaf person. The haptic
+touchscreen interface. In summary, skin-integrated haptic       interface and auditory sense system can then convert
+interfaces could be a significant component of VR for           auditory signals into tactile signals during conversations.
+social interactions, clinical medicine, and other               Furthermore, the auditory sense system could translate the
+applications.                                                   detected sound into visual texts to enable understanding for
+   Fig 6b shows soft, wireless periocular wearable              the deaf person, enhancing effective communication with
+electronics for real-time detection of eye vergence in VR195.   others. Developing a novel integrated system that can
+Combining fully wearable skin-conformal sensors and the         intelligently select the use of different senses in specific
+VR system, eye movements can be tracked with high               situations would be challenging but also promising,
+sensitivity. This VR case combines skin-integrated              because such a system considerably promotes the
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                    Page 16 of 20
+
+
+
+
+                                                                      Conflict of interest
+development of skin-integrated electronics in AR/VR.
+                                                                      The authors declare that they have no conflict of interest.
+
+
+Conclusions                                                           Received: 30 June 2020 Revised: 17 August 2020 Accepted: 21 November 2020
+   In this review, we summarised the intelligent sensing of           Published online: 12 January 2021
+skin-integrated electronics, sensors, and sensory perception
+to VR/AR. Skin-integrated electronics used as flexible
+sensors can detect physiological signals of the body to               References
+obtain health status information in real time. Scientists               1. Xu, S., Jayaraman, A. & Rogers, J. A. Skin sensors are the future of
+                                                                            health care. Nature 571, 319-321 (2019).
+spend considerable energy studying the effectiveness of                 2. Ray, T. R. et al. Bio-integrated wearable systems: a comprehensive
+these sensors in a variety of body parts for different                      review. Chemical Reviews 119, 5461-5533 (2019).
+purposes, which significantly enhances the function of                  3. Chen, X. D. et al. Materials chemistry in flexible electronics. Chemical
+skin-integrated sensors. Improving the detection accuracy                   Society Reviews 48, 1431-1433 (2019).
+                                                                        4. Rogers, J., Bao, Z. N. & Lee, T. W. Wearable bioelectronics:
+of such sensors is necessary to widely expand their                         opportunities for chemistry. Accounts of Chemical Research 52, 521-
+applications. This is because the detection capability of the               522 (2019).
+current flexible devices is still not as effective as that of           5. Rogers, J. A., Chen, X. D. & Feng, X. Flexible hybrid electronics.
+corresponding rigid devices or analytical equipment in the                  Advanced Materials 32, 1905590 (2020).
+                                                                        6. Li, J. H., Zhao, J. & Rogers, J. A. Materials and designs for power supply
+laboratory. Exploring novel functional materials, better                    systems in skin-interfaced electronics. Accounts of Chemical Research
+understanding the sensing mechanisms, and developing                         52, 53-62 (2019).
+highly advanced structural designs in electronics are the               7. Lee, G. H. et al. Multifunctional materials for implantable and
+foundations for improving the accuracy of detection in                      wearable photonic healthcare devices. Nature Reviews Materials 5,
+                                                                            149-165 (2020).
+skin-integrated electronics. Meanwhile, combining light                 8. Rogers, J. A., Someya, T. & Huang, Y. G. Materials and mechanics for
+power supplies, data collection and storage components, as                  stretchable electronics. Science 327, 1603-1607 (2010).
+well as wireless transmission modules is key in system-                 9. Hong, Y. J. et al. Wearable and implantable devices for cardiovascular
+level skin-integrated sensors. In addition to traditional                   healthcare: from monitoring to therapy based on flexible and
+                                                                            stretchable electronics. Advanced Functional Materials 29, 1808247
+functions such as sensors, skin-integration electronics are                 (2019).
+also useful as sensory perception systems owing to their               10. Won, S. M. et al. Emerging modalities and implantable technologies
+special visual, auditory, and tactile sensory functions. In                 for neuromodulation. Cell 181, 115-135 (2020).
+the current stage, the remarkable function of the electronics          11. Song, E. M. et al. Materials for flexible bioelectronic systems as
+                                                                            chronic neural interfaces. Nature Materials 19, 590-603 (2020).
+as sensory systems is still in the machine stage, displayed            12. Shin, J. et al. Bioresorbable optical sensor systems for monitoring of
+with the aid of prostheses. Replacing the real eyes, ears,                  intracranial pressure and temperature. Science Advances 5,
+and skin, which has a long way to go, requires the efforts                  eaaw1899 (2019).
+of researchers from all disciplines, especially neuroscience.          13. Na, K. et al. Novel diamond shuttle to deliver flexible neural probe
+                                                                            with reduced tissue compression. Microsystems & Nanoengineering
+Optical sensing technology is also a possible breakthrough
+                                                                             6, 37 (2020).
+for sensory perception systems. Recent studies also have               14. Shen, W. et al. Microfabricated intracortical extracellular matrix-
+potential in the development of skin-integrated electronics                 microelectrodes for improving neural interfaces. Microsystems &
+for AR/VR. The introduction of touch in the virtual world                   Nanoengineering 4, 30 (2018).
+                                                                       15. Samineni, V. K. et al. Fully implantable, battery-free wireless
+considerably elevates the human experience. Not only can
+                                                                            optoelectronic devices for spinal optogenetics. Pain 158, 2108-2116
+we have remote tactile communication, but amputees can                      (2017).
+also experience the joy of touch again. In the future, new             16. Shin, G. et al. Flexible near-field wireless optoelectronics as
+opportunities for AR/VR technology may come from the                        subdermal implants for broad applications in optogenetics. Neuron
+                                                                            93, 509-521.e3 (2017).
+development of new stimulus types or interconversion
+                                                                       17. Zhang, Y. et al. Battery-free, lightweight, injectable microsystem for in
+between different sensory perceptions.                                      vivo wireless pharmacology and optogenetics. Proceedings of the
+                                                                            National Academy of Sciences of the United States of America 116,
+Acknowledgements                                                            21427-21437 (2019).
+This work was supported by the City University of Hong Kong (Grant     18. Gutruf, P. et al. Fully implantable optoelectronic systems for battery-
+Nos. 9610423, 9667199), Research Grants Council of the Hong Kong            free, multimodal operation in neuroscience research. Nature
+Special Administrative Region (Grant No. 21210820), and Science and         Electronics 1, 652-660 (2018).
+Technology of Sichuan Province (Grant No. 2020YFH0181).                19. Yu, X. G. et al. Needle-shaped ultrathin piezoelectric microsystem for
+                                                                            guided tissue targeting via mechanical sensing. Nature Biomedical
+Author contributions                                                        Engineering 2, 165-172 (2018).
+X. Y and D. L proposed the framework of this review. All authors       20. Won, S. M. et al. Recent advances in materials, devices, and systems
+contributed to the writing of the manuscript.                               for neural interfaces. Advanced Materials 30, 1800534 (2018).
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                  Page 17 of 20
+
+
+
+
+ 21.   Koo, J. et al. Wireless bioresorbable electronic system enables                   sensitivity for application in electronic skin and health monitoring.
+       sustained nonpharmacological neuroregenerative therapy. Nature                    Nature Communications 4, 1859 (2013).
+       Medicine 24, 1830-1836 (2018).                                              43.   Kim, D. H. et al. Epidermal electronics. Science 333, 838-843 (2011).
+ 22.   Guo, Q. L. et al. A bioresorbable magnetically coupled system for low-      44.   Chung, H. U. et al. Binodal, wireless epidermal electronic systems
+       frequency wireless power transfer. Advanced Functional Materials                  with in-sensor analytics for neonatal intensive care. Science 363,
+        29, 1905451 (2019).                                                              eaau0780 (2019).
+ 23.   Yu, X. W. et al. Materials, processes, and facile manufacturing for         45.   Tian, L. M. et al. Large-area MRI-compatible epidermal electronic
+       bioresorbable electronics: a review. Advanced Materials 30, 1707624               interfaces for prosthetic control and cognitive monitoring. Nature
+       (2018).                                                                           Biomedical Engineering 3, 194-205 (2019).
+ 24.   Gutruf, P. et al. Wireless, battery-free, fully implantable multimodal      46.   Dagdeviren, C. et al. Conformable amplified lead zirconate titanate
+       and multisite pacemakers for applications in small animal models.                 sensors with enhanced piezoelectric response for cutaneous
+       Nature Communications 10, 5742 (2019).                                            pressure monitoring. Nature Communications 5, 4496 (2014).
+ 25.   Yan, Z. et al. Mechanical assembly of complex, 3D mesostructures            47.   Kim, J. et al. Miniaturized battery-free wireless systems for wearable
+       from releasable multilayers of advanced materials. Science Advances               pulse oximetry. Advanced Functional Materials 27, 1604373 (2017).
+        2, e1601014 (2016).                                                        48.   Ma, Y. J. et al. Relation between blood pressure and pulse wave
+ 26.   Nan, K. W. et al. Compliant and stretchable thermoelectric coils for              velocity for human arteries. Proceedings of the National Academy of
+       energy harvesting in miniature flexible devices. Science Advances 4,              Sciences of the United States of America 115, 11144-11149 (2018).
+       eaau5849 (2018).                                                            49.   Wang, C. H. et al. Monitoring of the central blood pressure waveform
+ 27.   Liu, Y. M. et al. 3D printed microstructures for flexible electronic              via a conformal ultrasonic device. Nature Biomedical Engineering 2,
+       devices. Nanotechnology 30, 414001 (2019).                                        687-695 (2018).
+ 28.   Bai, W. J. et al. Freestanding 3D mesostructures, functional devices,       50.   Boutry, C. M. et al. Biodegradable and flexible arterial-pulse sensor for
+       and shape-programmable systems based on mechanically induced                      the wireless monitoring of blood flow. Nature Biomedical Engineering
+       assembly with shape memory polymers. Advanced Materials 31,                        3, 47-57 (2019).
+       1805615 (2019).                                                             51.   Zhao, Y. C. et al. Fully flexible electromagnetic vibration sensors with
+ 29.   Kim, B. H. et al. Three-dimensional silicon electronic systems                    annular field confinement origami magnetic membranes. Advanced
+       fabricated by compressive buckling process. ACS Nano 12, 4164-                    Functional Materials 30, 2001553 (2020).
+       4171 (2018).                                                                52.   Jang, K. I. et al. Self-assembled three dimensional network designs for
+ 30.   Ning, X. et al. Mechanically active materials in three-dimensional                soft electronics. Nature Communications 8, 15894 (2017).
+       mesostructures. Science Advances 4, eaat8313 (2018).                        53.   Zhang, Y. et al. Passive sweat collection and colorimetric analysis of
+ 31.   Wang, H. L. et al. Vibration of mechanically-assembled 3D                         biomarkers relevant to kidney disorders using a soft microfluidic
+       microstructures formed by compressive buckling. Journal of the                    system. Lab on A Chip 19, 1545-1555 (2019).
+       Mechanics and Physics of Solids 112, 187-208 (2018).                        54.   Kim, S. B. et al. Soft, skin-interfaced microfluidic systems with wireless,
+ 32.   Ning, X. et al. Assembly of advanced materials into 3D functional                 battery-free electronics for digital, real-time tracking of sweat loss
+       structures by methods inspired by origami and kirigami: a review.                 and electrolyte composition. Small 14, 1802876 (2018).
+       Advanced Materials Interfaces 5, 1800284 (2018).                            55.   Choi, J. et al. Soft, skin-integrated multifunctional microfluidic
+ 33.   Ning, X. et al. 3D tunable, multiscale, and multistable vibrational               systems for accurate colorimetric analysis of sweat biomarkers and
+       micro-platforms assembled by compressive buckling. Advanced                       temperature. ACS Sensors 4, 379-388 (2019).
+       Functional Materials 27, 1605914 (2017).                                    56.   Zhao, Y. C. et al. A wearable freestanding electrochemical sensing
+ 34.   Didier, C., Kundu, A. & Rajaraman, S. Capabilities and limitations of 3D          system. Science Advances 6, eaaz0007 (2020).
+       printed microserpentines and integrated 3D electrodes for                   57.   Ortega, L. et al. Self-powered smart patch for sweat conductivity
+       stretchable and conformable biosensor applications. Microsystems &                monitoring. Microsystems & Nanoengineering 5, 3 (2019).
+       Nanoengineering 6, 15 (2020).                                               58.   Li, K. et al. A generic soft encapsulation strategy for stretchable
+ 35.   Jeong, H. et al. Modular and reconfigurable wireless E-tattoos for                electronics. Advanced Functional Materials 29, 1806630 (2019).
+       personalized sensing. Advanced Materials Technologies 4, 1900117            59.   Xie, Z. Q. et al. Flexible and stretchable antennas for biointegrated
+       (2019).                                                                           electronics. Advanced Materials 32, 1902767 (2020).
+ 36.   Wang, Y. et al. Epidermal electrodes with enhanced breathability and        60.   Xie, Z. Q., Ji, B. W. & Huo, Q. Z. Mechanics design of stretchable near
+       high sensing performance. Materials Today Physics 12, 100191                      field communication antenna with serpentine wires. Journal of
+       (2020).                                                                           Applied Mechanics 85, 045001 (2018).
+ 37.   Huang, Z. L. et al. Three-dimensional integrated stretchable                61.   Kim, J. et al. Battery-free, stretchable optoelectronic systems for
+       electronics. Nature Electronics 1, 473-480 (2018).                                wireless optical characterization of the skin. Science Advances 2,
+ 38.   Wang, C. F. et al. Materials and structures toward soft electronics.              e1600418 (2016).
+       Advanced Materials 30, 1801368 (2018).                                      62.   Jeong, Y. R. et al. A skin-attachable, stretchable integrated system
+ 39.   Lin, M. Y., Gutierrez, N. G. & Xu, S. Soft sensors form a network. Nature         based on liquid GaInSn for wireless human motion monitoring with
+       Electronics 2, 327-328 (2019).                                                    multi-site sensing capabilities. NPG Asia Materials 9, e443 (2017).
+ 40.   Wang, B. H. et al. Flexible and stretchable metal oxide nanofiber           63.   Kim, J. et al. Miniaturized flexible electronic systems with wireless
+       networks for multimodal and monolithically integrated wearable                    power and near-field communication capabilities. Advanced
+       electronics. Nature Communications 11, 2405 (2020).                               Functional Materials 25, 4761-4767 (2015).
+ 41.   Crawford, K. E. et al. Advanced approaches for quantitative                 64.   Kim, J. et al. Epidermal electronics with advanced capabilities in near-
+       characterization of thermal transport properties in soft materials                field communication. Small 11, 906-912 (2015).
+       using thin, conformable resistive sensors. Extreme Mechanics Letters        65.   Oh, J. Y. & Bao, Z. N. Second skin enabled by advanced electronics.
+        22, 27-35 (2018).                                                                Advanced Science 6, 1900186 (2019).
+ 42.   Schwartz, G. et al. Flexible polymer transistors with high pressure         66.   Son, D. & Bao, Z. A. Nanomaterials in skin-inspired electronics: toward
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                 Page 18 of 20
+
+
+
+
+       soft and robust skin-like electronic nanosystems. ACS Nano 12,                      Advanced Materials 26, 1336-1342 (2014).
+       11731-11739 (2018).                                                           89.   Pang, C. et al. Highly skin-conformal microhairy sensor for pulse
+ 67.   Kim, S. H. et al. An ultrastretchable and self-healable nanocomposite               signal amplification. Advanced Materials 27, 634-640 (2015).
+       conductor enabled by autonomously percolative electrical pathways.            90.   Park, D. Y. et al. Self-powered real-time arterial pulse monitoring
+       ACS Nano 13, 6531-6539 (2019).                                                      using ultrathin epidermal piezoelectric sensors. Advanced Materials
+ 68.   Kang, J. et al. Tough and water-insensitive self-healing elastomer for               29, 1702308 (2017).
+       robust electronic skin. Advanced Materials 30, 1706846 (2018).                91.   Sekine, T. et al. Fully printed wearable vital sensor for human pulse
+ 69.   Oh, J. Y. et al. Stretchable self-healable semiconducting polymer film              rate monitoring using ferroelectric polymer. Scientific Reports 8, 4442
+       for active-matrix strain-sensing array. Science Advances 5, eaav3097                (2018).
+       (2019).                                                                       92.   Pang, Y. et al. Epidermis microstructure inspired graphene pressure
+ 70.   Son, D. et al. An integrated self-healable electronic skin system                   sensor with random distributed spinosum for high sensitivity and
+       fabricated via dynamic reconstruction of a nanostructured                           large linearity. ACS Nano 12, 2346-2354 (2018).
+       conducting network. Nature Nanotechnology 13, 1057-1065 (2018).               93.   Niu, S. M. et al. A wireless body area sensor network based on
+ 71.   Jung, Y. H. et al. Bioinspired electronics for artificial sensory systems.          stretchable passive tags. Nature Electronics 2, 361-368 (2019).
+       Advanced Materials 31, 1803637 (2019).                                        94.   Li, D. F. et al. Aging improvement in Cu-containing NTC ceramics
+ 72.   Song, Y. M. et al. Digital cameras with designs inspired by the                     prepared by co-precipitation method. Journal of Alloys and
+       arthropod eye. Nature 497, 95-99 (2013).                                            Compounds 582, 283-288 (2014).
+ 73.   Gu, L. L. et al. A biomimetic eye with a hemispherical perovskite             95.   Han, S. et al. Battery-free, wireless sensors for full-body pressure and
+       nanowire array retina. Nature 581, 278-282 (2020).                                  temperature mapping. Science Translational Medicine 10, eaan4950
+ 74.   Liu, Y. et al. Epidermal electronics for respiration monitoring via                 (2018).
+       thermo-sensitive measuring. Materials Today Physics 13, 100199                96.   Zhang, Y. H. et al. Theoretical and experimental studies of epidermal
+       (2020).                                                                             heat flux sensors for measurements of core body temperature.
+ 75.   Hong, S. et al. Wearable thermoelectrics for personalized                           Advanced Healthcare Materials 5, 119-127 (2016).
+       thermoregulation. Science Advances 5, eaaw0536 (2019).                        97.   Gao, Z. Y. et al. A self-healable bifunctional electronic skin. ACS
+ 76.   Lou, Z. et al. An ultra-sensitive and rapid response speed graphene                 Applied Materials & Interfaces 12, 24339-24347 (2020).
+       pressure sensors for electronic skin and health monitoring. Nano              98.   Zhu, C. X. et al. Stretchable temperature-sensing circuits with strain
+       Energy 23, 7-14 (2016).                                                             suppression based on carbon nanotube transistors. Nature
+ 77.   Krishnan, S. R. et al. Epidermal electronics for noninvasive, wireless,             Electronics 1, 183-190 (2018).
+       quantitative assessment of ventricular shunt function in patients with        99.   Dagdeviren, C. et al. Conformal piezoelectric systems for clinical and
+       hydrocephalus. Science Translational Medicine 10, eaat8437 (2018).                  experimental characterization of soft tissue biomechanics. Nature
+ 78.   Ha, T. et al. A chest-laminated ultrathin and stretchable E-tattoo for              Materials 14, 728-736 (2015).
+       the measurement of electrocardiogram, seismocardiogram, and                  100.   Yamamoto, Y. et al. Efficient skin temperature sensor and stable gel-
+       cardiac time intervals. Advanced Science 6, 1900290 (2019).                         less sticky ECG sensor for a wearable flexible healthcare patch.
+ 79.   Yeo, W. H. et al. Multifunctional epidermal electronics printed directly            Advanced Healthcare Materials 6, 1700495 (2017).
+       onto the skin. Advanced Materials 25, 2773-2778 (2013).                      101.   Hong, S. Y. et al. Stretchable active matrix temperature sensor array of
+ 80.   Chung, H. U. et al. Skin-interfaced biosensors for advanced wireless                polyaniline nanofibers for electronic skin. Advanced Materials 28,
+       physiological monitoring in neonatal and pediatric intensive-care                   930-935 (2016).
+       units. Nature Medicine 26, 418-429 (2020).                                   102.   Webb, R. C. et al. Ultrathin conformal devices for precise and
+ 81.   Jeong, J. W. et al. Capacitive epidermal electronics for electrically               continuous thermal characterization of human skin. Nature Materials
+       safe, long-term electrophysiological measurements. Advanced                          12, 938-944 (2013).
+       Healthcare Materials 3, 642-648 (2014).                                      103.   Tian, L. M. et al. Flexible and stretchable 3ω sensors for thermal
+ 82.   Leleux, P. et al. Conducting polymer electrodes for                                 characterization of human skin. Advanced Functional Materials 27,
+       electroencephalography. Advanced Healthcare Materials 3, 490-493                    1701282 (2017).
+       (2014).                                                                      104.   Krishnan, S. R. et al. Wireless, battery-free epidermal electronics for
+ 83.   Stauffer, F. et al. Skin conformal polymer electrodes for clinical ECG              continuous, quantitative, multimodal thermal characterization of
+       and EEG recordings. Advanced Healthcare Materials 7, 1700994                        skin. Small 14, 1803192 (2018).
+       (2018).                                                                      105.   Hua, Q. L. et al. Skin-inspired highly stretchable and conformable
+ 84.   Norton, J. J. S. et al. Soft, curved electrode systems capable of                   matrix networks for multifunctional sensing. Nature Communications
+       integration on the auricle as a persistent brain-computer interface.                 9, 244 (2018).
+       Proceedings of the National Academy of Sciences of the United States of      106.   Sonner, Z. et al. The microfluidics of the eccrine sweat gland,
+       America 112, 3920-3925 (2015).                                                      including biomarker partitioning, transport, and biosensing
+ 85.   Jang, K. I. et al. Ferromagnetic, folded electrode composite as a soft              implications. Biomicrofluidics 9, 031301 (2015).
+       interface to the skin for long-term electrophysiological recording.          107.   Buono, M. J. Sweat ethanol concentrations are highly correlated with
+       Advanced Functional Materials 26, 7281-7290 (2016).                                 co-existing blood values in humans. Experimental Physiology 84,
+ 86.   Lee, K. H. et al. Mechano-acoustic sensing of physiological processes               401-404 (1999).
+       and body motions via a soft wireless device placed at the                    108.   Kamei, T. et al. Novel instrumentation for determination of ethanol
+       suprasternal notch. Nature Biomedical Engineering 4, 148-158 (2020).                concentrations in human perspiration by gas chromatography and a
+ 87.   Pang, C. et al. A flexible and highly sensitive strain-gauge sensor                 good interrelationship between ethanol concentrations in sweat and
+       using reversible interlocking of nanofibres. Nature Materials 11, 795-              blood. Analytica Chimica Acta 365, 259-266 (1998).
+       801 (2012).                                                                  109.   Oh, S. Y. et al. Skin-attachable, stretchable electrochemical sweat
+ 88.   Wang, X. W. et al. Silk-molded flexible, ultrasensitive, and highly                 sensor for glucose and ph detection. ACS Applied Materials &
+       stable electronic skin for monitoring human physiological signals.                  Interfaces 10, 13729-13740 (2018).
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                      Page 19 of 20
+
+
+
+
+110.   Lee, H. et al. A graphene-based electrochemical device with                            eaaz7946 (2020).
+       thermoresponsive microneedles for diabetes monitoring and                       132.   Gao, W. et al. Fully integrated wearable sensor arrays for multiplexed
+       therapy. Nature Nanotechnology 11, 566-572 (2016).                                     in situ perspiration analysis. Nature 529, 509-514 (2016).
+111.   Abellán-Llobregat, A. et al. A stretchable and screen-printed                   133.   Reeder, J. T. et al. Waterproof, electronics-enabled, epidermal
+       electrochemical sensor for glucose determination in human                              microfluidic devices for sweat collection, biomarker analysis, and
+       perspiration. Biosensors and Bioelectronics 91, 885-891 (2017).                        thermography in aquatic settings. Science Advances 5, eaau6356
+112.   Martín, A. et al. Epidermal microfluidic electrochemical detection                     (2019).
+       system: enhanced sweat sampling and metabolite detection. ACS                   134.   Bandodkar,        A.   J.   et     al.   Battery-free,     skin-interfaced
+       Sensors 2, 1860-1868 (2017).                                                           microfluidic/electronic systems for simultaneous electrochemical,
+113.   Jia, W. Z. et al. Electrochemical tattoo biosensors for real-time                      colorimetric, and volumetric analysis of sweat. Science Advances 5,
+       noninvasive lactate monitoring in human perspiration. Analytical                       eaav3294 (2019).
+       Chemistry 85, 6553-6560 (2013).                                                 135.   Reeder, J. T. et al. Resettable skin interfaced microfluidic sweat
+114.   Biagi, S. et al. Simultaneous determination of lactate and pyruvate in                 collection devices with chemesthetic hydration feedback. Nature
+       human sweat using reversed-phase high-performance liquid                               Communications 10, 5513 (2019).
+       chromatography:         a      noninvasive         approach.      Biomedical    136.   Kim, J. et al. Wearable smart sensor systems integrated on soft
+       Chromatography 26, 1408-1415 (2012).                                                   contact lenses for wireless ocular diagnostics. Nature
+115.   Sato, K. et al. Biology of sweat glands and their disorders. I. Normal                 Communications 8, 14997 (2017).
+       sweat gland function. Journal of the American Academy of                        137.   Arakawa, T. et al. Mouthguard biosensor with telemetry system for
+       Dermatology 20, 537-563 (1989).                                                        monitoring of saliva glucose: a novel cavitas sensor. Biosensors and
+116.   Emaminejad, S. et al. Autonomous sweat extraction and analysis                         Bioelectronics 84, 106-111 (2016).
+       applied to cystic fibrosis and glucose monitoring using a fully                 138.   Lou, Z., Wang, L. L. & Shen, G. Z. Recent advances in smart wearable
+       integrated wearable platform. Proceedings of the National Academy of                   sensing systems. Advanced Materials Technologies 3, 1800444 (2018).
+       Sciences of the United States of America 114, 4625-4630 (2017).                 139.   Huang, C. C. et al. Large-field-of-view wide-spectrum artificial
+117.   Kohagura, K. et al. An association between uric acid levels and renal                  reflecting superposition compound eyes. Small 10, 3050-3057
+       arteriolopathy in chronic kidney disease: a biopsy-based study.                        (2014).
+       Hypertension Research 36, 43-49 (2013).                                         140.   Liu, H. W., Huang, Y. G. & Jiang, H. R. Artificial eye for scotopic vision
+118.   Major, T. J. et al. An update on the genetics of hyperuricaemia and                    with bioinspired all-optical photosensitivity enhancer. Proceedings of
+       gout. Nature Reviews Rheumatology 14, 341-353 (2018).                                  the National Academy of Sciences of the United States of America 113,
+119.   Terkeltaub, R. Update on gout: new therapeutic strategies and                          3982-3985 (2016).
+       options. Nature Reviews Rheumatology 6, 30-38 (2010).                           141.   Floreano, D. et al. Miniature curved artificial compound eyes.
+120.   Al-Tamer, Y. Y., Hadi, E. A. & Al-Badrani, I. E. I. Sweat urea, uric acid and          Proceedings of the National Academy of Sciences of the United States of
+       creatinine concentrations in uraemic patients. Urological Research                     America 110, 9267-9272 (2013).
+        25, 337-340 (1997).                                                            142.   Tang, X. et al. Towards infrared electronic eyes: flexible colloidal
+121.   Russo, P. A., Mitchell, G. A. & Tanguay, R. M. Tyrosinemia: a review.                  quantum dot photovoltaic detectors enhanced by resonant cavity.
+       Pediatric and Developmental Pathology 4, 212-221 (2001).                               Small 15, 1804920 (2019).
+122.   Godek, S. F., Bartolozzi, A. R. & Godek, J. J. Sweat rate and fluid             143.   Liu, X. Q. et al. Rapid engraving of artificial compound eyes from
+       turnover in American football players compared with runners in a hot                   curved sapphire substrate. Advanced Functional Materials 29,
+       and humid environment. British Journal of Sports Medicine 39, 205-                     1900037 (2019).
+       211 (2005).                                                                     144.   Wang, W. J. et al. Fabrication of hierarchical Micro/Nano compound
+123.   Wang, S. Y. et al. Effect of Exercise-induced sweating on facial sebum,                eyes. ACS Applied Materials & Interfaces 11, 34507-34516 (2019).
+       stratum corneum hydration, and skin surface pH in normal                        145.   Ko, H. C. et al. A hemispherical electronic eye camera based on
+       population. Skin Research and Technology 19, e312-e317 (2013).                         compressible silicon optoelectronics. Nature 454, 748-753 (2008).
+124.   Ghaffari, R. et al. Soft wearable systems for colorimetric and                  146.   Jung, I. et al. Dynamically tunable hemispherical electronic eye
+       electrochemical analysis of biofluids. Advanced Functional Materials                   camera system with adjustable zoom capability. Proceedings of the
+        30, 1907269 (2020).                                                                   National Academy of Sciences of the United States of America 108,
+125.   Yang, Y. R. & Gao, W. Wearable and flexible electronics for continuous                 1788-1793 (2011).
+       molecular monitoring. Chemical Society Review 48, 1465-1491                     147.   Zhang, K. et al. Origami silicon optoelectronics for hemispherical
+       (2019).                                                                                electronic eye systems. Nature Communications 8, 1782 (2017).
+126.   Choi, J. et al. Skin-interfaced systems for sweat collection and                148.   Xue, J. et al. Narrowband perovskite photodetector-based image
+       analytics. Science Advances 4, eaar3921 (2018).                                        array for potential application in artificial vision. Nano Letters 18,
+127.   Torrente-Rodríguez, R. M. et al. Investigation of cortisol dynamics in                 7628-7634 (2018).
+       human sweat using a graphene-based wireless mHealth system.                     149.   Tsai, W. L. et al. Band tunable microcavity perovskite artificial human
+       Matter 2, 921-937 (2020).                                                              photoreceptors. Advanced Materials 31, 1900231 (2019).
+128.   Yang, Y. R. et al. A laser-engraved wearable sensor for sensitive               150.   Choi, C. et al. Human eye-inspired soft optoelectronic device using
+       detection of uric acid and tyrosine in sweat. Nature Biotechnology                     high-density MoS2-graphene curved image sensor array. Nature
+        38, 217-224 (2020).                                                                   Communications 8, 1664 (2017).
+129.   Ye, R. Q., James, D. K. & Tour, J. M. Laser-induced graphene: from              151.   Zhou, F. C. et al. Optoelectronic resistive random access memory for
+       discovery to translation. Advanced Materials 31, 1803621 (2019).                       neuromorphic vision sensors. Nature Nanotechnology 14, 776-782
+130.   Lin, J. et al. Laser-induced porous graphene films from commercial                     (2019).
+       polymers. Nature Communications 5, 5714 (2014).                                 152.   Mennel, L. et al. Ultrafast machine vision with 2D material neural
+131.   Yu, Y. et al. Biofuel-powered soft electronic skin with multiplexed and                network image sensors. Nature 579, 62-66 (2020).
+       wireless sensing for human-machine interfaces. Science Robotics 5,              153.   Chai, Y. In-sensor computing for machine vision. Nature 579, 32-33
+Li et al. Light: Advanced Manufacturing (2021)2:4                                                                                                   Page 20 of 20
+
+
+
+
+       (2020).                                                                            Science Advances 1, e1500661 (2015).
+154.   Mannoor, M. S. et al. 3D printed bionic ears. Nano Letters 13, 2634-        176.   Liu, Q. X. et al. Highly transparent and flexible iontronic pressure
+       2639 (2013).                                                                       sensors based on an opaque to transparent transition. Advanced
+155.   Yang, J. et al. Eardrum-inspired active sensors for self-powered                   Science 7, 2000348 (2020).
+       cardiovascular system characterization and throat-attached anti-            177.   Shi, W., Guo, Y. L. & Liu, Y. Q. When flexible organic field-effect
+       interference voice recognition. Advanced Materials 27, 1316-1326                   transistors meet biomimetics: a prospective view of the internet of
+       (2015).                                                                            things. Advanced Materials 32, 1901493 (2020).
+156.   Kang, D. et al. Ultrasensitive mechanical crack-based sensor inspired       178.   Kaltenbrunner, M. et al. An ultra-lightweight design for imperceptible
+       by the spider sensory system. Nature 516, 222-226 (2014).                          plastic electronics. Nature 499, 458-463 (2013).
+157.   Kang, S. et al. Transparent and conductive nanomembranes with               179.   Wang, S. H. et al. Skin electronics from scalable fabrication of an
+       orthogonal silver nanowire arrays for skin-attachable loudspeakers                 intrinsically stretchable transistor array. Nature 555, 83-88 (2018).
+       and microphones. Science Advances 4, eaas8772 (2018).                       180.   Pu, X. et al. Ultrastretchable, transparent triboelectric nanogenerator
+158.   Lee, S. et al. An ultrathin conformable vibration-responsive electronic            as electronic skin for biomechanical energy harvesting and tactile
+       skin for quantitative vocal recognition. Nature Communications 10,                 sensing. Science Advances 3, e1700015 (2017).
+       2468 (2019).                                                                181.   Lee, W. W. et al. A neuro-inspired artificial peripheral nervous system
+159.   Li, W. et al. Nanogenerator-based dual-functional and self-powered                 for scalable electronic skins. Science Robotics 4, eaax2198 (2019).
+       thin patch loudspeaker or microphone for flexible electronics. Nature       182.   Kim, M. K. et al. Soft-packaged sensory glove system for human-like
+       Communications 8, 15310 (2017).                                                    natural interaction and control of prosthetic hands. NPG Asia
+160.   Wang, S. H. et al. Skin-inspired electronics: an emerging paradigm.                Materials 11, 43 (2019).
+       Accounts of Chemical Research 51, 1033-1045 (2018).                         183.   Shih, B. et al. Electronic skins and machine learning for intelligent soft
+161.   Yang, J. C. et al. Electronic skin: recent progress and future prospects           robots. Science Robotics 5, eaaz9239 (2020).
+       for skin-attachable devices for health monitoring, robotics, and            184.   Charalambides, A. & Bergbreiter, S. Rapid manufacturing of
+       prosthetics. Advanced Materials 31, 1904765 (2019).                                mechanoreceptive skins for slip detection in robotic grasping.
+162.   Sim, K. et al. Fully rubbery integrated electronics from high effective            Advanced Materials Technologies 2, 1600188 (2017).
+       mobility intrinsically stretchable semiconductors. Science Advances         185.   Sundaram, S. et al. Learning the signatures of the human grasp using
+        5, eaav5749 (2019).                                                               a scalable tactile glove. Nature 569, 698-702 (2019).
+163.   Chen, S. et al. Recent developments in graphene-based tactile               186.   Jeong, J. W. et al. Materials and optimized designs for human-
+       sensors and E-skins. Advanced Materials Technologies 3, 1700248                    machine interfaces via epidermal electronics. Advanced Materials 25,
+       (2018).                                                                            6839-6846 (2013).
+164.   Boutry, C. M. et al. A hierarchically patterned, bioinspired e-skin able    187.   Yiu, C. et al. Skin-like strain sensors enabled by elastomer composites
+       to detect the direction of applied pressure for robotics. Science                  for human–machine interfaces. Coatings 10, 711 (2020).
+       Robotics 3, eaau6914 (2018).                                                188.   Shim, H. et al. Stretchable elastic synaptic transistors for
+165.   Osborn, L. E. et al. Prosthesis with neuromorphic multilayered e-                  neurologically integrated soft engineering systems. Science Advances
+       dermis perceives touch and pain. Science Robotics 3, eaat3818                       5, eaax4961 (2019).
+       (2018).                                                                     189.   Someya, T. & Amagai, M. Toward a new generation of smart skins.
+166.   Liu, Y. M. et al. Skin-integrated graphene-embedded lead zirconate                 Nature Biotechnology 37, 382-388 (2019).
+       titanate rubber for energy harvesting and mechanical sensing.               190.   Tee, B. C. K. et al. A skin-inspired organic digital mechanoreceptor.
+       Advanced Materials Technologies 4, 1900744 (2019).                                 Sicence 350, 313-316 (2015).
+167.   Yu, X. G., Marks, T. J. & Facchetti, A. Metal oxides for optoelectronic     191.   Tan, H. W. et al. Tactile sensory coding and learning with bio-inspired
+       applications. Nature Materials 15, 383-396 (2016).                                 optoelectronic spiking afferent nerves. Nature Communications 11,
+168.   Lee, S. et al. A transparent bending-insensitive pressure sensor.                  1369 (2020).
+       Nature Nanotechnology 11, 472-478 (2016).                                   192.   Zhu, M. L. et al. Haptic-feedback smart glove as a creative human-
+169.   Liu, Y. M. et al. Recent progress on flexible nanogenerators toward self‐          machine interface (HMI) for virtual/augmented reality applications.
+       powered systems. InfoMat 2, 318-340 (2020).                                        Science Advances 6, eaaz8693 (2020).
+170.   Liu, Y. M. et al. Thin, skin-integrated, stretchable triboelectric          193.   Novich, S. D. & Eagleman, D. M. Using space and time to encode
+       nanogenerators for tactile sensing. Advanced Electronic Materials 6,               vibrotactile information: toward an estimate of the skin’s achievable
+       1901174 (2020).                                                                    throughput. Experimental Brain Research 233, 2777-2788 (2015).
+171.   Gao, Z. et al. Stretchable transparent conductive elastomers for skin-      194.   Yu, X. G. et al. Skin-integrated wireless haptic interfaces for virtual and
+       integrated electronics. Journal of Materials Chemistry C 8, 15105                  augmented reality. Nature 575, 473-479 (2019).
+       (2020).                                                                     195.   Mishra, S. et al. Soft, wireless periocular wearable electronics for real-
+172.   Yao, K. M. et al. Mechanics designs-performance relationships in                   time detection of eye vergence in a virtual reality toward mobile eye
+       epidermal triboelectric nanogenerators. Nano Energy 76, 105017                     therapies. Science Advances 6, eaay1729 (2020).
+       (2020).                                                                     196.   Cañón Bermúdez, G. S. et al. Electronic-skin compasses for
+173.   Kim, J. et al. Stretchable silicon nanoribbon electronics for skin                 geomagnetic field-driven artificial magnetoreception and interactive
+       prosthesis. Nature Communications 5, 5747 (2014).                                  electronics. Nature Electronics 1, 589-595 (2018).
+174.   Sim, K. et al. Metal oxide semiconductor nanomembrane-based soft            197.   Ge, J. et al. A bimodal soft electronic skin for tactile and touchless
+       unnoticeable multifunctional electronics for wearable human-                       interaction in real time. Nature Communications 10, 4405 (2019).
+       machine interfaces. Science Advances 5, eaav9653 (2019).                    198.   Cañón Bermúdez, G. S. et al. Magnetosensitive e-skins with
+175.   Park, J. et al. Fingertip skin-inspired microstructured ferroelectric              directional perception for augmented reality. Science Advances 4,
+       skins discriminate static/dynamic pressure and temperature stimuli.                eaao2623 (2018).
+

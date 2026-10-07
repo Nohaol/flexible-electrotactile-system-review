@@ -1,0 +1,945 @@
+Recent Advances in Materials, Designs and Applications of Skin Electronics
+
+YAO, Kuanming; YANG, Yawen; WU, Pengcheng; ZHAO, Guangyao; WANG, Lidai; YU,
+Xinge
+
+
+
+
+Published: 01/01/2023
+
+
+
+Document Version:
+Final Published version, also known as Publisher’s PDF, Publisher’s Final version or Version of Record
+
+
+License:
+CC BY
+
+
+Publication record in CityUHK Scholars:
+Go to record
+
+
+Published version (DOI):
+10.1109/OJNANO.2022.3218960
+
+
+Publication details:
+YAO, K., YANG, Y., WU, P., ZHAO, G., WANG, L., & YU, X. (2023). Recent Advances in Materials, Designs and
+Applications of Skin Electronics. IEEE Open Journal of Nanotechnology, 4, 55-70.
+https://doi.org/10.1109/OJNANO.2022.3218960
+
+
+
+
+Citing this paper
+Please note that where the full-text provided on CityUHK Scholars is the Post-print version (also known as Accepted Author
+Manuscript, Peer-reviewed or Author Final version), it may differ from the Final Published version. When citing, ensure that
+you check and use the publisher's definitive version for pagination and other details.
+
+General rights
+Copyright for the publications made accessible via the CityUHK Scholars portal is retained by the author(s) and/or other
+copyright owners and it is a condition of accessing these publications that users recognise and abide by the legal
+requirements associated with these rights. Users may not further distribute the material or use it for any profit-making activity
+or commercial gain.
+Publisher permission
+Permission for previously published items are in accordance with publisher's copyright policies sourced from the SHERPA
+RoMEO database. Links to full text versions (either Published or Post-print) are only available if corresponding publishers
+allow open access.
+
+Take down policy
+Contact lbscholars@cityu.edu.hk if you believe that this document breaches copyright and provide us with details. We will
+remove access to the work immediately and investigate your claim.
+
+
+Download date: 29/09/2026
+                       Received 7 October 2022; revised 27 October 2022; accepted 29 October 2022. Date of publication 2 November 2022;
+                         date of current version 3 February 2023. The review of this article was arranged by Associate Editor Binghao Wang.
+                                                                 Digital Object Identifier 10.1109/OJNANO.2022.3218960
+
+
+
+
+         Recent Advances in Materials, Designs and
+              Applications of Skin Electronics
+         KUANMING YAO                       1 , YAWEN YANG1 , PENGCHENG WU                                1 , GUANGYAO ZHAO1 , LIDAI WANG                              1,
+
+                                                                          AND XINGE YU                  1,2
+                                        1
+                                         Department of Biomedical Engineering, City University of Hong Kong, Hong Kong SAR 999077, China
+                 2
+                   Hong Kong Center for Cerebra-Cardiovascular Health Engineering (COCHE), Hong Kong Science Park, New Territories, Hong Kong SAR 999077, China
+                                CORRESPONDING AUTHORS: LIDAI WANG; XINGE YU (e-mail: lidawang@cityu.edu.hk; xingeyu@cityu.edu.hk)
+            The work of Xinge Yu was supported in part by the City University of Hong Kong under Grants 9667221 and 9680322, in part by the Research Grants Council of
+             the Hong Kong Special Administrative Region under Grants 21210820 and 11213721, in part by the National Natural Science Foundation of China under Grant
+            62122002, in part by the Innovation and Technology Fund of Innovation and Technology Commission under Grant GHP/095/20GD, in part by Shenzhen Science
+            and Technology Innovation Commission under Grant JCYJ20200109110201713, in part by the InnoHK Project on Project 2.2 - AI-based 3D ultrasound imaging
+           algorithm at Hong Kong Centre for Cerebro-Cardiovascular Health Engineering (COCHE), in part by the Center of Flexible Electronics Technology, and in part by
+                                                                  Qiantang Science Technology Innovation Center.
+
+
+
+
+          ABSTRACT       As electronic devices get smaller, more portable, and smarter, a new approach of realizing
+          electronics in thin, soft, and even stretchable style that could be worn and attached to the skin, which
+          is called skin electronics, has emerged and attracted much attention. To achieve well compliance, extend
+          the maximum stretchability, promote the comfortability of wearing, and make the most use of the skin
+          electronics, researchers are making efforts in different aspects. In this article, we summarized the recent
+          advances in categories of materials science, design strategies and novel applications. Examples of skin elec-
+          tronics using various functional materials including piezoelectric, thermoelectric, etc., and soft conductive
+          materials including PEDOT: PSS-based conductive polymer, carbon nanomaterials, metal-based materials
+          and hydrogels were given. Different mechanics design strategies for enhancing mechanical performance and
+          comfortability design strategies for better wearing experience were introduced. Lastly, practical applications
+          of skin electronics in fields of smart healthcare and human-machine interface were discussed. Research
+          focused on these aspects all boosted the development of skin electronics in different dimensions, with which
+          combined together may help skin electronics take a leap into truly ubiquitous use in our daily life.
+
+          INDEX TERMS Engineering in medicine and biology/biomedical engineering/biomedical electronics, in-
+          dustrial electronics/assembly systems/flexible electronics, sensors/wearable sensors.
+
+
+
+
+                                                                                             filling these gaps between rigid electronics and soft human
+I. INTRODUCTION                                                                              body, which gives more opportunities for electronics in var-
+Electronics has been evolving over a century since J.A. Flem-                                ious fields and may become a next evolutional platform for
+ing invented the first vacuum diode in 1897, as the sizes of                                 future electronics.
+components and boards got smaller and smaller, integrated                                        Since the first stretchable single crystal silicon wavy ribbon
+circuits helped people shrink massive computers into portable,                               is demonstrated in 2006 [1], people have explored numer-
+mobile, and even wearable devices. However, as traditional                                   ous new materials, methods, structures, advanced fabrication
+electronics are based on silicon and rigid printed circuit                                   process, and innovative applications for the development of
+boards (PCB), they apparently don’t perfectly suit wearable                                  soft, flexible and stretchable electronics. Apart from those
+scenarios, where movements, deformations, perspirations and                                  for implanted use, skin electronics is typically applied on the
+breathing of the skin might be hindered due to the mismatch-                                 skin outside of the body, functions for sensing physiologi-
+ing between Young’s moduli, flexibility and permeability of                                  cal signals, monitoring physical activities, harvesting energy
+rigid electronics and human body. In this context, the concept                               from daily life, and delivering medical therapies, stimulations,
+of soft, thin and stretchable skin electronics is brought up for                             or perceptible information to the human body. The goal of
+                    This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+VOLUME 4, 2023                                                                                                                                                              55
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+                                                                        of thin and conformable enough to be imperceptible, and
+                                                                        permeable, breathable in styles of textiles and clothes. Last
+                                                                        but not least, we listed a series of advanced research work
+                                                                        on skin electronics in different applications, which can be
+                                                                        roughly categorized into two sub-groups according to their
+                                                                        purposes, which are healthcare-oriented and human-machine
+                                                                        interface (HMI) related skin electronics.
+
+                                                                        II. MATERIALS FOR SKIN ELECTRONICS
+                                                                        A. SUBSTRATE AND ENCAPSULATION
+                                                                        For soft and stretchable electronics, related substrate materials
+                                                                        largely determine their functional performance, as almost all
+                                                                        functional electronic devices and circuit connections must
+                                                                        be carried by various substrates during the manufacturing
+                                                                        process or as final products. Required substrate materials
+                                                                        for flexible electronics manufacturing are usually soft and
+                                                                        bendable films, such as common polyethylene terephthalate
+                                                                        (PET), polyimide (PI), etc. However, for skin electronics,
+                                                                        requirements for the intrinsic properties of substrate materi-
+FIGURE 1. Schematics of skin electronics in the aspects of materials,
+designs, and applications.
+                                                                        als are more stringent, such as the biocompatibility between
+                                                                        substrate materials and the skin (non-toxic to the skin, and
+                                                                        low likelihood of causing allergic to the skin), similarity or
+                                                                        matching of Young’s modulus of skin and substrate materials,
+realizing high-fidelity signal or information interacting with
+                                                                        the conformality between substrate materials and the skin,
+the skin means the device should be able to intimately con-
+                                                                        and the ductility of substrate materials, etc. Often reported
+tact with the skin without peeling off, and maintains stable
+                                                                        soft substrate materials for skin electronics are silicone-
+electrical or mechanical performance even when it undergoes
+                                                                        based elastomers (Ecoflex, PDMS) [2], [3] and rubbers (SBS,
+stretching, bending or twisting caused by natural movements
+                                                                        SEBS) [4], [5], and more, hydrogels, as three-dimensional
+and deformations of the skin. That means the materials for
+                                                                        network polymer materials filled with water, possessing good
+composing skin electronics should either be intrinsically or
+                                                                        flexibility and biocompatibility, therefore are increasingly
+engineered to be flexible and stretchable. Meanwhile, the
+                                                                        used as interface materials between skin and soft electron-
+adhesiveness, bio-compatibility (that won’t cause allergic re-
+                                                                        ics. The intrinsic superior compliance of Ecoflex substrates
+sponse), moisture permeability, wireless independence and
+                                                                        makes them often used in skin electronics with large cur-
+unobtrusiveness are also desired for developing ideal skin
+                                                                        vature deformation and huge stretch [6], [7], [8]. Unlike
+electronics.
+                                                                        the preparation process involving chemical cross-linking of
+   To develop high performance skin electronics devices and
+                                                                        silicone elastomers, polystyrene-block-polybutadiene-block-
+systems that meet the needs mentioned above, researchers
+                                                                        polystyrene (SBS) and polystyrene-block-poly (ethylene
+made efforts in different aspects of it, from basic chemistry
+                                                                        butylene)-block-polystyrene (SEBS) are typical block copoly-
+and materials parts of the device, the mechanics and elec-
+                                                                        mers, and can be prepared into elastomers by physical
+trical engineering parts, integration and miniaturization, to
+                                                                        cross-linking method (e.g, solvent evaporation), which al-
+exploring the potential applications in various fields. In this
+                                                                        lows them to match more substrate manufacturing crafts
+review, we summarized recent high impact and representa-
+                                                                        [4], [5]. Hydrogels, which closely resemble human tis-
+tive research advances in skin electronics and categorized
+                                                                        sue due to their abundant water content, are considered
+them in three main topics, materials, designs and applica-
+                                                                        very promising as tissue-electronic interfaces [9], [10]. Be-
+tions, each for one chapter (Fig. 1). For the materials part,
+                                                                        sides, some water-soluble substrate materials, such as PVA,
+we firstly introduce most commonly used options in substrate
+                                                                        are widely used in skin electronics’ fabrication/transfer
+selection, followed by examples in functional materials with
+                                                                        process [11].
+specific physical or chemical properties for different purposes,
+and more importantly, the typical soft conductive materials
+which are essential for constructing electrical connections             B. FUNCTIONAL MATERIALS
+and circuits, to make them flexible and stretchable enough              With further research on skin electronics, varieties of func-
+for stably working on soft and deforming skin. The designs              tional skin electronics have been designed and developed to
+chapter discussed several mechanics design strategies that              satisfy people’s individual needs, such as resistance-based
+help turn unstretchable materials (e.g., metal) into stretch-           sensors for strain and tactile detection, electronic skins with
+able formats, and different routes for fabricating the skin             energy harvesting devices, or electro-chromic/luminescent
+electronics with higher comfortability for wearing, in aspects          functions, etc. To meet the functional requirements mentioned
+
+56                                                                                                                          VOLUME 4, 2023
+FIGURE 2. Functional materials for skin electronics. (a) PZT-based piezoelectric actuator and sensor for tissue modulus detection [12]; (b) Self-powered
+system with integrated PZT-based energy generator and PMN-PT-based capacitor [13]; (c) PMN-PT-based piezoelectric film for direct electrical stimulation
+of cardiac pacing [14]; (d) PVDF-based self-powered mechanoreceptor for e-skin with stimulus recognition [15]; (e) Piezoelectric fiber films by
+electrospinning PVDF organic solution for e-skin [16]; (f) Wearable thermoelectric generator through Lego-like reconfigurable design based on Bi and Sb
+chalcogenides thermoelectric legs [19]; (g) Flexible perovskite arrays for photodetection [20]; (h) Electrochromic polymer-based e-skin for touch sensing
+[22]; (i) electrochromic e-skin based on inorganic electrochromic material (WO3 ) [23]; (j) Stretchable electroluminescent e-skin based on ZnO phosphors
+[2].
+
+
+
+
+above and principles for wearables, the selection and design                  a thickness of 500 nm, and utilized the piezoelectric ef-
+of functional materials are essential to manufacturing skin                   fect and inverse piezoelectric effect of PZT to detect tissue
+electronics. To start with, piezoelectric ceramic materials are               modulus (Fig. 2(a)). Peddigari et al. [13] designed an all-
+often utilized in transducing between mechanical pressure                     in-one skin electronic system integrating energy harvesting
+and electrical signals, and thus can be adopted for pres-                     and storage, in which flexible PZT film was used as the
+sure sensors. Yu et al. [12] fabricated piezoelectric ceramic                 energy harvesting material due to its excellent piezoelectric
+lead zirconate titanate (Pb(Zr0.52Ti0.48)O3, PTZ) films with                  properties, and Pb(Mg1/3Nb2/3)O3–PbTiO3 (PMN–PT) was
+
+VOLUME 4, 2023                                                                                                                                        57
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+used as the capacitor material (Fig. 2(b)). Similarly, work            which can change human visual perception under the effect
+by Hwang et al. [14] employed flexible PMN–PT thin film                of electrical energy. Chou et al. [22] fabricated stretchable
+as piezoelectric layer for developing a self-powered cardiac           electrochromic thin layers by spin-coating electrochromic
+pacemaker (Fig. 2(c)). In addition to the piezoelectric ceram-         polymers, and achieved tactile sensing through color changes
+ics mentioned above, piezoelectric polymers are also common            by pressing-induced changes in applied voltage (Fig. 2(h)).
+functional materials for flexible piezoelectric skin electronics       Similarly, inorganic material WO3 is also often employed to
+due to their better compliance and capacity to be fabricated           fabricate electrochromic devices, for instance, Yun et al. [23]
+into desired structures through common processes. Chun et al.          fabricated stretchable electrochromic supercapacitors basing
+[15] reported a flexible self-powered mechanoreceptor sensor           WO3 nanotubes coated with PEDOT: PSS (Fig. 2(i)). Elec-
+using polyvinylidene fluoride (PVDF) film as piezoelectric             troluminescent materials offer exciting prospects for skin
+layer to achieve simulating the perception of complex pressure         electronics with machine-vision interaction and flexible dis-
+stimuli by human skin (Fig. 2(d)). Wang et al. [16] dissolved          play. Work by Larson et al. [2] reported an electroluminescent
+PVDF in an organic solvent, then prepared fiber films with             elastomer that can withstand huge deformation while elec-
+both piezoelectric and pyroelectric effects by electrospinning         troluminescence by embedding electroluminescent materials
+the mixture solution (Fig.2(e)).                                       (ZnS phosphor) into the elastomer and forming a multi-layer
+   Flexible electronic devices based on thermoelectric en-             structure (Fig. 2(j)). Similarly, Zhao et al. [24] synthesized
+ergy conversion are another promising alternative, since, skin         ZnS: Cu, Al phosphor particles with higher luminous effi-
+electronics are in direct or close contact with the human              ciency as electroluminescent materials for self-powered touch
+body, which provides the entire system with continuous and             display.
+stable heat. There are mainly two aspects to the design of
+thermoelectric energy conversion devices in skin electronics:
+1) the original fabrication of functional thermoelectric en-           C. CONDUCTIVE MATERIALS
+ergy conversion components (including fundamental material             For the material system of skin electronics, in addition
+design and process development, etc.); 2) the optimization             to functional materials for specific functions and sub-
+of structure and mechanics based on commercially avail-                strate/encapsulation materials for overall protection, conduc-
+able thermoelectric energy conversion devices. Cao et al.              tive materials are essential to achieve the interconnection of
+[17] fabricated BiTe-SbTe-based flexible thermocouples using           soft functional components and the complete function of the
+screen printing process, and investigated the effect of dif-           whole circuits. To match specific application scenarios, the
+ferent binders on the thermoelectric performance. Based on             design and selection of conductive materials in skin elec-
+commercially available thermoelectric legs, Kim et al. [18]            tronics is very critical to maintaining overall flexibility and
+conducted structural design and optimization research on ther-         functionality, and common conductive materials for inter-
+moelectric energy conversion devices to achieve flexibility            connection of electronic components can be roughly divided
+and functionality of the overall device through experiments            into four categories according to conductive properties:1)
+and simulations. Ren et al. [19] developed a wearable and self-        conductive polymer [25], [26]; 2) carbon-based conductive
+healing, reconfigurable thermoelectric generator (Fig. 2(f)).          nanomaterials (graphene [27], [28], carbon nanotube [29]
+This device is based on thin film Bi and Sb chalcogenides              et al.); 3) metal-based conductive materials (gold [11] , sil-
+deposited on PI films as the n/p-type legs, and utilized liquid        ver[25], [27] etc.); 4) hydrogel-based conductive materials
+metal’s self-healing capability to realize Lego-like reconfig-         [30]. A type of conductive material may also be combined
+uring, which helped it to be stretchable while owning a high           with other conductive components or modified in molecular
+open circuit voltage of 1V/cm2 and a maximum power output              structures for achieving better compliance and functionality.
+of 19µW/cm2 at temperature difference of 95K. Functional               For example, PEDOT: PSS is the most typical and widely
+perovskite-based devices have exciting applications in skin            studied conductive polymer in skin electronics. As shown in
+electronics, especially photodetectors, work by Wu et al.              Fig. 3(a), Ershad et al. [25] mixed silver flakes into PEDOT:
+[20] demonstrated fine flexible perovskite arrays for light            PSS solution to obtain a conductive ink for mask printing
+sensing and real-time light trajectory capture (Fig. 2(g)).            directly on the skin surface, and the mixture ink also can
+And Lei et al. [21] achieved fabrication of ultrathin per-             be used to write conductive connections on skin with a ball-
+ovskite film (∼600 nm to ∼100 μm) with precise control                 point pen. A topological supramolecular structure based on
+by lithography-assisted epitaxial growth method for single-            PEDOT: PSS was designed by Jiang et al. [26] to achieve
+crystal photovoltaic devices.                                          high conductivity and better stretchability in small-scale fab-
+   For a long time, controllable and flexible optoelectronic           rication (Fig. 3(b)). Carbon-based nanomaterials are regarded
+display devices have been a popular research area for ex-              as promising conductive interconnections in skin electronics
+panding skin electronic functions, which can provide the               due to their excellent processability and compatibility with
+most direct means for human-machine interaction and human-             various functional/substrate materials. Graphene patterns with
+environment interaction. There are two main novel methods              low sheet resistance can be easily fabricated by transient laser
+for realizing wearable and flexible optoelectronic display:            heating PI films [31], for instance, patterns fabricated by car-
+electrochromic (EC) and electroluminescence (EL), both of              bon dioxide laser-induced graphene (LIG) are employed for
+
+58                                                                                                                         VOLUME 4, 2023
+FIGURE 3. Conductive materials for skin electronics. (a) Hybrid conductive ink composed of Ag flakes and PEDOT: PSS for in-situ printing [25]; (b) PEDOT:
+PSS-based topological supramolecular structure with better stretchability and high conductivity at tiny scales [26]; (c) LIG-based gas-permeable
+electrophysiological sensor [28]; (d) Biofuel cells with LIG as catalyst carrier [27]; (e) Serpentine Au foils designed for conformal skin electronics [32]; (f)
+Liquid-metal-based e-skin by in-situ stamp printing [34]; (g) Conductive hydrogel based on PANI polymer network [36]; (j) Ionic conducting hydrogels
+with NaCl as electrolyte [41].
+
+
+
+
+electrophysiological signals detection [28] (Fig. 3(c)) and bio-                    The advantage that metal-based conductive materials have
+fuel cells [27]. Sun et al. et [28] utilized the precise patterning              over other conductive materials is their high electrical conduc-
+of LIG to fabricate complex functional circuits, while the high                  tivity. However, bulk metals are mostly rigid and unbendable,
+porosity of graphene provides a new option for comfortable                       which seems to be incompatible with soft and stretchable
+and breathable skin electronics. Huang et al. proposed a tran-                   skin electronics. Therefore, necessary structural design and
+sient, ultrathin and implantable biofuel cell by LIG and Au                      process optimization are required for intrinsically rigid metal
+nanoparticles [27] (Fig. 3(d)), which harvests energy from the                   connections in skin electronics (detailed description in next
+oxidation of glucose and obtains high open circuit potential                     section); for instance, gas-permeable Au nanomeshes [11]
+of 0.77V and maximum power density of 483.1µW/cm2 . Kim                          and lightweight serpentine Au foils [32] (Fig. 3(e)) are fab-
+et al. [29] developed a reconfigurable, low-modulus conduc-                      ricated to form conformal contact with skin. Another class
+tive clay based on carbon nanotubes for electronic skin with                     of metal-based materials that are very promising for e-skin
+thermoelectric energy conversion.                                                fabrication are gallium-based liquid metals, which, like the
+
+VOLUME 4, 2023                                                                                                                                               59
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+well-known mercury (Hg), are fluid at room temperature and             structure, wavy pattern, and pre-stretching based 2D/3D struc-
+have metallic electrical conductivity. Notably, unlike metal-          ture. Then we summarized three types of comfortability
+lic mercury, gallium-based liquid metals have low vapor                design to enhance the user’s experience of skin electronics,
+pressures and negligible toxicity [33], which enables them             which conclude tattoo-based, textile and garment-based, and
+to be used as conductive connections in skin electronics. Wu           fiber-based skin electronics.
+et al. [34] stamp-printed liquid-metal-based conductive nan-
+oclay to fabricate e-skin with excellent electrical conductivity
+in situ on the arm (Fig. 3(f)). Not only bulk liquid metals            A. MECHANICS DESIGNS
+can be used to print e-skins in situ, but liquid metal particles       Serpentine structure, as a kind of structure commonly used in
+similarly. Lee et al. [35] achieved high-precision mask print-         flexible electronics, has been proven to significantly improve
+ing of electronic tattoos directly on the skin based on liquid         the elasticity and stretchability of intrinsically rigid metal
+metal particle coated with Pt-modified CNTs. Hydrogel-                 interconnections in stretchable electronic devices [42], [43].
+based conductive materials have become a popular option as             Song et al. [44] introduced stacked multilayer network mate-
+connecting components in skin electronics due to their bio-            rials as a synergistic platform with serpentine interconnects to
+compatibility, pluripotency, and functionality easy to extend          integrate and encapsulate electronic devices (Fig. 4(a)). The
+and modify. The design ideas of hydrogel-based conductive              proposed strategy demonstrates a miniaturized electronic sys-
+materials can be roughly divided into three categories accord-         tem (11 mm×10 mm), with the elastic stretchability of ∼20%
+ing to the components that play a conductive role, namely              and large area coverage (∼110%), which has great potential
+polymer conduction [36], penetrating network conduction                in compass displays, somatosensory mouse and physiological
+[37] and ionic conduction [38], [39]. Work by Wang et al.              signal monitoring. Serpentine-based skin electronics is also
+[36] proposed an interpenetrating network hydrogel in which            very essential for infant health clinical care, Chung et al. [45]
+poly(acrylamide-co-hydroxyethyl methyl acrylate) (P(AAm-               developed an epidermal electronic system (EES), which can
+co-HEMA)) network endowed the hydrogel system with                     be used for electrocardiogram (ECG) and PPG monitoring
+toughness and interpenetrating polyaniline (PANI) polymer              (Fig. 4(b)). The electronic layer contains a set of thin, narrow
+network assumed the conductive function (Fig. 3(g)). Ohm               serpentine metal traces that interconnect multiple, chip-scale
+et al. [37] mixed silver flakes into PAAm-alginate hydrogels,          integrated circuit components. With this structure, the device
+and dehydrated them so that the silver flakes formed pene-             can bend to smaller radii (6.4 mm and 5mm) than required
+trating networks inside hydrogels to fabricate stretchable and         (>∼140 mm and >∼50 mm for the chest and foot) without
+highly conductive hydrogels. Similarly, Tringides et al. [40]          damage. When uniaxial stretching the ECG EES up to 16%
+mixed CNTs and graphene into alginate to form conductive               and PPG EES up to 13%, the electronics and antenna structure
+penetrating networks to enhance the electrical conductivity            remain below the limit of plastic deformation (∼0.3%). And
+of alginate hydrogels for electrode array. Since water in the          even when device is stretched to 20% strain, the inductance,
+hydrogel occupies the absolute dominant component, water-              Q factor and resonant frequency of the antenna vary very little
+soluble ions can dissolve in the hydrogel and serve as main            (< 5%).
+conductive component; both sodium chloride [38] and potas-                Fractal pattern refers to the self-similarity of a geomet-
+sium [39] chloride are common ion-conducting components                ric pattern, complete or approximate resemblance to a part
+in conductive hydrogels. To obtain much better stretchabil-            of itself [46]. Especially in mechanics design of skin elec-
+ity and transparency than metal conductors, Keplinger et al.           tronics, such as von Koch curve, Peano curve, Hibert curve,
+[41] et al. fabricated totally transparent ionically conductive        Moore curve, Vicsek fractal, Greek cross, etc., which can be
+hydrogels with sodium chloride as electrolyte for stretchable          engineered to accommodate enhanced elastic strains along
+actuators that generate strain under high voltage, and can even        selected dimensions and support biaxial, radial, and other
+be used as a transparent loudspeaker(Fig. 3(h)).                       deformation modes. With “All Vertical” Peano pattern design,
+                                                                       silicon nanomembrane can reach a largest deformation with
+III. ADVANCED DESIGN STRATEGIES                                        100% strain and high areal coverage [47] (Fig. 4(c)). Tian
+Human skin is mechanically flexible and may deform seri-               et al. [48] fabricated a three-set electrode array, each consists
+ously during movements and actions, thus proper mechanics              17 fractal mesh electrodes in Greek-cross patterns, and this
+design strategies are needed for endowing skin electronics             fractal mesh electrode suggests an elastic stretchability of
+a certain degree of flexibility and stretchability so as to en-        18% (assuming a yield strain of 0.3% for the gold), which
+sure conformability of the skin interface, stable electrical           is sufficient for straining during natural motion of skin.
+performance and signal fidelity during usage in daily life.               Originating from the natural honeycomb of bees, hon-
+Meanwhile, as skin electronics are directly attached to or             eycomb structure, which consists of uniformly-distributed
+integrated on human skin, wearing comfortability is very im-           hexagonal cells has been extensively studied in soft electron-
+portant, and lots of efforts have also been made by researchers        ics, because this porous structure has a large surface area to
+on the comfortability designs of skin electronics.                     volume ratio and excellent mechanical properties. Recently,
+   In this section, we summarized six representative types of          Chen et al. [49] combined an organic semiconductor film
+mechanics design strategies, which are serpentine structure,           with a honeycomb structure to develop a high-performance
+fractal pattern, honeycomb structure, trampoline-inspired              organic electrochemical (OECT) transistor (Fig. 4(d)),
+60                                                                                                                         VOLUME 4, 2023
+FIGURE 4. Mechanics designs in skin electronics. (a) Stacked multilayer network materials as a synergistic platform with serpentine interconnects.
+[44](b) An epidermal electronic system (EES), which can be used for electrocardiogram (ECG) and PPG monitoring. [45] (c) Stretchable silicon
+nanomembrane using fractal patterns in Peano-curve.[47] (d) Honeycomb-inspired structure in polymer film.[49] (e) Trampoline-inspired structure.[50] (f)
+Wavy pattern-based structure. [51] (g-i) Pre-stretching based 2D and 3D structure. [52]–[54].
+
+
+
+which has a charge transport stability over 30∼140% ten-                     microstructure modification using sandpapers (Fig. 4(e)), the
+sional strain, only limited by metal contact fatigue. This                   triboelectric nanogenerator (TENG) exhibits great sensitivity
+honeycomb-semiconductor maintains high ion uptake and                        of 0.367 mV Pa-1 and accurate unchanged signal outputs
+stable electrochemical and mechanical properties over 1500                   even under 35% strain, which shows great potential for self-
+redox cycles with 104 stretching cycles with 30% strain. With                powered sensor and human-machine interfaces [50].
+stable ECG signal recording cycles and synapse responses un-                    Wavy pattern is widely used in layout designs for stretch-
+der varying strains, it offers a great opportunity for advanced              able skin electronics. Kang et al. [51] designed a vibrotactile
+skin electronics.                                                            actuator based on wavy Ag microwire array, which highly
+   Trampoline-inspired structure design is a strategy for im-                promotes vibration intensity and cycling performance because
+proving the electrical performance of skin electronics under                 of great areal coverage and improved mechanical stability
+stretching and out-of-plane deformations. Combined with the                  (Fig. 4(f)). As a result, this vibrotactile actuator can be
+
+VOLUME 4, 2023                                                                                                                                        61
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+adopted on a commercial wearable smart watch directly and              under constant tapping (≈16 kPa). It can also be customized
+exhibits stable performance over 1000 actuating cycles.                into various tattoo patterns, which indicates great potential
+   When 2D and 3D buckling structures are needed, pre-                 in wearable nanogenerators and human-machine interface.
+stretching turns up to be a commonly used method for                   Norton et al. [56] developed a fractal mesh geometry of soft
+preparing these special structures. Huang et al. [52] pre-             foldable electrode, which can be mounted on the complex
+sented an extremely stretchable flexible transparent electrode         surface topology of the auricle and the mastoid directly and
+by transferring metal nanofibers to a pre-stretched PDMS sub-          chronically. It can provide high-fidelity and long-term capture
+strate and then release to induce an in-plane sinusoidal wavy          of electroencephalogram (EEG), and can be equipped for two
+structure, which achieved the superior mechanical stretchabil-         weeks throughout daily activities, such as vigorous exercise,
+ity with tensile strains up to 300% in Au nanotrough networks          swimming, sleeping, and bathing (Fig. 5(b)).
+(Fig. 4(g)). The Au nanotrough networks can be stretched up               Integrating skin electronics into clothes is also an ingenious
+to 120% repeatedly for 100000 cycles, demonstrating enor-              design to make wearable devices portable and breathable.
+mous potential as a stretchable flexible transparent electrode         Jiang et al. [57] integrated a nanofiber composite (LPPS-NFC)
+in skin electronics. Ma et al. [4] fabricated a liquid-metal           based hybrid TENG and PENG energy harvester (TPENG)
+fiber mat through pre-stretching method, with this step, the           to the top and a PENG to the bottom side of a shoe pad for
+permeability of the mat was activated, and the liquid metal            collecting the energy from walking and running, which has a
+formed a laterally mesh-like and vertically wrinkled structure,        promising for self-powered textile sensors and wearable elec-
+which has an ultrahigh stretchability (adapt to omnidirec-             tronics (Fig. 5(c)). Textile-based materials can realize great
+tional stretching over 1800% strain) and electrical stability.         breathability for skin electronics, Liang et al. [58] developed
+With pre-stretching method, 3D structure can also be re-               a topology-optimized droplet energy harvesting fabric to ob-
+alized easily. Xu et al. [53] reported a 3D wavy structure             tain stable and efficient output through the falling raindrops
+through spray printing Ag NWs on pre-stretched multiscale              (Fig. 5(d)). Based on this self-powered device, a wireless
+porous polystyreneblock-poly(ethylene-ran-butylene)-block-             wearable prototype with great flexibility and breathability is
+polystyrene (SEBS), which shows a negligible change of                 successfully demonstrated to monitor the droplet properties,
+electrical resistance (∼1%) at a bending radius of 1 mm and            such as temperature, pH, and salinity. Fan et al. [59] fabricated
+increases ∼17% under 100% uniaxial strain (Fig. 4(h)). Jang            a triboelectric all-textile sensor with high sensing performance
+et al. [54] developed a 3D architecture by releasing the pre-          (pressure sensitivity of 7.84 mV Pa-1 , response time of 20
+strain to cause the 2D precursor to transform geometrically,           ms, and stability of over 105 cycles). When stitched into a
+through a coordinated collection of in-plane and out-of-plane          wristband, fingerstall, sock, and chest strap, it can measure
+translational and rotational motions (Fig. 4(i)). With the help        the pulse at the neck, wrist, fingertip, and ankle (Fig. 5(e)).
+of a soft encapsulation strategy that applies an encapsulation         In addition, it has a good machine washability of over 40
+material as a liquid precursor at a state of partial release of the    washes, which is greatly promising for future healthcare
+substrate prestrain, then crosslinking it into a solid form and        monitoring.
+completing the release. The elastic stretchability is enhanced            Fiber materials are always used to make wearable elec-
+∼2.2 and 2.8 times for uniaxial and radial stretching compared         tronics due to their stretchability and porosity. Zhuang et al.
+to the usual case of encapsulation, which can significantly            [60] reported a liquid metal (LM)-superlyophilic and stretch-
+solve the engineering constraints and performance limitations          able fibrous thin-film scaffold fabricated by electrospinning
+of 2D materials.                                                       of SBS, which shows high conductivity of 155900 S cm-1
+                                                                       and a marginal resistance change of only 2.5-fold at 2500%
+B. COMFORTABILITY DESIGNS                                              strain (Fig. 5(f)). This fiber can be patterned with printing
+As for skin electronics with excellent mechanical properties,          technologies for wearable device design. Xiao et al. [61] de-
+when applied to the human body, it is very important to con-           veloped a recharged solid-state Zn/MnO2 fiber battery with
+sider its comfortability because it usually directly attaches to       over 500 hours cycle performance and maintaining 98.0% ca-
+the skin. Therefore, there is plenty of research concentrated on       pacity after more than 1000 charging/recharging cycles, which
+comfortability designs to make it thin, flexible, lightweight,         can power sensors to realize healthcare monitoring, includ-
+breathable, and biocompatible.                                         ing heart rate, temperature, humidity, and altitude monitoring
+   Tattoo-like skin electronic has attracted many concentra-           (Fig. 5(g)).
+tions due to its properties of ultra-thin, light-weighted enough
+to be imperceptible and could be seamlessly attached to the
+skin. Wong et al. [55] reported a tattoo-like triboelectric            IV. APPLICATIONS
+nanogenerator (TL-TENG) with thickness of tens of microm-              A. HEALTHCARE & E-MEDICINE
+eters, which can interface with the skin without additional            The wearable and flexible electronic devices are crucial
+adhesive layers (Fig. 5(a)). The TL-TENG demonstrates the              for accurate, continuous and long-termed healthcare and e-
+stable performance of energy harvesting with the open-circuit          medicine, which can cozily cover the human epidermis acting
+voltage reach to ≈180 V and short-circuit current ≈2.2 μA              like a portable and intelligent health examination center
+
+
+62                                                                                                                         VOLUME 4, 2023
+FIGURE 5. Comfortability designs in skin electronics. (a) Tattoo-like ultrathin triboelectric nanogenerators (TL-TENG) [55]. (b) Ultrathin
+electroencephalography (EEG) electrodes as brain-computer interface [56]. (c) Nanofiber composite based energy harvester of shoepad for collecting
+energy from walk and running [57]. (d) Textile-based skin electronics as energy harvesting through raindrops [58]. (e) Textile-based triboelectric sensor
+with good washability [59]. (f) Liquid metal - superlyophilic and strechable fiber based material for wearable device design [60]. (g) Fiber-based Zn/MnO2
+battery with high cycling stability [61].
+
+
+
+
+without the limitation of time and space. Skin is an important                Electroencephalography (EEG), which records electrogram of
+source to transmit and generate physiological signals.                        the electrical activity on the scalp representing the macro-
+                                                                              scopic activity of the brain’s surface layer beneath. Elec-
+1) ELECTROPHYSIOLOGY SIGNAL                                                   trooculography (EOG) is a technique for measuring the
+Electrophysiology signals are the measurement of voltage                      standing potential of the corneo-retinal between the front and
+changes or electric current or modification covering a wide                   the back of the human eye.
+range of scales, from single ion channel proteins to vast                        In order to record physiological electric signals from dif-
+organs like the brain. On-skin electrophysiology monitoring                   ferent channels as many as possible and achieve long-termed
+techniques mainly involve electrocardiology (ECG), which                      and continuous MRI-compatible monitoring, Tian et al. [48]
+gives comprehensive information about heart illness from the                  propose the manufacturing method of a large-area elec-
+ventricles and atria for the study of arrhythmia, atrial fibril-              tronic interfaces and its applications on prosthetic control
+lation and other cardiac disorders; Electromyography (EMG),                   and cognitive monitoring (Fig. 6(a)). As for the detection of
+which analyzes and collect the electrical signals produced by                 EMG signal, large-area, body-scale epidermal systems can
+the skeletal muscles for the analysis of abnormalities, mo-                   offer comprehensive EMG recording capabilities across var-
+tor unit recruitment and biomechanics of human movements;                     ious muscle groups, which enables more precise control of
+
+VOLUME 4, 2023                                                                                                                                         63
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+FIGURE 6. Applications of skin electronics in healthcare. (a) MRI-compatible epidermal electronic interface for multichannel EMG measurements [48]. (b)
+A self-adhesive, stretchable and intrinsically conductive polymer dry electrode for EEG sensing, where alpha wave were detected when eyes closed [62].
+(c) Mechano-acoustic sensing patch for detecting physiological process and body motions [70]. (d) Miniaturized electromechanical devices for the
+monitoring of psoriasis lesions via the biomechanics sensing of deep tissue [74]. (e) A wearable wireless, battery free sweat sensor for monitoring Na+
+and pH, which is self-powered by body motion-driven TENG [76]. (f) A bioadhesive ultrasound device for 48 hours continuous imaging of living diverse
+organs [83].
+
+
+
+
+multifunction prostheses. Fig. 6(a) shows the epidermal EMG                  quickly. Although the dry contact electrode is more
+array mounted on the right arm of the subject located in an                  durable and conductive, its application is also subject
+MRI scanner, by which EMG signals of ten channels can be                     to limited stretchable and adhesive capacities. In
+fully recorded respectively from one trial and after magnetic                this way, Zhang et al. [62] proposed a stretchable,
+resonance artefact correction.                                               self-adhesive and fully-organic dry electrode with
+   EEG acquisition usually requires multiple electrodes plac-                unique fabrication processing of biocompatible blends
+ing on the scalp to monitor epilepsy, sleeping state, detecting              of      poly(ethylenedioxythiophene):poly(styrenesulfonate),
+evoked potentials for brain-computer interfaces (BCI) and                    waterborne polyurethane (WPU) and D-sorbitol. As Fig. 6(b)
+so on. However, commercial conductive gels-based EEG                         shown, multiple EEG electrodes are arranged to cover
+electrode becomes invalid easily as the water loses                          the scalp of the subject to collect the EEG signal during
+
+64                                                                                                                                       VOLUME 4, 2023
+eye-blinking, where alpha wave could be detected during eyes      deformation in tissue via piezoelectric and electromagnetic
+closed and a broader frequency range detected during eyes         sensor, which are normally used to monitor and diagnose
+opened. Zulqarnain et al. proposed wireless and wearable          tissue lesions from corresponding skin diseases [72]. Degde-
+ECG sensing device made of amorphous Indium Gallium Zinc          viren et al. presented an ultrathin and stretchable mechanical
+oxide thin film transistors via NFC RF communications [63].       sensing device consisting of mechanical actuators and sensors
+Kim et al. presented a reusable, multichannel, surface EMG        made of nanoribbons of PZT, which can apply to measure
+sensor array that covers multiple muscles over sufficiently       the viscoelasticity in the near-surface areas of the epidermis.
+large areas, with compliant designs that provide varying          But most of these methods only concern about the superfi-
+degrees of stiffness for repetitive uses [64]. Ameri et al.       cial depth of epidermal skin tissues [73]. In this way, Song
+proposed an undetectable EOG sensor system based on               et al. put forward an miniatured electromechanical devices
+transparent, breathable, ultrathin, ultrasoft, and non-invasive   used to accurately measure modulus of deep tissue (∼8 mm)
+graphene electronic tattoos (GET). The GET EOG can                for locating lesions associated with psoriasis [74]. Fig. 6(d)
+capture high-precision EOG with an angular resolution of          shows the module measurement of guttate psoriasis based
+4° of eye movement, and eye movement can be correctly             on the principle of quasi-static, tensile stress-strain responses
+interpreted [65].                                                 via magnetic electromechanical modulus sensor. Furthermore,
+                                                                  multiple sensors can be configured into arrays which indicates
+                                                                  its potential application in wounds of arbitrary shapes.
+2) MECHANICAL SIGNALS
+Mechanical signals generally refer to passive and active          3) SWEAT SENSORS
+epidermal mechanical vibration signals [66]. Passive me-
+                                                                  Sweat contains many important chemical components as
+chanical signals involve physiological mechanical signals
+                                                                  physiological indicators such as sweat glucose, pH and other
+produced by human tissues, such as cardiac rhythm, diastolic
+                                                                  metabolites and nutrients. The flexible and wearable sweat
+of skeletal muscles, gastrointestinal tract and so on. Elec-
+                                                                  sensor could help monitor relevant physiochemical parame-
+tronic stethoscopes and accelerometers are the two effective
+                                                                  ters and the risk alarms for an accidental physiological failure
+and frequently-used methods to detect passive mechanical
+                                                                  during sweating after strenuous exercise. Bandodkar et al. pro-
+signals. The electronic stethoscopes can translate the vibra-
+                                                                  posed a wireless, battery-free and skin-interfaced electronic
+tion vibrations of their diaphragm into electric signals by
+                                                                  sweat sensor integrating with colorimetric reagents on the
+piezoelectric [67] or triboelectric [68] materials. Unlike the
+                                                                  single-use microfluidic platform, which provided real-time
+ultra-thin and weak structure of electronic stethoscopes [69],
+                                                                  sensing of chloride, lactate and glucose after strenuous ex-
+the accelerometers have strong and durable designs. During
+                                                                  ercise [75]. What’s more, Song et al. proposed a technology
+vibration periods, the accelerometers can convert the inertia-
+                                                                  of triboelectric nanogenerators(TENGs) based sweat sensor,
+based deformation of piezoelectric material into an electric
+                                                                  which can detect dynamically monitor key sweat biomarkers
+signal. For example, Liu et al. [70] introduced a mechano-
+                                                                  with continuous power supply created from human motion
+acoustic-electrophysiological sensing platform incorporating
+                                                                  (Fig. 6(e)) [76]. However, the variety of physiochemical
+high-bandwidth triaxial accelerometers for both cardiovascu-
+                                                                  parameters is limited to the restricted methods beyond ion-
+lar disease treating and human-machine interfaces (Fig. 6(c)).
+                                                                  selective and enzymatic electrodes or direct oxidation of
+This platform records the mechano-acoustic responses to
+                                                                  electroactive molecules. As the application scenarios of sweat
+value the operation of heart like structural defects in heart
+                                                                  collection are also limited by the volume of sweat, most
+valves, rather than appearing in the ECG traces directly. Si-
+                                                                  sweat sensors are only applied after strenuous exercise. In
+multaneous ECG and heart sound measurements matched up
+                                                                  this way, Wang et al. presented a new method of wearable
+well where four auscultation sites (aortic, pulmonary, tricus-
+                                                                  electrochemical biosensor based on the unique in situ re-
+pid, mitral) for heart murmurs can be distinguished at the
+                                                                  generation and calibration technologies, which enables the
+magnified plot. What’s more, mechanical sensors attached to
+                                                                  sensitive, selective and continuous monitoring of a wide range
+the skin can capture the mechanical signal associated with
+                                                                  of trace-level biomarkers including all nine essential amino
+body motion and other physiological processes. Lee et al.
+                                                                  acids as well as vitamins, metabolites and lipids commonly
+introduced a soft, wireless mechano-acoustic sensing device
+                                                                  found in human sweat [77]. Additionally, the continuous and
+located at the suprasternal notch [71]. The different rotation
+                                                                  sufficient sweat collection can be achieved by the new strate-
+angles of the head against the torso for body-orientation cal-
+                                                                  gies of the carbochol iontophoresis-based sweat induction and
+ibration test at the application of distinguishing four sleep
+                                                                  microfluidic-based surrounding sweat sampling.
+stages can be sensed. This specific demonstration in various
+actual scenarios demonstrates the ability to respiration, vocal
+utterance, gait recognition and other healthcare applications.    4) IMAGING
+   However, some human tissues like skin are unable to            Biomedical imaging technologies such as magnetic resonance
+vibrate. Active mechanical signals generally refer to calcu-      imaging (MRI), X-rays, computed tomography (CT) and elec-
+lating the biomechanics of deep tissues by loading external       trical impedance tomography (EIT) are typically used to
+pressure via mechanical vibration actuator and detecting          image tissue deep into body, which are for locating the lesions
+
+VOLUME 4, 2023                                                                                                                   65
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+and diagnosing multiple chronic diseases. But these imaging            and power efficiency of haptic engagement [85]. An amputee
+devices are normally heavy and expensive, which only provide           volunteer can adjust the force of robot hand to grasp an
+a short period of tissue imaging. To overcome this disad-              eggshell via 30 pressure sensors on the hand and haptic feed-
+vantage, the wearable sensing based on variable methods of             back interface on the upper arm. Additionally, Sun et al. [86]
+optical [45], thermal [78], chemical [79], terahertz [80], radio       proposed augmented tactile-perception and haptic-feedback
+frequency mechanisms [81] are proposed, which penetration              rings (ATH-Rings) for human-machine interface based on VR
+depth or spatial resolution are unsatisfactory for human tissue        devices, which achieved finger bending sensing by TENG
+imaging. As the ultrasound has significant penetration depth           sensor and temperature detecting by flexible pyroelectric sen-
+and proven biocompatibility in human tissues, ultrasound-              sors with vibration and heating haptic feedback respectively
+based wearable and flexible imaging sensor deserve attention.          from eccentric rotating mass vibrators and nichrome metal
+Wang et al. put forward the stretchable ultrasonic phased ar-          wires (Fig. 6(b)). ATH-Rings with comfortable, self-powered
+rays which can achieve continuous monitoring of deep-tissue            and low voltage-driving designs realized tactile feedback
+hemodynamics [82]. The stretchable ultrasonic device elimi-            based on the advanced internet of things (IoT) portable
+nated the air gap between traditional ultrasonic probe and skin        platform.
+surface. However, the short continuous imaging duration and
+the imaging stability disturbed by the displacement between
+                                                                       2) TACTILE SENSING
+device and skin are still the technology barriers to the develop-
+                                                                       Among variable kinds of HMI technologies, tactile sensing
+ment of wearable ultrasonic imaging. Wang et al. described a
+                                                                       is one of the most fundamental mutual signal transmissions
+bioadhesive ultrasound device based on a specific bioadhesive
+                                                                       to achieve communication and control between human and
+hydrogel-elastomer hybrid, which provides 48 hours of con-
+                                                                       machine. Tactile sensing normally refers to processing contact
+tinuous imaging of diverse internal organs, including blood
+                                                                       or physical pressure signals via variable strategies such as
+vessels, muscle, heart, gastrointestinal tract, diaphragm, and
+                                                                       resistive [87], capacitive [88], piezoelectric [89], triboelec-
+lung [83]. Fig. 6(f) shows the robust adhesion between the
+                                                                       tric [90] and optical [91] technologies. Zhu et al. proposed
+bioadhesive ultrasound device and the skin. This device can be
+                                                                       a skin-electrode mechanosensing structure which consists of
+used to observe the hemodynamic changes in the body, such
+                                                                       two electrodes and the skin [92]. The skin acts as an ion-
+as the diameter of the jugular vein in the subject increasing
+                                                                       tronic interface where electrons and ions are separated by
+from the sitting or standing position to the supine position,
+                                                                       tiny voltage without occurring chemical reactions. As the
+and the blood flow rate dramatically increasing after 0.5 hours
+                                                                       capacitance of skin is in direct proportion to the contact
+of physical exercise.
+                                                                       area of skin-electrode interface, the mechanosensing structure
+                                                                       can detect the minor changes in the contact area and quan-
+B. HUMAN-MACHINE INTERFACE                                             tize in the form of capacitance value. Fig. 7(c) demonstrates
+Human-Machine Interface (HMI) is a user interface or method            the working principle of the skin-electrode mechanosens-
+that a user can interact with a machine through various bionic         ing structure. Textile-based skin-elecrode mechanosensing
+signal such as motions, touches and so on. Recent develop-             structure enables cost-effective and convenient wearables for
+ments in electronics, materials, and mechanical designs have           tactile sensing. As Fig. 7(c) shows, the smart glove indicates
+offered more possibilities for wearable HMI devices.                   pressure distributions of grasping balloon and beaker sepa-
+                                                                       rately.
+                                                                          Human skin perceives tactile stimuli through skin mechan-
+1) TACTILE FEEDBACK
+                                                                       ical receptors including slow adaptive (SA) and fast adaptive
+Tactile feedback mainly refers to provide users with percep-
+                                                                       (FA), where separately responds to the static pressure and the
+tible tactile information by directly stimulating the skin via
+                                                                       high-frequency dynamic pressure. However, the strategies of
+mechanical, pneumatic, electrical or thermal methods. Vari-
+                                                                       tactile sensing mostly realize one of slow adaptive and fast
+ous applications have been explored, which integrates with
+                                                                       adaptive. Chunet al. raise an artificial neural tactile sensing
+robot hand, touch screen and other feedback systems. Yu et al.
+                                                                       system consisting of sensors that simultaneously mimic FA
+proposed a wireless and battery-free haptic interface cooper-
+                                                                       and SA mechanoreceptors and a neural stimulator that gen-
+ating with virtual reality (VR) and augmented reality (AR),
+                                                                       erates sensory neuron-like signals which mimicked the real
+which used tactile feedback to simulate the virtual world
+                                                                       neural signals activated from the afferent nerves [92]. Robot
+in addition to visual and audial feedback, which makes VR
+                                                                       equipped with this artificial neural tactile sensing system
+experience more immersive [84]. Mechanical-based haptic
+                                                                       can be used for surface texture recognition based on a deep
+interface induces tactile sensation on the skin via vibration
+                                                                       learning technique that classify twenty fabrics with different
+from electrical motors, electromagnetic actuators or piezo-
+                                                                       textures.
+electric devices. Fig. 7(a) presents the applications of online
+social communication and robot hand control based on the
+skin-integrated haptic interface. What’s more, Jung et al. put         3) GESTURE SENSING
+forward a new strategy for haptic interface with the promotion         With the development of artificial intelligence, gesture sens-
+of light weight and array precision to improve the strength            ing become a hot research object. Wearable and flexible
+
+66                                                                                                                        VOLUME 4, 2023
+FIGURE 7. Applications of skin electronics in human-machine interface. (a) A skin-integrated wireless haptic interfaces establishing feedback for social
+communication and control of active prostheses [84]. (b) An augmented tactile feedback ring that enables thermo-haptic feedback in VR.[86]. (c) A
+skin-electrode iontronic interface for tactile sensing, which can be applied to the smart glove for pressure indication of balloon and beaker [92]. (d) A
+flexible and stretchable electronic device based on metal oxide nanofiber networks for gesture sensing [93]. (e) A bioinspired soft electroreceptor for
+untouched somatosensation, which achieves the gesture distinguishing for movement control of game characters [94]. (f) A wireless human-machine
+interface for closed-loop control between robot and human based on robotic VR [95]. (g) An epidermal electronic platform for EMG sensing and
+electrotactile stimulation, which enables closed-loop control of the robotic arm to grip a bottle precisely [97].
+
+
+
+
+electronics for precise gesture recognition are desirable for                  bending angles of finger fitted with the devices, which en-
+lightweight and mechanically stretchable functions. Wang                       ables to translate hand gestures. Furthermore, Guo et al.
+et al. raised a preparation method of flexible and stretchable                 [94] presented bio-inspired soft electroreceptors for artificial
+metal oxide nanofiber networks for multimodal and mono-                        precontact somatosensation, which is capable of sensing ap-
+lithically integrated wearable electronics [93] (Fig. 7(d)).                   proaching targets without contact by detecting the charges that
+Hydrothermally derived oxide nanowires have been explored                      they carry naturally. Fig. 7(e) shows the electroreceptor matrix
+via the blow-spinning method. The resistivity change of de-                    and its application in playing Super Mario using touchless
+vices made from metal oxide nanofiber represents different                     control pad with four function keys.
+
+VOLUME 4, 2023                                                                                                                                          67
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+4) CLOSED-LOOP HMI                                                     device or system that fulfills this need. These are two
+To realize a closer teaming between humans and robots, en-             completely different lines of thought of researchers, but
+gagement, comprehension, and communication are required.               they both helped the development of skin electronics.
+Wearable devices make it possible to construct a closed-loop           Since skin electronics involves multidiscipline efforts
+control, sensing and feedback HMI system, where informa-               including materials science and engineering, mechanical
+tion sensed by robotics could be felt by users. Liu et al.             engineering, electrical engineering, computational science,
+presented a closed-loop HMI system based on skin-integrated            clinical medicine and even industrial or production designs,
+electronics that complies with the whole body to provide               the seamless cooperation among researchers in different fields
+wireless motion capturing and haptic feedback via Bluetooth,           becomes especially essential.
+Wireless Fidelity (Wi-Fi), and Internet [95]. Fig. 7(f) shows             Here we provided representative examples and organized
+the closed-loop HMI which is applied to saliva sample col-             them in dimensions of materials, designs and applications
+lection by nasopharyngeal swabs and difficult sport tasks              for the reference of developing novel skin electronics. How-
+such as coughing, room cleaning, and patient care. What’s              ever, due to the length limitation we cannot include all of
+more, Gu et al. proposed a soft neuroprosthetic hand pro-              them. There are many other materials types worth mentioning,
+viding simultaneous myoelectric control and tactile feedback           such as semiconductors, dielectric elastomers, etc., and other
+[96]. It is driven by pneumatic actuation, controlled by EMG           designs such as antenna designs for wireless communica-
+signals and provides electrotactile feedback on the residual           tions, other applications such as wearable display, ambient or
+limb. The soft neuroprosthetic hand has a better performance           motion energy harvesting, etc. We believed that although chal-
+than neuroprosthetic hand in speed and dexterity. A person             lenges still remain, with the rapid development of the engi-
+with a transradial amputation can use the soft neuroprosthetic         neering and fabrication techniques, and with the great need for
+hand to recreate closed-loop control and primitive touch in            wearable multifunctional personal equipment, skin electronics
+tests with blindfolds and acoustical isolation. Additionally,          could become mature products in consumer markets just like
+Xu et al. [97] presented an HMI system applying the tac-               mobile phones do, which will definitely change our lifestyle,
+tile feedback of electric stimulation with multiple sensors of         makes it more convenient, instant and seamlessly connected
+electromyography (EMG), temperature and strain, which is               for no matter point-of-care, entertainment or communication.
+constructed from patterned metal traces and polymer dielec-
+tric materials on a thin layer of silicone elastomer. As Fig.7(g)      REFERENCES
+shown, the subject can control the gripping motion of robotic          [1]  D.-Y. Khang, H. Jiang, Y. Huang, and J. A. Rogers, “A stretchable form
+hand by EMG signal, where the gripping force can be adjusted                of single-crystal silicon for high-performance electronics on rubber
+                                                                            substrates,” Science, vol. 311, pp. 208–212, 2006.
+from the electric stimulation based on the force transducer on         [2] C. Larson et al., “Highly stretchable electroluminescent skin for op-
+the robotic hand.                                                           tical signaling and tactile sensing,” Science, vol. 351, no. 6277,
+                                                                            pp. 1071–1074, 2016, doi: 10.1126/science.aac5082.
+                                                                       [3] M. Vosgueritchian, D. J. Lipomi, and Z. Bao, “Highly conductive and
+                                                                            transparent PEDOT: PSS films with a fluorosurfactant for stretchable
+V. CONCLUSION                                                               and flexible transparent electrodes,” Adv. Funct. Mater., vol. 22, no. 2,
+The emerging of skin electronics makes it possible for people               pp. 421–428, 2012, doi: 10.1002/adfm.201101775.
+                                                                       [4] Z. Ma et al., “Permeable superelastic liquid-metal fibre mat enables
+to wear all kinds of healthcare monitoring or therapy devices,              biocompatible and monolithic stretchable electronics,” Nature Mater.,
+and also smart communication or entertainment devices di-                   vol. 20, no. 6, pp. 859–868, 2021, doi: 10.1038/s41563-020-00902-3.
+rectly on the skin, lightens the burden of carrying bulky or           [5] S. Wang et al., “Intrinsically stretchable electronics with ultrahigh de-
+                                                                            formability to monitor dynamically moving organs,” Sci. Adv., vol. 8,
+tethering devices, and also makes it simpler to acquire sig-                no. 13, 2022, Art. no. eabl5511, doi: 10.1126/sciadv.abl5511.
+nals, harvest energy and deliver stimulations to/from the skin.        [6] P. Lee et al., “Highly stretchable and highly conductive metal electrode
+Undoubtedly it sheds some light on the style and platform                   by very long metal nanowire percolation network,” Adv. Mater., vol. 24,
+                                                                            no. 25, pp. 3326–3332, 2012, doi: 10.1002/adma.201200359.
+of next generation of ubiquitous electronics equipment in the          [7] X. Hu, P. Krull, B. De Graff, K. Dowling, J. A. Rogers, and W. J. Arora,
+near future. However, the difficulties in efficiency, stability,            “Stretchable inorganic-semiconductor electronic systems,” Adv. Mater.,
+reusability, mass manufacturing and cost may temporarily                    vol. 23, no. 26, pp. 2933–2936, 2011, doi: 10.1002/adma.201100144.
+                                                                       [8] M. Amjadi, Y. J. Yoon, and I. Park, “Ultra-stretchable and skin-
+hinder it from successful commercialization and universal use               mountable strain sensors using carbon nanotubes-Ecoflex nanocom-
+in the modern society. To overcome these hurdles, researchers               posites,” Nanotechnology, vol. 26, no. 37, 2015, Art. no. 375501,
+made great efforts to innovations of the functions, improve-                doi: 10.1088/0957-4484/26/37/375501.
+                                                                       [9] S. Lin, H. Yuk, T. Zhang, G. A. Parada, and H. Koo, “Stretchable
+ments of the performances, and maturation of fabrication                    hydrogel electronics and devices,” Adv. Mater., vol. 28, pp. 4497–4505,
+process in developing better skin electronics.                              2016, doi: 10.1002/adma.201504152.
+   A systematic developing process of a complete research              [10] S. Pan et al., “Mechanically interlocked hydrogel–elastomer hybrids
+                                                                            for on-skin electronics,” Adv. Funct. Mater., vol. 30, no. 29, 2020,
+work in skin electronics may start from exploiting novel                    Art. no. 1909540, doi: 10.1002/adfm.201909540.
+functional materials, then finding a proper design strategy to         [11] A. Miyamoto et al., “Inflammation-free, gas-permeable, lightweight,
+adopt this novel material into a specific application scenario to           stretchable on-skin electronics with nanomeshes,” Nature Nanotechnol.,
+                                                                            vol. 12, no. 9, pp. 907–913, 2017, doi: 10.1038/nnano.2017.125.
+achieve better performance, or it could also start from noticing       [12] X. Yu et al., “Needle-shaped ultrathin piezoelectric microsystem for
+the urgent need in a specific situation, and then try to find a             guided tissue targeting via mechanical sensing,” Nature Biomed. Eng.,
+suitable design strategy or materials options to construct a                vol. 2, no. 3, pp. 165–172, 2018, doi: 10.1038/s41551-018-0201-6.
+
+68                                                                                                                                    VOLUME 4, 2023
+[13] M. Peddigari et al., “Flexible self-charging, ultrafast, high-power-          [35] G. H. Lee et al., “A personalized electronic tattoo for healthcare re-
+     density ceramic capacitor system,” ACS Energy Lett., vol. 6, no. 4,                alized by On-the-Spot assembly of an intrinsically conductive and
+     pp. 1383–1391, 2021, doi: 10.1021/acsenergylett.1c00170.                           durable liquid-metal composite,” Adv. Mater., vol. 34, no. 32, 2022,
+[14] G. T. Hwang et al., “Self-powered cardiac pacemaker enabled                        Art. no. 2204159, doi: 10.1002/adma.202204159.
+     by flexible single crystalline PMN-PT piezoelectric energy har-               [36] Z. Wang et al., “Ultrastretchable strain sensors and arrays with
+     vester,” Adv. Mater., vol. 26, no. 28, pp. 4880–4887, 2014,                        high sensitivity and linearity based on super tough conductive hy-
+     doi: 10.1002/adma.201400562.                                                       drogels,” Chem. Mater., vol. 30, no. 21, pp. 8062–8069, 2018,
+[15] K.-Y. Chun, Y. J. Son, E.-S. Jeon, S. Lee, and C.-S. Han, “A                       doi: 10.1021/acs.chemmater.8b03999.
+     self-powered sensor mimicking Slow- and Fast-Adapting cutaneous               [37] Y. Ohm, C. Pan, M. J. Ford, X. Huang, J. Liao, and C. Majidi, “An elec-
+     mechanoreceptors,” Adv. Mater., vol. 30, 2018, Art. no. 1706299.                   trically conductive silver–polyacrylamide–alginate hydrogel composite
+[16] X. Wang et al., “Bionic single-electrode electronic skin unit based on             for soft electronics,” Nature Electron., vol. 4, no. 3, pp. 185–192, 2021,
+     piezoelectric nanogenerator,” ACS Nano, vol. 12, no. 8, pp. 8588–8596,             doi: 10.1038/s41928-021-00545-5.
+     2018, doi: 10.1021/acsnano.8b04244.                                           [38] H. Huang et al., “Multiple stimuli responsive and identifiable
+[17] Z. Cao, E. Koukharenko, M. J. Tudor, R. N. Torah, and S. P.                        zwitterionic ionic conductive hydrogel for bionic electronic skin,”
+     Beeby, “Flexible screen printed thermoelectric generator with en-                  Adv. Electron. Mater., vol. 6, no. 7, 2020, Art. no. 2000239,
+     hanced processes and materials,” Sensors Actuators A: Phys., vol. 238,             doi: 10.1002/aelm.202000239.
+     pp. 196–206, 2016, doi: 10.1016/j.sna.2015.12.016.                            [39] C. Liu, S. Han, H. Xu, J. Wu, and C. Liu, “Multifunctional highly sensi-
+[18] C. S. Kim et al., “Structural design of a flexible thermoelectric                  tive multiscale stretchable strain sensor based on a Graphene/Glycerol-
+     power generator for wearable applications,” Appl. Energy, vol. 214,                kcl synergistic conductive network,” ACS Appl. Mater. Interfaces,
+     pp. 131–138, 2018, doi: 10.1016/j.apenergy.2018.01.074.                            vol. 10, no. 37, pp. 31716–31724, 2018, doi: 10.1021/acsami.8b12674.
+[19] W. Ren et al., “High-performance wearable thermoelectric generator            [40] C. M. Tringides et al., “Viscoelastic surface electrode arrays to inter-
+     with self-healing, recycling, and Lego-like reconfiguring capabilities,”           face with viscoelastic tissues,” Nature Nanotechnol., vol. 16, no. 9,
+     Sci. Adv., vol. 7, no. 7, 2021, Art. no. eabe0586, doi: 10.1126/sci-               pp. 1019–1029, 2021, doi: 10.1038/s41565-021-00926-z.
+     adv.abe0586.                                                                  [41] C. Keplinger, J. Sun, C. C. Foo, P. Rothemund, G. M. Whitesides, and
+[20] W. Wu et al., “Flexible photodetector arrays based on patterned                    Z. Suo, “Stretchable, transparent, ionic conductors,” Science, vol. 341,
+     CH3NH3PbI3−xClx perovskite film for real-time photosensing and                     pp. 984–988, 2013.
+     imaging,” Adv. Mater., vol. 31, no. 3, 2019, Art. no. 1805913,                [42] T. Pan et al., “Experimental and theoretical studies of serpen-
+     doi: 10.1002/adma.201805913.                                                       tine interconnects on ultrathin elastomers for stretchable electron-
+[21] Y. Lei et al., “A fabrication process for flexible single-crystal per-             ics,” Adv. Funct. Mater., vol. 27, no. 37, 2017, Art. no. 1702589,
+     ovskite devices,” Nature, vol. 583, no. 7818, pp. 790–795, 2020,                   doi: 10.1002/adfm.201702589.
+     doi: 10.1038/s41586-020-2526-z.                                               [43] Y. Zhang et al., “Experimental and theoretical studies of serpentine
+[22] H. H. Chou et al., “A chameleon-inspired stretchable electronic skin               microstructures bonded to prestrained elastomers for stretchable elec-
+     with interactive colour changing controlled by tactile sensing,” Nature            tronics,” Adv. Funct. Mater., vol. 24, no. 14, pp. 2028–2037, 2014,
+     Commun., vol. 6, 2015, Art. no. 8011, doi: 10.1038/ncomms9011.                     doi: 10.1002/adfm.201302957.
+[23] T. G. Yun et al., “All-transparent stretchable electrochromic supercapac-     [44] H. Song et al., “Highly-integrated, miniaturized, stretchable electronic
+     itor wearable patch device,” ACS Nano, vol. 13, no. 3, pp. 3141–3150,              systems based on stacked multilayer network materials,” Sci. Adv.,
+     2019, doi: 10.1021/acsnano.8b08560.                                                vol. 8, no. 11, 2022, Art. no. eabm3785, doi: 10.1126/sciadv.abm3785.
+[24] X. Zhao et al., “Self-powered user-interactive electronic skin for pro-       [45] H. U. Chung et al., “Binodal, wireless epidermal electronic systems
+     grammable touch operation platform,” Sci. Adv., vol. 6, no. 28, 2020,              with in-sensor analytics for neonatal intensive care,” Science, vol. 363,
+     Art. no. eaba4294, doi: 10.1126/sciadv.aba4294.                                    no. 6430, 2019, Art. no. eaau0780, doi: 10.1126/science.aau0780.
+[25] F. Ershad et al., “Ultra-conformal drawn-on-skin electronics for              [46] C. C. Vu and J. Kim, “Fractal structures in flexible electronic
+     multifunctional motion artifact-free sensing and point-of-care treat-              devices,” Mater. Today Phys., vol. 27, 2022, Art. no. 100795,
+     ment,” Nature Commun., vol. 11, no. 1, 2020, Art. no. 3823,                        doi: 10.1016/j.mtphys.2022.100795.
+     doi: 10.1038/s41467-020-17619-1.                                              [47] J. A. Fan et al., “Fractal design concepts for stretchable electronics,” Na-
+[26] Y. Jiang et al., “Topological supramolecular network enabled high-                 ture Commun., vol. 5, 2014, Art. no. 3266, doi: 10.1038/ncomms4266.
+     conductivity, stretchable organic bioelectronics,” Science, vol. 375,         [48] L. Tian et al., “Large-area MRI-compatible epidermal electronic
+     no. 6587, pp. 1411–1417, 2022, doi: 10.1126/science.abj7564.                       interfaces for prosthetic control and cognitive monitoring,”
+[27] X. Huang et al., “Transient, implantable, ultrathin biofuel cells                  Nature Biomed. Eng., vol. 3, no. 3, pp. 194–205, 2019,
+     enabled by laser-induced graphene and gold nanoparticles                           doi: 10.1038/s41551-019-0347-x.
+     composite,” Nano Lett., vol. 22, no. 8, pp. 3447–3456, 2022,                  [49] J. Chen et al., “Highly stretchable organic electrochemical transis-
+     doi: 10.1021/acs.nanolett.2c00864.                                                 tors with strain-resistant performance,” Nature Mater., vol. 21, no. 5,
+[28] B. Sun et al., “Gas-permeable, multifunctional on-skin electronics                 pp. 564–571, 2022, doi: 10.1038/s41563-022-01239-9.
+     based on laser-induced porous graphene and sugar-templated elas-              [50] J. He et al., “Trampoline inspired stretchable triboelectric nanogenera-
+     tomer sponges,” Adv. Mater., vol. 30, no. 50, 2018, Art. no. 1804327,              tors as tactile sensors for epidermal electronics,” Nano Energy, vol. 81,
+     doi: 10.1002/adma.201804327.                                                       2021, Art. no. 105590, doi: 10.1016/j.nanoen.2020.105590.
+[29] M. H. Kim et al., “Thermoelectric energy harvesting electronic skin (e-       [51] J. Kang, J. H. Park, D. S. Choi, D. H. Kim, S. Y. Kim, and J. H.
+     skin) patch with reconfigurable carbon nanotube clays,” Nano Energy,               Cho, “Design of wavy ag microwire array for mechanically stable,
+     vol. 87, 2021, Art. no. 106156, doi: 10.1016/j.nanoen.2021.106156.                 multimodal vibrational haptic interface,” Adv. Funct. Mater., vol. 29,
+[30] H. Yuk, B. Lu, and X. Zhao, “Hydrogel bioelectronics,” Chem. Soc.                  no. 35, 2019, Art. no. 1902703, doi: 10.1002/adfm.201902703.
+     Rev., vol. 48, no. 6, pp. 1642–1667, 2019, doi: 10.1039/c8cs00595h.           [52] S. Huang, Y. Liu, C. F. Guo, and Z. Ren, “A highly stretchable
+[31] Y. Q. Liu, Z. Di Chen, J. W. Mao, D. D. Han, and X. Sun, “Laser                    and fatigue-free transparent electrode based on an in-plane buckled
+     fabrication of graphene-based electronic skin,” Front. Chem., vol. 7,              au nanotrough network,” Adv. Electron. Mater., vol. 3, no. 3, 2017,
+     pp. 2016–2020, 2019, doi: 10.3389/fchem.2019.00461.                                Art. no. 1600534, doi: 10.1002/aelm.201600534.
+[32] W. H. Yeo et al., “Multifunctional epidermal electronics printed directly     [53] Y. Xu et al., “Multiscale porous elastomer substrates for multifunc-
+     onto the skin,” Adv. Mater., vol. 25, no. 20, pp. 2773–2778, 2013,                 tional on-skin electronics with passive-cooling capabilities,” Proc.
+     doi: 10.1002/adma.201204426.                                                       Natl. Acad. Sci. U. S. A., vol. 117, no. 1, pp. 205–213, 2020,
+[33] P. Wu, J. Fu, Y. Xu, and Y. He, “Liquid metal microgels for three-                 doi: 10.1073/pnas.1917762116.
+     dimensional printing of smart electronic clothes,” ACS Appl. Mater.           [54] K. I. Jang et al., “Self-assembled three dimensional network designs
+     Interfaces, vol. 14, no. 11, pp. 13458–13467, 2022, doi: 10.1021/ac-               for soft electronics,” Nature Commun., vol. 8, 2017, Art. no. 15894,
+     sami.1c22975.                                                                      doi: 10.1038/ncomms15894.
+[34] P. Wu, Z. Wang, X. Yao, J. Fu, and Y. He, “Recyclable conductive              [55] T. H. Wong et al., “Triboelectric nanogenerator tattoos enabled by
+     nanoclay for direct: In situ printing flexible electronics,” Mater. Horiz.,        epidermal electronic technologies,” Adv. Funct. Mater., vol. 32, no. 15,
+     vol. 8, no. 7, pp. 2006–2017, 2021, doi: 10.1039/d0mh02065f.                       2022, Art. no. 2111269, doi: 10.1002/adfm.202111269.
+
+
+
+VOLUME 4, 2023                                                                                                                                                   69
+YAO ET AL.: RECENT ADVANCES IN MATERIALS, DESIGNS AND APPLICATIONS OF SKIN ELECTRONICS
+
+
+
+
+[56] J. J. S. Norton et al., “Soft, curved electrode systems capable of inte-    [76] Y. Song et al., “Wireless battery-free wearable sweat sensor powered
+     gration on the auricle as a persistent brain-computer interface,” Proc.          by human motion,” Sci. Adv., vol. 6, no. 40, 2020, Art. no. eaay9842,
+     Natl. Acad. Sci. U. S. A., vol. 112, no. 13, pp. 3920–3925, 2015,                doi: 10.1126/sciadv.aay9842.
+     doi: 10.1073/pnas.1424875112.                                               [77] M. Wang et al., “A wearable electrochemical biosensor for the mon-
+[57] F. Jiang et al., “Stretchable, breathable, and stable lead-free                  itoring of metabolites and nutrients,” Nature Biomed. Eng., 2022,
+     perovskite_polymer nanofiber composite for hybrid triboelectric                  doi: 10.1038/s41551-022-00916-z.
+     and piezoelectric energy harvesting,” Adv. Mater., vol. 34, 2022,           [78] L. Tian et al., “Flexible and stretchable 3ω sensors for thermal char-
+     Art. no. 2200042.                                                                acterization of human skin,” Adv. Funct. Mater., vol. 27, no. 26, 2017,
+[58] F. Liang et al., “An all-fabric droplet-based energy harvester with              Art. no. 1701282, doi: 10.1002/adfm.201701282.
+     topology optimization,” Adv. Energy Mater., vol. 12, no. 9, 2022,           [79] B. Nemeth, M. S. Piechocinski, and D. R. S. Cumming, “High-
+     Art. no. 2102991, doi: 10.1002/aenm.202102991.                                   resolution real-time ion-camera system using a CMOS-based chemical
+[59] W. Fan et al., “Machine-knitted washable sensor array textile for precise        sensor array for proton imaging,” Sensors Actuators B: Chem., vol. 171–
+     epidermal physiological signal monitoring,” Sci. Adv., vol. 6, no. 11,           172, pp. 747–752, 2012, doi: 10.1016/j.snb.2012.05.066.
+     2020, Art. no. eaay2840, doi: 10.1126/sciadv.aay2840.                       [80] D. Suzuki, S. Oda, and Y. Kawano, “A flexible and wearable tera-
+[60] Q. Zhuang et al., “Liquid–metal-superlyophilic and conductivity–                 hertz scanner,” Nature Photon., vol. 10, no. 12, pp. 809–813, 2016,
+     strain-enhancing scaffold for permeable superelastic conductors,”                doi: 10.1038/nphoton.2016.209.
+     Adv. Funct. Mater., vol. 31, no. 47, 2021, Art. no. 2105587,                [81] D. R. Agrawal et al., “Conformal phased surfaces for wireless powering
+     doi: 10.1002/adfm.202105587.                                                     of bioelectronic microdevices,” Nature Biomed. Eng., vol. 1, no. 3,
+[61] X. Xiao et al., “An ultrathin rechargeable solid-state zinc ion fiber            2017, Art. no. 0043, doi: 10.1038/s41551-017-0043.
+     battery for electronic textiles,” Sci. Adv., vol. 7, no. 49, 2021,          [82] C. Wang et al., “Continuous monitoring of deep-tissue haemodynamics
+     Art. no. eabl3742, doi: 10.1126/sciadv.abl3742.                                  with stretchable ultrasonic phased arrays,” Nature Biomed. Eng., vol. 5,
+[62] L. Zhang et al., “Fully organic compliant dry electrodes self-adhesive           no. 7, pp. 749–758, 2021, doi: 10.1038/s41551-021-00763-4.
+     to skin for long-term motion-robust epidermal biopotential mon-             [83] C. Wang et al., “Bioadhesive ultrasound for long-term continuous imag-
+     itoring,” Nature Commun., vol. 11, no. 1, 2020, Art. no. 4683,                   ing of diverse organs,” Science, vol. 377, no. 6605, pp. 517–523, 2022,
+     doi: 10.1038/s41467-020-18503-8.                                                 doi: 10.1126/science.abo2542.
+[63] M. Zulqarnain et al., “A flexible ECG patch compatible with NFC RF          [84] X. Yu et al., “Skin-integrated wireless haptic interfaces for virtual and
+     communication,” NPJ Flex. Electron., vol. 4, no. 1, 2020, Art. no. 13,           augmented reality,” Nature, vol. 575, no. 7783, pp. 473–479, 2019,
+     doi: 10.1038/s41528-020-0077-x.                                                  doi: 10.1038/s41586-019-1687-0.
+[64] N. Kim, T. Lim, K. Song, S. Yang, and J. Lee, “Stretchable multichan-       [85] Y. H. Jung et al., “A wireless haptic interface for programmable pat-
+     nel electromyography sensor array covering large area for controlling            terns of touch across large areas of the skin,” Nature Electron., vol. 5,
+     home electronics with distinguishable signals from multiple muscles,”            pp. 374–385, 2022, doi: 10.1038/s41928-022-00765-3.
+     ACS Appl. Mater. Interfaces, vol. 8, no. 32, pp. 21070–21076, 2016,         [86] Z. Sun, M. Zhu, X. Shan, and C. Lee, “Augmented tactile-perception
+     doi: 10.1021/acsami.6b05025.                                                     and haptic-feedback rings as human-machine interfaces aiming for
+[65] S. K. Ameri et al., “Imperceptible electrooculography graphene sensor            immersive interactions,” Nature Commun., vol. 13, no. 1, 2022,
+     system for human–robot interface,” NPJ 2D Mater. Appl., vol. 2, no. 1,           Art. no. 5224, doi: 10.1038/s41467-022-32745-8.
+     2018, Art. no. 19, doi: 10.1038/s41699-018-0064-4.                          [87] S. Pyo, J. Lee, W. Kim, E. Jo, and J. Kim, “Multi-layered, hierarchi-
+[66] M. Lin, H. Hu, S. Zhou, and S. Xu, “Soft wearable devices for                    cal fabric-based tactile sensors with high sensitivity and linearity in
+     deep-tissue sensing,” Nature Rev. Mater., vol. 7, pp. 850–869, 2022,             ultrawide pressure range,” Adv. Funct. Mater., vol. 29, no. 35, 2019,
+     doi: 10.1038/s41578-022-00427-y.                                                 Art. no. 1902484, doi: 10.1002/adfm.201902484.
+[67] Y. Ning, M. Zhang, Y. Lang, Y. Gong, X. Yang, and W. Pang,                  [88] T. Li et al., “Flexible capacitive tactile sensor based on micropat-
+     “Electronic stethoscope based on triangular cantilever piezoelectric bi-         terned dielectric layer,” Small, vol. 12, no. 36, pp. 5042–5048, 2016,
+     morph MEMS transducers,” J. Microelectromech. Syst., vol. 31, no. 3,             doi: 10.1002/smll.201600760.
+     pp. 450–456, 2022, doi: 10.1109/JMEMS.2022.3160761.                         [89] W. Lin, B. Wang, G. Peng, Y. Shan, H. Hu, and Z. Yang, “Skin-inspired
+[68] B. Chen, D. Liu, T. Jiang, W. Tang, and Z. L. Wang, “A tribo-                    piezoelectric tactile sensor array with crosstalk-free row+column elec-
+     electric closed-loop sensing system for authenticity identification of           trodes for spatiotemporally distinguishing diverse stimuli,” Adv. Sci.,
+     paper-based artworks,” Adv. Mater. Technol., vol. 5, no. 9, 2020,                vol. 8, no. 3, 2021, Art. no. 2002817, doi: 10.1002/advs.202002817.
+     Art. no. 2000194, doi: 10.1002/admt.202000194.                              [90] X. Pu et al., “Ultrastretchable, transparent triboelectric nanogenerator
+[69] O. Goni, S. Lee, H. Jin, N. Matsuhisa, H. Jinno, and A. Miyamoto,                as electronic skin for biomechanical energy harvesting and tactile sens-
+     “All-nanofiber-based, ultrasensitive, gas-permeable mechanoacoustic              ing,” Sci. Adv., vol. 3, no. 5, 2017, Art. no. e1700015, doi: 10.1126/sci-
+     sensors for continuous long-term heart monitoring,” Proc. Nat. Acad.             adv.1700015.
+     Sci., vol. 117, no. 13, pp. 7063–7070, 2020.                                [91] R. Wei et al., “Self-powered all-optical tactile sensing platform for user-
+[70] Y. Liu et al., “Epidermal mechano-acoustic sensing electronics for               interactive interface,” Adv. Mater. Technol., 2022, Art. no. 2200757,
+     cardiovascular diagnostics and human-machine interfaces,” Sci. Adv.,             doi: 10.1002/admt.202200757.
+     vol. 2, 2016, Art. no. e1601185.                                            [92] P. Zhu et al., “Skin-electrode iontronic interface for mechanosens-
+[71] K. H. Lee et al., “Mechano-acoustic sensing of physiological processes           ing,” Nature Commun., vol. 12, no. 1, 2021, Art. no. 4731,
+     and body motions via a soft wireless device placed at the supraster-             doi: 10.1038/s41467-021-24946-4.
+     nal notch,” Nature Biomed. Eng., vol. 4, no. 2, pp. 148–158, 2019,          [93] B. Wang et al., “Flexible and stretchable metal oxide nanofiber
+     doi: 10.1038/s41551-019-0480-6.                                                  networks for multimodal and monolithically integrated wearable
+[72] H. J. Pandya, W. Chen, L. A. Goodell, D. J. Foran, and J. P. Desai,              electronics,” Nature Commun., vol. 11, 2020, Art. no. 2405,
+     “Mechanical phenotyping of breast cancer using MEMS: A method                    doi: 10.1038/s41467-020-16268-8.
+     to demarcate benign and cancerous breast tissues,” Lab Chip, vol. 14,       [94] Z. H. Guo et al., “Bioinspired soft electroreceptors for artificial precon-
+     no. 23, pp. 4523–4532, 2014, doi: 10.1039/c4lc00594e.                            tact somatosensation,” Sci. Adv., vol. 8, no. 21, 2022, Art. no. eabo5201,
+[73] C. Dagdeviren et al., “Conformal piezoelectric systems for                       doi: 10.1126/sciadv.abo5201.
+     clinical and experimental characterization of soft tissue                   [95] Y. Liu et al., “Electronic skin as wireless human-machine interfaces
+     biomechanics,” Nature Mater., vol. 14, no. 7, pp. 728–736, 2015,                 for robotic VR,” Sci. Adv., vol. 8, no. 2, 2022, Art. no. eabl6700,
+     doi: 10.1038/nmat4289.                                                           doi: 10.1126/sciadv.abl6700.
+[74] E. Song et al., “Miniaturized electromechanical devices for the char-       [96] G. Gu et al., “A soft neuroprosthetic hand providing simultaneous
+     acterization of the biomechanics of deep tissue,” Nature Biomed. Eng.,           myoelectric control and tactile feedback,” Nature Biomed. Eng., 2021,
+     vol. 5, no. 7, pp. 759–771, 2021, doi: 10.1038/s41551-021-00723-y.               doi: 10.1038/s41551-021-00767-0.
+[75] A. J. Bandodkar et al., “Battery-free, skin-interfaced microflu-            [97] B. Xu et al., “An epidermal stimulation and sensing platform for
+     idic/electronic systems for simultaneous electrochemical, colorimetric,          sensorimotor prosthetic control, management of lower back exer-
+     and volumetric analysis of sweat,” Sci. Adv., vol. 5, no. 1, 2019,               tion, and electrical muscle activation,” Adv. Mater., vol. 28, no. 22,
+     Art. no. eaav3294, doi: 10.1126/sciadv.aav3294.                                  pp. 4462–4471, 2016, doi: 10.1002/adma.201504155.
+
+
+
+70                                                                                                                                                VOLUME 4, 2023
+

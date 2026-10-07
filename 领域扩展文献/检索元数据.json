@@ -1,0 +1,218 @@
+{
+  "10.1038/s44222-025-00274-w": {
+    "title": "Wearable multi-sensory haptic devices",
+    "authors": "Joshua J. Fleck, Zane A. Zook, Janelle P. Clark, Daniel J. Preston, Darren J. Lipomi, Claudio Pacchierotti, Marcia K. O’Malley",
+    "year": 2025,
+    "journal": "Nature Reviews Bioengineering"
+  },
+  "10.1038/s44287-024-00089-8": {
+    "title": "Wearable haptics for virtual reality and beyond",
+    "authors": "Antonio Frisoli, Daniele Leonardis",
+    "year": 2024,
+    "journal": "Nature Reviews Electrical Engineering"
+  },
+  "10.1016/j.device.2026.101221": {
+    "title": "Interface design and material strategies for high-fidelity electrotactile haptic displays",
+    "authors": "Abdulhameed Abdal, Tarek Rafeedi, Ritwik Vatsyayan, Shadi A. Dayeh, Yon Visell, Darren J. Lipomi",
+    "year": 2026,
+    "journal": "Device"
+  },
+  "10.1002/adfm.202417906": {
+    "title": "Wearable Haptic Feedback Interfaces for Augmenting Human Touch",
+    "authors": "Shubham Patel, Zhoulyu Rao, Maggie Yang, Cunjiang Yu",
+    "year": 2026,
+    "journal": "Advanced Functional Materials"
+  },
+  "10.3389/frvir.2024.1406923": {
+    "title": "Electrotactile displays: taxonomy, cross-modality, psychophysics and challenges",
+    "authors": "Rahul Kumar Ray, Madhan Kumar Vasudevan, M. Manivannan",
+    "year": 2024,
+    "journal": "Frontiers in Virtual Reality"
+  },
+  "10.1126/sciadv.abp8738": {
+    "title": "Super-resolution wearable electrotactile rendering system",
+    "authors": "Weikang Lin, Dongsheng Zhang, Wang Wei Lee, Xuelong Li, Ying Hong, Qiqi Pan, Ruirui Zhang, Guoxiang Peng, Hong Z. Tan, Zhengyou Zhang, Lei Wei, Zhengbao Yang",
+    "year": 2022,
+    "journal": "Science Advances"
+  },
+  "10.1016/j.neuron.2013.07.051": {
+    "title": "The Sensory Neurons of Touch",
+    "authors": "Victoria E. Abraira, David D. Ginty",
+    "year": 2013,
+    "journal": "Neuron"
+  },
+  "10.1109/10.68204": {
+    "title": "Electrotactile and vibrotactile displays for sensory substitution systems",
+    "authors": "K.A. Kaczmarek, J.G. Webster, P. Bach-y-Rita, W.J. Tompkins",
+    "year": 1991,
+    "journal": "IEEE Transactions on Biomedical Engineering"
+  },
+  "10.1088/1741-2560/6/6/066008": {
+    "title": "Perception of electrical and mechanical stimulation of the skin: implications for electrotactile feedback",
+    "authors": "Patrick L Marcus, Andrew J Fuglevand",
+    "year": 2009,
+    "journal": "Journal of Neural Engineering"
+  },
+  "10.1016/j.apmr.2010.06.016": {
+    "title": "Electric Pulse Frequency and Magnitude of Perceived Sensation During Electrocutaneous Forearm Stimulation",
+    "authors": "Herbert F. Jelinek, Rowan McIntyre",
+    "year": 2010,
+    "journal": "Archives of Physical Medicine and Rehabilitation"
+  },
+  "10.1109/TOH.2011.39": {
+    "title": "Electrotactile Display with Real-Time Impedance Feedback Using Pulse Width Modulation",
+    "authors": "Hiroyuki Kajimoto",
+    "year": 2012,
+    "journal": "IEEE Transactions on Haptics"
+  },
+  "10.1186/1743-0003-8-9": {
+    "title": "Impacts of selected stimulation patterns on the perception threshold in electrocutaneous stimulation",
+    "authors": "Bo Geng, Ken Yoshida, Winnie Jensen",
+    "year": 2011,
+    "journal": "Journal of NeuroEngineering and Rehabilitation"
+  },
+  "10.1186/1743-0003-11-97": {
+    "title": "Human ability in identification of location and pulse number for electrocutaneous stimulation applied on the forearm",
+    "authors": "Bo Geng, Winnie Jensen",
+    "year": 2014,
+    "journal": "Journal of NeuroEngineering and Rehabilitation"
+  },
+  "10.1109/10.4599": {
+    "title": "Skin impedance from 1 Hz to 1 MHz",
+    "authors": "J. Rosell, J. Colominas, P. Riu, R. Pallas-Areny, J.G. Webster",
+    "year": 1988,
+    "journal": "IEEE Transactions on Biomedical Engineering"
+  },
+  "10.3390/bios8020031": {
+    "title": "Review of Stratum Corneum Impedance Measurement in Non-Invasive Penetration Application",
+    "authors": "Fei Lu, Chenshuo Wang, Rongjian Zhao, Lidong Du, Zhen Fang, Xiuhua Guo, Zhan Zhao",
+    "year": 2018,
+    "journal": "Biosensors"
+  },
+  "10.1371/journal.pone.0125609": {
+    "title": "Dynamic Impedance Model of the Skin-Electrode Interface for Transcutaneous Electrical Stimulation",
+    "authors": "José Luis Vargas Luna, Matthias Krenn, Jorge Armando Cortés Ramírez, Winfried Mayr",
+    "year": 2015,
+    "journal": "PLOS ONE"
+  },
+  "10.3390/s22218510": {
+    "title": "Dependence of Skin-Electrode Contact Impedance on Material and Skin Hydration",
+    "authors": "Krittika Goyal, David A. Borkholder, Steven W. Day",
+    "year": 2022,
+    "journal": "Sensors"
+  },
+  "10.3390/s21155210": {
+    "title": "Time Evolution of the Skin–Electrode Interface Impedance under Different Skin Treatments",
+    "authors": "Brendan B. Murphy, Brittany H. Scheid, Quincy Hendricks, Nicholas V. Apollo, Brian Litt, Flavia Vitale",
+    "year": 2021,
+    "journal": "Sensors"
+  },
+  "10.1016/j.coelec.2022.101133": {
+    "title": "On the use of a constant phase element (CPE) in electrochemistry",
+    "authors": "Samantha Michelle Gateman, Oumaïma Gharbi, Hercílio Gomes de Melo, Kieu Ngo, Mirelle Turmine, Vincent Vivier",
+    "year": 2022,
+    "journal": "Current Opinion in Electrochemistry"
+  },
+  "10.1186/1743-0003-11-138": {
+    "title": "Time-division multiplexing for myoelectric closed-loop control using electrotactile feedback",
+    "authors": "Strahinja Dosen, Marie-Caroline Schaeffer, Dario Farina",
+    "year": 2014,
+    "journal": "Journal of NeuroEngineering and Rehabilitation"
+  },
+  "10.1038/s41598-023-30545-8": {
+    "title": "A portable, programmable, multichannel stimulator with high compliance voltage for noninvasive neural stimulation of motor and sensory nerves in humans",
+    "authors": "Marshall A. Trout, Abigail T. Harrison, Mark R. Brinton, Jacob A. George",
+    "year": 2023,
+    "journal": "Scientific Reports"
+  },
+  "10.1126/sciadv.abe2943": {
+    "title": "Self-powered electro-tactile system for virtual tactile experiences",
+    "authors": "Yuxiang Shi, Fan Wang, Jingwen Tian, Shuyao Li, Engang Fu, Jinhui Nie, Rui Lei, Yafei Ding, Xiangyu Chen, Zhong Lin Wang",
+    "year": 2021,
+    "journal": "Science Advances"
+  },
+  "10.1016/j.nanoen.2024.109496": {
+    "title": "Recent advances in wireless energy transfer technologies for body-interfaced electronics",
+    "authors": "Wonjung Park, Jakyoung Lee, Won Gi Chung, Inhea Jeong, Enji Kim, Yong Won Kwon, Hunkyu Seo, Kyounghee Lim, Eunmin Kim, Jang-Ung Park",
+    "year": 2024,
+    "journal": "Nano Energy"
+  },
+  "10.1002/advs.76616": {
+    "title": "Wearable Electro‐Thermal Haptic Stimulator Driven by a Self‐Powered Tactile Sensor for Realistic Stimulus Replication",
+    "authors": "Ey‐In Lee, Chae‐Young Kang, Kyuhyun Hwang, Jongbaeg Kim, Jin‐Woo Park",
+    "year": 2026,
+    "journal": "Advanced Science"
+  },
+  "10.1038/s41586-019-1687-0": {
+    "title": "Skin-integrated wireless haptic interfaces for virtual and augmented reality",
+    "authors": "Xinge Yu, Zhaoqian Xie, Yang Yu, Jungyup Lee, Abraham Vazquez-Guardado, Haiwen Luan, Jasper Ruban, Xin Ning, Aadeel Akhtar, Dengfeng Li, Bowen Ji, Yiming Liu, Rujie Sun, Jingyue Cao, Qingze Huo, Yishan Zhong, ChanMi Lee, SeungYeop Kim, Philipp Gutruf, Changxing Zhang, Yeguang Xue, Qinglei Guo, Aditya Chempakasseril, Peilin Tian, Wei Lu, JiYoon Jeong, YongJoon Yu, Jesse Cornman, CheeSim Tan, BongHoon Kim, KunHyuk Lee, Xue Feng, Yonggang Huang, John A. Rogers",
+    "year": 2019,
+    "journal": "Nature"
+  },
+  "10.1038/s42256-022-00543-y": {
+    "title": "Encoding of tactile information in hand via skin-integrated wireless haptic interface",
+    "authors": "Kuanming Yao, Jingkun Zhou, Qingyun Huang, Mengge Wu, Chun Ki Yiu, Jian Li, Xingcan Huang, Dengfeng Li, Jingyou Su, Senlin Hou, Yiming Liu, Ya Huang, Ziyan Tian, Jiyu Li, Hu Li, Rui Shi, Binbin Zhang, Jingyi Zhu, Tsz Hung Wong, Huiling Jia, Zhan Gao, Yuyu Gao, Yu Zhou, Wooyoung Park, Enming Song, Mengdi Han, Haixia Zhang, Junsheng Yu, Lidai Wang, Wen Jung Li, Xinge Yu",
+    "year": 2022,
+    "journal": "Nature Machine Intelligence"
+  },
+  "10.1038/s41928-023-01074-z": {
+    "title": "A skin-integrated multimodal haptic interface for immersive tactile feedback",
+    "authors": "Ya Huang, Jingkun Zhou, Pingchuan Ke, Xu Guo, Chun Ki Yiu, Kuanming Yao, Shaoyu Cai, Dengfeng Li, Yu Zhou, Jian Li, Tsz Hung Wong, Yiming Liu, Lei Li, Yuyu Gao, Xingcan Huang, Hu Li, Jiyu Li, Binbin Zhang, Zhenlin Chen, Huanxi Zheng, Xingyu Yang, Haichen Gao, Zichen Zhao, Xu Guo, Enming Song, Hui Wu, Zuankai Wang, Zhaoqian Xie, Kening Zhu, Xinge Yu",
+    "year": 2023,
+    "journal": "Nature Electronics"
+  },
+  "10.1126/sciadv.ade2450": {
+    "title": "Touch IoT enabled by wireless self-sensing and haptic-reproducing electronic skin",
+    "authors": "Dengfeng Li, Jingkun Zhou, Kuanming Yao, Sitong Liu, Jiahui He, Jingyou Su, Qing’ao Qu, Yuyu Gao, Zhen Song, Chunki Yiu, Chuanlu Sha, Zhi Sun, Binbin Zhang, Jian Li, Libei Huang, Chenyu Xu, Tsz Hung Wong, Xingcan Huang, Jiyu Li, Ruquan Ye, Lei Wei, Zhengyou Zhang, Xu Guo, Yuan Dai, Zhaoqian Xie, Xinge Yu",
+    "year": 2022,
+    "journal": "Science Advances"
+  },
+  "10.1126/sciadv.adq9575": {
+    "title": "A fully integrated breathable haptic textile",
+    "authors": "Kuanming Yao, Qiuna Zhuang, Qiang Zhang, Jingkun Zhou, Chun Ki Yiu, Jianpeng Zhang, Denglin Ye, Yawen Yang, Ki Wan Wong, Lung Chow, Tao Huang, Yuze Qiu, Shengxin Jia, Zhiyuan Li, Guangyao Zhao, Hehua Zhang, Jingyi Zhu, Xingcan Huang, Jian Li, Yuyu Gao, Huiming Wang, Jiyu Li, Ya Huang, Dengfeng Li, Binbin Zhang, Jiachen Wang, Zhenlin Chen, Guihuan Guo, Zijian Zheng, Xinge Yu",
+    "year": 2024,
+    "journal": "Science Advances"
+  },
+  "10.1126/sciadv.adt0318": {
+    "title": "Self-powered electrotactile textile haptic glove for enhanced human-machine interface",
+    "authors": "Guoqiang Xu, Haoyu Wang, Guangyao Zhao, Jingjing Fu, Kuanming Yao, Shengxin Jia, Rui Shi, Xingcan Huang, Pengcheng Wu, Jiyu Li, Binbin Zhang, Chun Ki Yiu, Zhihao Zhou, Chaojie Chen, Xinyuan Li, Zhengchun Peng, Yunlong Zi, Zijian Zheng, Xinge Yu",
+    "year": 2025,
+    "journal": "Science Advances"
+  },
+  "10.1126/sciadv.adt6041": {
+    "title": "Skin-interfaced multimodal sensing and tactile feedback system as enhanced human-machine interface for closed-loop drone control",
+    "authors": "Chunki Yiu, Yiming Liu, Wooyoung Park, Jian Li, Xingcan Huang, Kuanming Yao, Yuyu Gao, Guangyao Zhao, Hongwei Chu, Jingkun Zhou, Dengfeng Li, Hu Li, Binbin Zhang, Lung Chow, Ya Huang, Qingsong Xu, Xinge Yu",
+    "year": 2025,
+    "journal": "Science Advances"
+  },
+  "10.1038/s41928-024-01189-x": {
+    "title": "Permeable, three-dimensional integrated electronic skins with stretchable hybrid liquid metal solders",
+    "authors": "Qiuna Zhuang, Kuanming Yao, Chi Zhang, Xian Song, Jingkun Zhou, Yufei Zhang, Qiyao Huang, Yizhao Zhou, Xinge Yu, Zijian Zheng",
+    "year": 2024,
+    "journal": "Nature Electronics"
+  },
+  "10.1007/BF02368523": {
+    "title": "Comparison of rectangular and exponential current pulses for evoking sensation",
+    "authors": "Jerry L. Wessale, Leslie A. Geddes, Gregory M. Ayers, Kirk S. Foster",
+    "year": 1992,
+    "journal": "Annals of Biomedical Engineering"
+  },
+  "10.1152/jn.00313.2020": {
+    "title": "Tactile innervation densities across the whole body",
+    "authors": "Giulia Corniani, Hannes P. Saal",
+    "year": 2020,
+    "journal": "Journal of Neurophysiology"
+  },
+  "10.3758/s13428-012-0216-y": {
+    "title": "A system for inducing concurrent tactile and nociceptive sensations at the same site using electrocutaneous stimulation",
+    "authors": "Peter Steenbergen, Jan R. Buitenweg, Jörg Trojan, Esther M. van der Heide, Teun van den Heuvel, Herta Flor, Peter H. Veltink",
+    "year": 2012,
+    "journal": "Behavior Research Methods"
+  },
+  "10.1038/s41598-022-10708-9": {
+    "title": "Perception thresholds and qualitative perceptions for electrocutaneous stimulation",
+    "authors": "Eva-Maria Dölker, Stephan Lau, Maria Anne Bernhard, Jens Haueisen",
+    "year": 2022,
+    "journal": "Scientific Reports"
+  }
+}

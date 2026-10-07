@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Addendum: Liquid metal-based strain-sensing glove for human-machine interaction (Soft Sci 2023; 10.20517/ss.2023.26)",
+    "doi": "10.20517/ss.2025.37",
+    "reason": "增补、勘误或审稿回复",
+    "local_pdf": "皮肤界面与生物电子/2025_Addendum_Liquid_metal-based_strain-sensing_glove_for_human-machine_interaction_Soft_Sci_20.pdf"
+  },
+  {
+    "title": "Guest Editorial: Materials & Devices for Advanced Flexible Sensors",
+    "doi": "10.1109/ojnano.2023.3238959",
+    "reason": "OpenAlex 类型为 editorial，不是正式期刊论文",
+    "local_pdf": "皮肤界面与生物电子/2023_Guest_Editorial_Materials_Devices_for_Advanced_Flexible_Sensors.pdf"
+  },
+  {
+    "title": "Author response for \"Wearable and battery‐free wound dressing system for wireless and early sepsis diagnosis\"",
+    "doi": "10.1002/btm2.10445/v2/response1",
+    "reason": "增补、勘误或审稿回复",
+    "local_pdf": null
+  },
+  {
+    "title": "(Invited) Skin-integrated Sensors and Haptic Interfaces for VR",
+    "doi": "10.1149/ma2021-01351133mtgabs",
+    "reason": "OpenAlex 类型为 conference-abstract，不是正式期刊论文",
+    "local_pdf": null
+  },
+  {
+    "title": "An Electronic Interface Device",
+    "doi": "",
+    "reason": "无可核验 DOI；可能为会议或其他非正式发表记录",
+    "local_pdf": null
+  },
+  {
+    "title": "Self-powered stretchable sweat sensors",
+    "doi": "",
+    "reason": "无可核验 DOI；可能为会议或其他非正式发表记录",
+    "local_pdf": null
+  },
+  {
+    "title": "Stretchable and Wearable Wireless 3-leads ECG Monitoring Device",
+    "doi": "",
+    "reason": "无可核验 DOI；可能为会议或其他非正式发表记录",
+    "local_pdf": null
+  },
+  {
+    "title": "Recent progress of skin-integrated electronics for intelligent sensing",
+    "doi": "10.37188/lam.2020.007",
+    "reason": "同名文章的早期/重复元数据；以期刊正式 2021 DOI 为准",
+    "local_pdf": null
+  },
+  {
+    "title": "Wide‐Bandwidth Nanocomposite‐Sensor Integrated Smart Mask for Tracking Multiphase Respiratory Activities (Adv. Sci. 31/2022)",
+    "doi": "10.1002/advs.202270200",
+    "reason": "同篇研究的封面/重复记录；以正式研究论文 DOI 为准",
+    "local_pdf": "其他相关研究/2022_WideBandwidth_NanocompositeSensor_Integrated_Smart_Mask_for_Tracking_Multiphase_Respirator.pdf"
+  }
+]
