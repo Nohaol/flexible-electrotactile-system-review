@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1060" role="img" aria-label="Preliminary four-panel diagram of natural and electrotactile perception">
+ <defs>
+  <style>
+   text{font-family:Arial,Helvetica,sans-serif;fill:#172a3b} .title{font-size:34px;font-weight:700}.sub{font-size:19px;fill:#526476}.pt{font-size:25px;font-weight:700}.lab{font-size:18px;font-weight:600}.small{font-size:15px}.tiny{font-size:13px}.muted{fill:#627384}.navy{stroke:#254d6d}.orange{stroke:#de803a}.purp{stroke:#7765b4}.box{fill:#fff;stroke:#d4dee6;stroke-width:2}.arrow{fill:none;stroke:#254d6d;stroke-width:3;marker-end:url(#tip)}.earrow{fill:none;stroke:#7765b4;stroke-width:3;marker-end:url(#purpleTip)}.dashed{fill:none;stroke:#8b789d;stroke-width:2.5;stroke-dasharray:8 6;marker-end:url(#purpleTip)}
+  </style>
+  <marker id="tip" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#254d6d"/></marker>
+  <marker id="purpleTip" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#7765b4"/></marker>
+  <linearGradient id="skin" x2="0" y2="1"><stop stop-color="#f9e2cb"/><stop offset="1" stop-color="#efc8aa"/></linearGradient>
+ </defs>
+ <rect width="1600" height="1060" fill="#f6f8fa"/>
+ <text x="54" y="58" class="title">Physiological mechanisms of natural and electrotactile perception</text>
+ <text x="56" y="88" class="sub">Fig. 2 · editable concept draft · solid arrows: mechanistic path; dashed arrows: unresolved subtype inference</text>
+
+ <!-- A natural -->
+ <rect x="42" y="115" width="745" height="453" rx="18" class="box"/>
+ <text x="68" y="154" class="pt">A  Natural touch</text>
+ <text x="68" y="181" class="small muted">Mechanical input is transduced by cutaneous sensory endings</text>
+ <rect x="72" y="223" width="360" height="180" rx="9" fill="url(#skin)" stroke="#d8a97d" stroke-width="2"/>
+ <path d="M72 252 Q140 246 200 254 Q275 247 340 253 Q390 248 432 251" fill="none" stroke="#b6805f" stroke-width="3"/>
+ <path d="M72 284 H432" stroke="#ce9e77" stroke-width="2" stroke-dasharray="5 5"/>
+ <text x="81" y="244" class="tiny">stratum corneum / epidermis</text><text x="82" y="307" class="tiny">dermis</text>
+ <path d="M175 207 Q200 230 215 252 Q233 268 259 253" fill="none" stroke="#de803a" stroke-width="5" marker-end="url(#tip)"/>
+ <text x="127" y="208" class="small">indentation</text>
+ <ellipse cx="186" cy="283" rx="27" ry="12" fill="#fff1de" stroke="#bc7150" stroke-width="2"/>
+ <ellipse cx="345" cy="335" rx="34" ry="19" fill="#fff1de" stroke="#bc7150" stroke-width="2"/>
+ <path d="M186 294 C200 340 235 353 265 382 M345 353 C340 370 327 377 308 392 M265 382 C280 400 285 407 300 420" fill="none" stroke="#44728f" stroke-width="4"/>
+ <text x="108" y="330" class="small">representative LTMR</text><text x="310" y="379" class="tiny">ending</text>
+ <rect x="462" y="222" width="287" height="61" rx="10" fill="#e8f2f5" stroke="#7ba2b0"/>
+ <text x="478" y="249" class="lab">Mechanotransduction</text><text x="478" y="270" class="small">receptor potential → spikes</text>
+ <path d="M432 252 H457" class="arrow"/>
+ <rect x="462" y="307" width="287" height="61" rx="10" fill="#e8f2f5" stroke="#7ba2b0"/>
+ <text x="478" y="335" class="lab">Afferent activity</text><text x="478" y="355" class="small">cutaneous sensory fibers</text>
+ <path d="M604 283 V302" class="arrow"/>
+ <rect x="462" y="392" width="287" height="61" rx="10" fill="#e8f2f5" stroke="#7ba2b0"/>
+ <text x="478" y="420" class="lab">Central processing</text><text x="478" y="440" class="small">spinal + supraspinal circuits</text>
+ <path d="M604 368 V387" class="arrow"/>
+ <rect x="235" y="477" width="350" height="54" rx="10" fill="#d9ecee" stroke="#729ca7"/>
+ <text x="284" y="510" class="lab">Natural tactile perception</text>
+ <path d="M604 453 Q605 469 573 488" class="arrow"/>
+ <text x="74" y="550" class="tiny muted">Skin anatomy shown schematically; glabrous and hairy skin differ (Abraira &amp; Ginty, 2013).</text>
+
+ <!-- B electrotactile -->
+ <rect x="812" y="115" width="745" height="453" rx="18" class="box"/>
+ <text x="838" y="154" class="pt">B  Electrotactile stimulation</text>
+ <text x="838" y="181" class="small muted">Electrical input reaches excitable tissue through a variable interface</text>
+ <rect x="842" y="222" width="165" height="70" rx="10" fill="#f1edfa" stroke="#9c88c2"/>
+ <text x="859" y="248" class="lab">Stimulator</text><text x="859" y="272" class="small">biphasic pulse</text>
+ <path d="M1007 257 H1050" class="earrow"/>
+ <rect x="1055" y="223" width="424" height="178" rx="9" fill="url(#skin)" stroke="#d8a97d" stroke-width="2"/>
+ <rect x="1100" y="205" width="80" height="20" rx="3" fill="#7765b4"/><rect x="1355" y="205" width="80" height="20" rx="3" fill="#7765b4"/>
+ <text x="1092" y="199" class="tiny">electrode</text><text x="1351" y="199" class="tiny">return</text>
+ <path d="M1055 254 H1479 M1055 281 H1479" stroke="#d5aa82" stroke-width="2" stroke-dasharray="5 4"/>
+ <text x="1065" y="247" class="tiny">stratum corneum / interface</text><text x="1065" y="309" class="tiny">living tissue</text>
+ <path d="M1141 225 C1160 300 1225 300 1267 350 M1395 225 C1380 299 1310 310 1267 350" fill="none" stroke="#9981c4" stroke-width="3" stroke-dasharray="5 6"/>
+ <path d="M1138 247 C1200 320 1295 315 1395 248" fill="none" stroke="#b5a2d4" stroke-width="2" stroke-dasharray="5 6"/>
+ <text x="1190" y="327" class="small" fill="#7158a4">extracellular field</text>
+ <path d="M1220 370 Q1270 335 1325 370" fill="none" stroke="#435e83" stroke-width="5"/>
+ <circle cx="1265" cy="352" r="13" fill="#fff" stroke="#435e83" stroke-width="2"/>
+ <text x="1112" y="385" class="tiny">excitable sensory ending / axon</text>
+ <rect x="850" y="423" width="290" height="73" rx="10" fill="#f1edfa" stroke="#9c88c2"/>
+ <text x="867" y="450" class="lab">Membrane polarization</text><text x="867" y="475" class="small">possible neural excitation</text>
+ <path d="M1245 400 Q1200 460 1145 460" class="earrow"/>
+ <rect x="1180" y="423" width="311" height="73" rx="10" fill="#e8f2f5" stroke="#7ba2b0"/>
+ <text x="1197" y="450" class="lab">Afferent activity → CNS</text><text x="1197" y="475" class="small">reported electrotactile percept</text>
+ <path d="M1140 460 H1175" class="earrow"/>
+ <text x="842" y="524" class="tiny muted">First activation site and fiber-subtype recruitment remain unresolved for these surface-electrode studies.</text>
+
+ <!-- C evidence -->
+ <rect x="42" y="589" width="745" height="405" rx="18" class="box"/>
+ <text x="68" y="629" class="pt">C  Evidence layers and limits</text>
+ <text x="68" y="657" class="small muted">Do not infer identified fibers from a reported sensation</text>
+ <rect x="68" y="688" width="200" height="143" rx="12" fill="#f1edfa" stroke="#a391c8"/>
+ <text x="88" y="720" class="lab">Electrical</text><text x="88" y="746" class="small">pulse and interface</text><text x="88" y="770" class="small">I(t), V(t)</text><text x="88" y="805" class="tiny">measured: Vargas Luna</text>
+ <rect x="313" y="688" width="200" height="143" rx="12" fill="#f7efe7" stroke="#c99e79"/>
+ <text x="333" y="720" class="lab">Neural</text><text x="333" y="746" class="small">field → excitation</text><text x="333" y="770" class="small">fiber identity ?</text><text x="333" y="805" class="tiny">model: Rattay</text>
+ <rect x="558" y="688" width="200" height="143" rx="12" fill="#eaf3ee" stroke="#7aa98d"/>
+ <text x="578" y="720" class="lab">Perceptual</text><text x="578" y="746" class="small">threshold / intensity</text><text x="578" y="770" class="small">quality and location</text><text x="578" y="805" class="tiny">measured: Dölker et al.</text>
+ <path d="M269 754 H307" class="earrow"/><path d="M514 754 H552" class="dashed"/>
+ <text x="82" y="882" class="small">Each box names a different observation or model layer.</text>
+ <path d="M89 911 H170" class="earrow"/><text x="190" y="917" class="small">Conditional mechanism; no subtype attribution.</text>
+ <path d="M89 945 H170" class="dashed"/><text x="190" y="951" class="small">Unresolved transfer from field/model to identified fiber/percept.</text>
+
+ <!-- D parameters -->
+ <rect x="812" y="589" width="745" height="405" rx="18" class="box"/>
+ <text x="838" y="629" class="pt">D  Stimulation parameters → psychophysics</text>
+ <text x="838" y="657" class="small muted">Qualitative relationships only; not a universal response surface</text>
+ <rect x="841" y="688" width="219" height="70" rx="10" fill="#f1edfa" stroke="#a391c8"/>
+ <text x="861" y="718" class="lab">Amplitude</text><text x="861" y="742" class="small">field / delivered current</text>
+ <rect x="1076" y="688" width="219" height="70" rx="10" fill="#f1edfa" stroke="#a391c8"/>
+ <text x="1096" y="718" class="lab">Pulse width</text><text x="1096" y="742" class="small">duration; phase charge*</text>
+ <rect x="1311" y="688" width="219" height="70" rx="10" fill="#f1edfa" stroke="#a391c8"/>
+ <text x="1331" y="718" class="lab">Frequency</text><text x="1331" y="742" class="small">temporal pulse sequence</text>
+ <path d="M953 759 Q1030 797 1100 809" class="earrow"/><path d="M1185 759 V809" class="earrow"/><path d="M1420 759 Q1360 796 1260 809" class="earrow"/>
+ <rect x="876" y="820" width="595" height="77" rx="12" fill="#eaf3ee" stroke="#7aa98d"/>
+ <text x="902" y="851" class="lab">Detection  ·  perceived intensity  ·  intolerance</text>
+ <text x="902" y="879" class="small">distinct operational endpoints; body site and waveform matter</text>
+ <text x="842" y="932" class="small">Pulse width changed peak-current thresholds on upper arm (Dölker, 2022).</text>
+ <text x="842" y="959" class="small">Frequency and intensity were related but distinct at fingertip (Kaczmarek, 2017).</text>
+ <text x="842" y="982" class="tiny muted">* For an ideal rectangular constant-current phase: Q ≈ I × pulse width. No safety limit implied.</text>
+ <text x="52" y="1036" class="small muted">Original synthesis; anatomy and responses are schematic and not to scale. See accompanying caption and source notes.</text>
+</svg>

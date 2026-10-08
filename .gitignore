@@ -8,3 +8,11 @@ desktop.ini
 .codegraph/
 .agents/
 
+# Stage 4: private reading copies and third-party figure references.
+/.stage4_work/
+/正文精读文献库/第二部分/II.1_已引用文献/本地全文/*.pdf
+/综述插图制作/**/原始参考素材/*
+!/综述插图制作/**/原始参考素材/.gitkeep
+/综述插图制作/**/预览图/*联系表*
+/综述插图制作/**/预览图/*参考图册*
+
