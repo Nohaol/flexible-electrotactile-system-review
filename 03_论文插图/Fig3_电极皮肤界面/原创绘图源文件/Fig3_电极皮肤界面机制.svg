@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-label="Fig. 3. Electrode–skin interface and equivalent models">
+  <defs>
+    <style>
+      .bg{fill:#f6f8fb}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.head{fill:#eaf1f7}
+      .title{font:700 30px Arial,sans-serif;fill:#172b3c}.ptitle{font:700 23px Arial,sans-serif;fill:#183247}
+      .label{font:18px Arial,sans-serif;fill:#243b50}.small{font:15px Arial,sans-serif;fill:#43586b}
+      .micro{font:13px Arial,sans-serif;fill:#526577}.bold{font:700 18px Arial,sans-serif;fill:#183247}
+      .blue{fill:#dceefa;stroke:#4389b7;stroke-width:2}.amber{fill:#fff0d3;stroke:#d39a35;stroke-width:2}
+      .green{fill:#e3f4ec;stroke:#4c9b78;stroke-width:2}.purple{fill:#eee8f9;stroke:#8266b7;stroke-width:2}
+      .line{fill:none;stroke:#53718a;stroke-width:3}.arrow{fill:none;stroke:#3177a3;stroke-width:3;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#b16b2d;stroke-width:3;stroke-dasharray:10 7;marker-end:url(#amberArrow)}
+      .axis{stroke:#7890a4;stroke-width:2}.trace{fill:none;stroke:#2678ae;stroke-width:4}.trace2{fill:none;stroke:#c78432;stroke-width:4}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#3177a3" stroke-width="2"/></marker>
+    <marker id="amberArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#b16b2d" stroke-width="2"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="1120"/>
+  <text class="title" x="48" y="55">Fig. 3 | The electrode–skin interface links a programmed pulse to a variable tissue input</text>
+  <text class="small" x="49" y="82">Original conceptual schematic; circuit branches represent specified measurement or stimulation conditions, not a universal skin model.</text>
+
+  <!-- Panel A -->
+  <rect class="panel" x="42" y="112" width="745" height="455" rx="18"/>
+  <rect class="head" x="43" y="113" width="743" height="55" rx="17"/>
+  <text class="ptitle" x="62" y="149">A  Physical transfer path</text>
+  <rect class="blue" x="75" y="195" width="137" height="48" rx="8"/>
+  <text class="bold" x="92" y="226">Pulse driver</text>
+  <path class="arrow" d="M215 219 H283"/>
+  <rect class="blue" x="290" y="189" width="219" height="54" rx="8"/>
+  <text class="bold" x="352" y="223">Electrode</text>
+  <path class="arrow" d="M399 245 V274"/>
+  <rect class="amber" x="115" y="278" width="598" height="37" rx="6"/>
+  <text class="label" x="130" y="302">Contact layer: gel / electrolyte or dry air gap</text>
+  <rect class="purple" x="115" y="318" width="598" height="38" rx="6"/>
+  <text class="label" x="130" y="343">Stratum corneum: barrier + nonuniform pathways</text>
+  <rect class="green" x="115" y="359" width="598" height="43" rx="6"/>
+  <text class="label" x="130" y="386">Viable epidermis / dermis: distributed extracellular field</text>
+  <path class="dash" d="M458 402 V437 H502"/>
+  <rect class="amber" x="507" y="414" width="206" height="49" rx="8"/>
+  <text class="small" x="521" y="443">Excitable membrane?</text>
+  <text class="small" x="76" y="484">Solid blue: electrode delivery; dashed amber: neural link needs direct evidence</text>
+  <text class="micro" x="76" y="527">Return electrode omitted; layers and field schematic; no fiber subtype assigned.</text>
+
+  <!-- Panel B -->
+  <rect class="panel" x="813" y="112" width="745" height="455" rx="18"/>
+  <rect class="head" x="814" y="113" width="743" height="55" rx="17"/>
+  <text class="ptitle" x="832" y="149">B  Equivalent circuits depend on electrode conditions</text>
+  <rect class="blue" x="843" y="193" width="683" height="95" rx="10"/>
+  <text class="bold" x="865" y="223">Dry metal contact · small-signal EIS</text>
+  <text class="label" x="865" y="256">Z = Z<tspan baseline-shift="sub" font-size="13">CPE,c</tspan> + (R<tspan baseline-shift="sub" font-size="13">SC</tspan> || Z<tspan baseline-shift="sub" font-size="13">CPE,SC</tspan>) + R<tspan baseline-shift="sub" font-size="13">d</tspan></text>
+  <text class="micro" x="1180" y="256">Goyal 2022</text>
+  <rect class="green" x="843" y="302" width="683" height="95" rx="10"/>
+  <text class="bold" x="865" y="332">Pre-gelled Ag/AgCl · small-signal EIS</text>
+  <text class="label" x="865" y="365">Z = (R<tspan baseline-shift="sub" font-size="13">ct</tspan> || Z<tspan baseline-shift="sub" font-size="13">dl</tspan>) + R<tspan baseline-shift="sub" font-size="13">gel</tspan> + (R<tspan baseline-shift="sub" font-size="13">epi</tspan> || Z<tspan baseline-shift="sub" font-size="13">epi</tspan>) + R<tspan baseline-shift="sub" font-size="13">sub</tspan></text>
+  <text class="micro" x="1180" y="383">Murphy 2021</text>
+  <rect class="amber" x="843" y="411" width="683" height="88" rx="10"/>
+  <text class="bold" x="865" y="440">Hydrogel transcutaneous stimulation · dynamic pulse fit</text>
+  <text class="label" x="865" y="472">Topology: R<tspan baseline-shift="sub" font-size="13">s</tspan> + [R<tspan baseline-shift="sub" font-size="13">p</tspan>(i,q) || C]  (time-dependent branch)</text>
+  <text class="micro" x="1238" y="490">Vargas Luna 2015</text>
+  <text class="micro" x="844" y="537">CPE denotes a nonideal fit element; the middle row uses ideal RC branches as in the source.</text>
+
+  <!-- Panel C -->
+  <rect class="panel" x="42" y="590" width="745" height="455" rx="18"/>
+  <rect class="head" x="43" y="591" width="743" height="55" rx="17"/>
+  <text class="ptitle" x="62" y="627">C  EIS and stimulation answer different questions</text>
+  <rect class="blue" x="70" y="672" width="320" height="280" rx="10"/>
+  <text class="bold" x="90" y="704">Small-signal EIS</text>
+  <text class="small" x="90" y="728">vary frequency; fit Z(ω)</text>
+  <path class="axis" d="M105 879 V759 M105 879 H355"/>
+  <path class="trace" d="M110 773 C155 775 188 789 218 819 S293 852 351 855"/>
+  <text class="micro" x="115" y="900">low f</text><text class="micro" x="315" y="900">high f</text>
+  <text class="micro" x="111" y="938">Conceptual only; no data plotted</text>
+  <rect class="amber" x="415" y="672" width="340" height="280" rx="10"/>
+  <text class="bold" x="435" y="704">Stimulation pulse</text>
+  <text class="small" x="435" y="728">measure i(t), v(t), phase charge</text>
+  <path class="axis" d="M446 879 V759 M446 879 H725"/>
+  <path class="trace" d="M452 861 H490 V785 H655 V861 H713"/>
+  <path class="trace2" d="M452 861 H490 C520 794 560 800 590 818 S635 832 655 829 V861 H713"/>
+  <text class="micro" x="455" y="900">time →</text>
+  <text class="micro" x="455" y="938">Illustrative traces; mode and pulse width matter</text>
+  <text class="small" x="72" y="1003">A fitted low-amplitude spectrum does not validate large-pulse transients.</text>
+
+  <!-- Panel D -->
+  <rect class="panel" x="813" y="590" width="745" height="455" rx="18"/>
+  <rect class="head" x="814" y="591" width="743" height="55" rx="17"/>
+  <text class="ptitle" x="832" y="627">D  Variability, control and evidential limits</text>
+  <rect class="blue" x="846" y="688" width="266" height="140" rx="10"/>
+  <text class="bold" x="866" y="719">Operating variables</text>
+  <text class="label" x="866" y="750">hydration · area · material</text>
+  <text class="label" x="866" y="779">time; pressure / motion*</text>
+  <text class="micro" x="866" y="808">*plausible; not isolated here</text>
+  <path class="arrow" d="M1117 757 H1160"/>
+  <rect class="green" x="1165" y="688" width="350" height="140" rx="10"/>
+  <text class="bold" x="1185" y="719">Electrical consequences</text>
+  <text class="label" x="1185" y="750">Z(ω), i(t), v(t), compliance</text>
+  <text class="label" x="1185" y="779">and local current distribution</text>
+  <text class="micro" x="1185" y="808">evidence: Goyal; Murphy; Rosell</text>
+  <path class="dash" d="M1337 834 V873"/>
+  <rect class="amber" x="846" y="879" width="669" height="86" rx="10"/>
+  <text class="bold" x="866" y="910">Neural recruitment → perceived threshold / quality</text>
+  <text class="small" x="866" y="936">requires neural or psychophysical validation for each stimulus context</text>
+  <text class="small" x="847" y="1003">Current regulation and impedance feedback bound delivery; neither alone guarantees sensation or safety.</text>
+  <text class="micro" x="49" y="1094">References: Rosell 1988; Lu 2018; Vargas Luna 2015; Murphy 2021; Goyal 2022; Kajimoto 2012 (see caption and source ledger).</text>
+</svg>
