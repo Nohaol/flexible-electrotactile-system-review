@@ -4,6 +4,10 @@
 
 本项目围绕柔性电触觉界面的感知机理、电极–皮肤传递、刺激与材料设计、系统集成及应用，建立可追溯的文献、正文和插图工作流。章节主线为 **I Introduction → II Fundamental Mechanism of Electrotactile Perception → III Stimulation Strategies → IV Flexible Materials and Fabrication → V System Integration → VI Applications → VII Challenges and Perspectives → VIII Conclusion**。本人负责 **I、II、V**。
 
+## 新成员入门与协作
+
+**新成员请先阅读：[项目协作与维护指南](项目协作与维护指南.md)。** 其中包含目录用途、文献/正文/插图维护规则、GitHub Desktop 与命令行协作流程，以及可复制的 Codex 任务模板。
+
 ## 当前成果与入口
 
 | 内容 | 状态与入口 |
